@@ -4,6 +4,8 @@ from nltk import tokenize
 from nltk.corpus import brown, subjectivity, stopwords, sentiwordnet
 import json
 from pprint import pprint
+from twython import Twython
+import keys
 
 text = "Here is journal on something. It showcases some interesting blah blah. Read it here."
 
@@ -30,11 +32,21 @@ print(subjectivity.words())
 
 print("\n\n--- Altmetric data: --")
 # filepath = "C:\\Users\\Wicho-Zenbook\\AppData\\Local\\Packages\\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\\LocalState\\rootfs\\home\\wicholinux\\altmetrics\\clean_outputs\\258\\2580030.json"
+twitter = Twython(keys.CONSUMER_KEY, keys.CONSUMER_SECRET, 
+                keys.OAUTH_TOKEN, keys.OAUTH_TOKEN_SECRET)
 filepath = "2580030.json"
 data = json.load(open(filepath))
+
 # for k in data:
     # print(k)
-pprint(data['posts']['twitter'][0]['tweet_id'])
+tweet_id = data['posts']['twitter'][0]['tweet_id']
+tweet = twitter.show_status(id=tweet_id)
+ss = SentimentIntensityAnalyzer().polarity_scores(tweet['text'])
+
+print(tweet['text'])
+for key in sorted(ss):
+    print('{0}:  {1}, '.format(key, ss[key]), end='')
+print()
 
 print("\n\n--- Sentiwordnet: ---")
 # breakdown = sentiwordnet.senti_synset('breakdown.n.03')
@@ -105,3 +117,4 @@ for sentence in sentences:
     for key in sorted(ss):
         print('{0}:  {1}, '.format(key, ss[key]), end='')
     print()
+
