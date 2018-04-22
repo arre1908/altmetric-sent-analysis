@@ -1,12 +1,15 @@
 import json
+import os
+from pprint import pprint
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
+"""
 from nltk import tokenize
 from nltk.corpus import subjectivity, stopwords, sentiwordnet
-from pprint import pprint
 from twython import Twython
 import keys
 
-# --- BASIC NLTK PROCESSING ---
+ # --- BASIC NLTK PROCESSING ---
 
 text = "Here is journal on something. It showcases some interesting blah blah. Read it here."
 text_words = tokenize.word_tokenize(text)
@@ -28,29 +31,11 @@ print("\nNLTK data: subjectivity")
 print(subjectivity.words())
 
 
-# --- ALTMETRIC DATA ---
-
-twitter = Twython(keys.CONSUMER_KEY, keys.CONSUMER_SECRET, keys.OAUTH_TOKEN, keys.OAUTH_TOKEN_SECRET)
-filepath = "altmetric data/2580030.json"
-data = json.load(open(filepath))
-
-title = data['citation']['title']
-tweet_id = data['posts']['twitter'][12]['tweet_id']
-tweet = twitter.show_status(id=tweet_id)['text']
-
-print("\n\n--- Altmetric data: --")
-print(tweet)
-ss = SentimentIntensityAnalyzer().polarity_scores(tweet.replace(title, '')) # remove publication title from tweet and process it
-for key in sorted(ss):
-    print('{0}:  {1}, '.format(key, ss[key]), end='')
-print()
-
-
 # --- NLTK SENTIMENT ANALYSIS ---
 
-# print("\n\n--- Sentiwordnet: ---")
-# breakdown = sentiwordnet.senti_synset('breakdown.n.03')
-# print(breakdown)
+print("\n\n--- Sentiwordnet: ---")
+breakdown = sentiwordnet.senti_synset('breakdown.n.03')
+print(breakdown)
 
 sentences = [
     "VADER is smart, handsome, and funny.", # punctuation emphasis handled correctly (sentiment intensity adjusted)
@@ -115,3 +100,55 @@ for sentence in sentences:
     for key in sorted(ss):
         print('{0}: {1}, '.format(key, ss[key]), end='')
     print()
+
+
+# --- ALTMETRIC DATA ---
+
+twitter = Twython(keys.CONSUMER_KEY, keys.CONSUMER_SECRET, keys.OAUTH_TOKEN, keys.OAUTH_TOKEN_SECRET)
+filepath = "altmetric_data/2580030.json"
+data = json.load(open(filepath))
+
+title = data['citation']['title']
+tweet_id = data['posts']['twitter'][12]['tweet_id']
+tweet = twitter.show_status(id=tweet_id)['text']
+
+print("\n\n--- Altmetric data: --")
+print(tweet)
+print("** RESEARCH TITLE: ", title)
+print("** TWEET W/O TITLE: ", tweet.replace(title, ''))
+ss = SentimentIntensityAnalyzer().polarity_scores(tweet.replace(title, '')) # remove publication title from tweet and process it
+for key in sorted(ss):
+    print('{0}:  {1}, '.format(key, ss[key]), end='')
+print() """
+
+""" Need to store JSON files into a list of dicts that can be used to build a chart
+    PSEUDOCODE:
+    create data list
+    iterate through a root directory
+        for each json file found
+            load json
+            create dict of necessary values from json
+            apply sentiment analysis and store it
+            append dict to data list
+    build chart: sentiment score vs. altmetric score
+    build chart: platform vs. altmetric score 
+"""
+data = []
+rootdir = "altmetric_data"
+for rootpath, subdirectories, files in os.walk(rootdir):
+    for filename in files:
+        # if (filename.endswith(".json")):
+        filepath = rootpath + "/" + filename
+        jsonfile = json.load(open(filepath))
+        tw = []
+        for k in jsonfile["posts"]["twitter"]:
+            tw.append({
+                "tweet_id": k["tweet_id"]
+            })
+        data.append({
+            "altmetric_id": jsonfile["altmetric_id"],
+            "title": jsonfile["citation"]["title"],
+            "score": jsonfile["altmetric_score"]["score"],
+            "twitter": tw
+        })
+pprint(data)

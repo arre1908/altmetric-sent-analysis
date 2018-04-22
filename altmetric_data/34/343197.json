@@ -1,0 +1,787 @@
+{
+    "altmetric_id": 343197,
+    "counts": {
+        "readers": {
+            "mendeley": 122,
+            "citeulike": 1,
+            "connotea": 0
+        },
+        "facebook": {
+            "unique_users_count": 9,
+            "unique_users": [
+                "273730660032",
+                "105753489472833",
+                "253081991371727",
+                "151018094939372",
+                "238509766196589",
+                "194388720575941",
+                "123589414473642",
+                "10206152241385128",
+                "1050326108420034"
+            ],
+            "posts_count": 9
+        },
+        "blogs": {
+            "unique_users_count": 2,
+            "unique_users": [
+                369,
+                1361
+            ],
+            "posts_count": 3
+        },
+        "linkedin": {
+            "unique_users_count": 1,
+            "unique_users": [
+                "U24Njr-5aJ"
+            ],
+            "posts_count": 1
+        },
+        "total": {
+            "posts_count": 28
+        },
+        "twitter": {
+            "unique_users_count": 15,
+            "unique_users": [
+                "SigMik",
+                "movementsystem",
+                "tomheston",
+                "anesth_ortho",
+                "j551k",
+                "BloominChiro",
+                "SureHealthChiro",
+                "gordon_max",
+                "advantagephysio",
+                "sundialclinic",
+                "domoritaku",
+                "tmsah703",
+                "EnrSainzMurieta",
+                "13_tatari",
+                "nkfcolumna"
+            ],
+            "posts_count": 15
+        }
+    },
+    "selected_quotes": [
+        "No difference between a caudal epidural injection and saline injection in patients with chronic lumbar radiculopathy",
+        "Open access: Caudal epidural steroid or saline injections no better than placebo injections for lumbar radiculopathy",
+        "Chronic nerve root pain caudal epidurals - can they help? You decide\u2026",
+        "#Dolorlumbar. Bloqueos caudales en radiculopat\u00eda lumbar de m\u00e1s de 12 seman no cambian la historia natural del proceso."
+    ],
+    "citation": {
+        "abstract": "To assess the efficacy of caudal epidural steroid or saline injection in chronic lumbar radiculopathy in the short (6 weeks), intermediate (12 weeks), and long term (52 weeks).",
+        "abstract_source": "pubmed",
+        "altmetric_jid": "4f6fa4e93cf058f61000245c",
+        "authors": [
+            "Trond Iversen",
+            "Tore K Solberg",
+            "Bertil Romner",
+            "Tom Wilsgaard",
+            "Jos Twisk",
+            "Audny Anke",
+            "\u00d8ystein Nygaard",
+            "Toralf Hasvold",
+            "Tor Ingebrigtsen"
+        ],
+        "doi": "10.1136\/bmj.d5278",
+        "first_seen_on": "2011-09-16T11:01:38+00:00",
+        "issns": [
+            "1468-5833",
+            "0959-8138"
+        ],
+        "journal": "British Medical Journal",
+        "last_mentioned_on": 1506187017,
+        "links": [
+            "http:\/\/www.bmj.com\/content\/343\/bmj.d5278.full",
+            "http:\/\/www.ncbi.nlm.nih.gov\/pubmed\/21914755?dopt=Abstract",
+            "http:\/\/www.bmj.com\/content\/343\/bmj.d5278.abstract",
+            "http:\/\/www.bmj.com\/content\/343\/bmj.d5278",
+            "http:\/\/www.bmj.com\/content\/343\/bmj.d5278.short",
+            "http:\/\/www.ncbi.nlm.nih.gov\/pubmed\/21914755",
+            "http:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC3172149\/?tool=pubmed",
+            "http:\/\/www.bmj.com\/content\/343\/bmj.d5278.full?sid=c2594571-cfc7-4de7-97e9-9a3738c33dc5",
+            "http:\/\/www.bmj.com\/content\/343\/bmj.d5278?view=long&pmid=21914755",
+            "http:\/\/dx.doi.org\/10.1136\/bmj.d5278",
+            "https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC3172149\/"
+        ],
+        "pdf_url": "http:\/\/www.bmj.com\/content\/343\/bmj.d5278.full.pdf",
+        "pmcid": "PMC3172149",
+        "pmid": "21914755",
+        "pubdate": "2011-09-13T00:00:00+00:00",
+        "publisher": "British Medical Journal Publishing Group",
+        "publisher_subjects": [
+            {
+                "name": "Public Health And Health Services",
+                "scheme": "era"
+            }
+        ],
+        "scopus_subjects": [
+            "Medicine",
+            "Health Sciences"
+        ],
+        "startpage": "d5278",
+        "subjects": [
+            "medicine"
+        ],
+        "title": "Effect of caudal epidural steroid or saline injection in chronic lumbar radiculopathy: multicentre, blinded, randomised controlled trial",
+        "type": "article",
+        "volume": "343",
+        "mendeley_url": "http:\/\/www.mendeley.com\/research\/effect-caudal-epidural-steroid-saline-injection-chronic-lumbar-radiculopathy-multicentre-blinded-ran-1"
+    },
+    "altmetric_score": {
+        "score": 30.328,
+        "score_history": {
+            "1y": 0.5,
+            "6m": 0.5,
+            "3m": 0.5,
+            "1m": 0.5,
+            "1w": 0,
+            "6d": 0,
+            "5d": 0,
+            "4d": 0,
+            "3d": 0,
+            "2d": 0,
+            "1d": 0,
+            "at": 30.328
+        },
+        "context_for_score": {
+            "all": {
+                "total_number_of_other_articles": 8454083,
+                "mean": 7.1051250224367,
+                "rank": 305587,
+                "this_scored_higher_than_pct": 96,
+                "this_scored_higher_than": 8148532,
+                "rank_type": "exact",
+                "sample_size": 8454083,
+                "percentile": 96
+            },
+            "similar_age_3m": {
+                "total_number_of_other_articles": 73623,
+                "mean": 6.1351851077124,
+                "rank": 2421,
+                "this_scored_higher_than_pct": 96,
+                "this_scored_higher_than": 71201,
+                "rank_type": "exact",
+                "sample_size": 73623,
+                "percentile": 96
+            },
+            "this_journal": {
+                "total_number_of_other_articles": 34989,
+                "mean": 23.910702526581,
+                "rank": 4862,
+                "this_scored_higher_than_pct": 86,
+                "this_scored_higher_than": 30127,
+                "rank_type": "exact",
+                "sample_size": 34989,
+                "percentile": 86
+            },
+            "similar_age_this_journal_3m": {
+                "total_number_of_other_articles": 652,
+                "mean": 9.8152104454685,
+                "rank": 44,
+                "this_scored_higher_than_pct": 93,
+                "this_scored_higher_than": 608,
+                "rank_type": "exact",
+                "sample_size": 652,
+                "percentile": 93
+            }
+        }
+    },
+    "demographics": {
+        "poster_types": {
+            "member_of_the_public": 14,
+            "practitioner": 1
+        },
+        "users": {
+            "twitter": {
+                "cohorts": {
+                    "Members of the public": 14,
+                    "Practitioners (doctors, other healthcare professionals)": 1
+                }
+            },
+            "mendeley": {
+                "by_status": {
+                    "Professor > Associate Professor": 7,
+                    "Librarian": 3,
+                    "Student  > Doctoral Student": 9,
+                    "Researcher": 19,
+                    "Student  > Ph. D. Student": 13,
+                    "Student  > Postgraduate": 15,
+                    "Student  > Master": 13,
+                    "Other": 16,
+                    "Student  > Bachelor": 7,
+                    "Lecturer": 6,
+                    "Lecturer > Senior Lecturer": 6,
+                    "Professor": 6,
+                    "Unspecified": 2
+                },
+                "by_discipline": {
+                    "Design": 1,
+                    "Medicine and Dentistry": 94,
+                    "Social Sciences": 2,
+                    "Psychology": 3,
+                    "Agricultural and Biological Sciences": 6,
+                    "Nursing and Health Professions": 7,
+                    "Business, Management and Accounting": 1,
+                    "Biochemistry, Genetics and Molecular Biology": 1,
+                    "Mathematics": 2,
+                    "Unspecified": 4,
+                    "Veterinary Science and Veterinary Medicine": 1
+                }
+            }
+        },
+        "geo": {
+            "twitter": {
+                "NO": 2,
+                "GB": 2,
+                "BA": 1,
+                "JP": 3,
+                "CA": 1,
+                "ES": 1
+            },
+            "mendeley": {
+                "US": 2,
+                "IT": 2,
+                "GB": 3,
+                "CL": 1
+            }
+        }
+    },
+    "posts": {
+        "twitter": [
+            {
+                "url": "http:\/\/twitter.com\/#!\/SigMik\/status\/177316414498148352",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2012-03-07T08:55:02+00:00",
+                "author": {
+                    "name": "Sigurd Mikkelsen",
+                    "url": "http:\/\/facebook.com\/ManuellterapeutSigurdMikkelsen",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/3350338406\/085566799a8e99833cbc5bc66b7da226_normal.jpeg",
+                    "description": "MSc neuromusculoskeletal physiotherapist. \n\nNeurosci\/pain\/behavior\/SoMe\/creativity-geek. #manuellterapeut #fysioterapeut",
+                    "id_on_source": "SigMik",
+                    "tweeter_id": "226281624",
+                    "geo": {
+                        "lt": 59.2181,
+                        "ln": 10.9298,
+                        "country": "NO"
+                    },
+                    "followers": 3608
+                },
+                "tweet_id": "177316414498148352"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/movementsystem\/status\/198138703040884736",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2012-05-03T19:55:22+00:00",
+                "author": {
+                    "name": "movementsystem",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/2272462540\/image_normal.jpg",
+                    "description": "Home bod, enjoy climbing, cycling and physical therapy R&D. ",
+                    "id_on_source": "movementsystem",
+                    "tweeter_id": "162159094",
+                    "geo": {
+                        "lt": 52.949225,
+                        "ln": -1.143924,
+                        "country": "GB"
+                    },
+                    "followers": 85
+                },
+                "tweet_id": "198138703040884736"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/tomheston\/status\/114681274291073024",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-09-16T12:45:21+00:00",
+                "author": {
+                    "name": "Tom Heston",
+                    "url": "http:\/\/tomheston.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/452650157050302464\/-kGG7sgd_normal.png",
+                    "description": "I help people make wise health decisions. Theese are my medical newsfeed tweets. Follow @tomhestonmd for my personal tweets.",
+                    "id_on_source": "tomheston",
+                    "tweeter_id": "21013461",
+                    "geo": {
+                        "lt": 44.25,
+                        "ln": 17.83333,
+                        "country": "BA"
+                    },
+                    "followers": 83235
+                },
+                "tweet_id": "114681274291073024"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/anesth_ortho\/status\/117948800986914816",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-09-25T13:09:20+00:00",
+                "author": {
+                    "name": "\u3042\u306d\u304a\u308b\u3068",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/678839577310695425\/BGs-nabN_normal.jpg",
+                    "description": "\u3044\u3064\u304b\u306e\u8133\u7b4b\u3044\u3064\u304b\u306e\u30ea\u30a2\u5145\u3002\u3082\u3046\u5e72\u304b\u3089\u3073\u307e\u3057\u305f\u2026",
+                    "id_on_source": "anesth_ortho",
+                    "tweeter_id": "144136014",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 385
+                },
+                "tweet_id": "117948800986914816"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/J551k\/status\/118214559692627968",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-09-26T06:45:22+00:00",
+                "author": {
+                    "name": "\u3058\u308d\u3046",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/2540272239\/SKkiJnCh_normal",
+                    "description": "\u5065\u5eb7\u304c\u4e00\u756a\u3067\u3059\u30fd(^o^)\u4e3f",
+                    "id_on_source": "j551k",
+                    "tweeter_id": "116064129",
+                    "geo": {
+                        "lt": 33.376955,
+                        "ln": 130.489677,
+                        "country": "JP"
+                    },
+                    "followers": 21
+                },
+                "tweet_id": "118214559692627968"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/BloominChiro\/status\/129616932587573251",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-10-27T17:54:19+00:00",
+                "author": {
+                    "id_on_source": "BloominChiro",
+                    "tweeter_id": 99738843
+                },
+                "tweet_id": "129616932587573251"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/SureHealthChiro\/status\/135452666871558144",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-11-12T20:23:27+00:00",
+                "author": {
+                    "id_on_source": "SureHealthChiro",
+                    "tweeter_id": 379144257
+                },
+                "tweet_id": "135452666871558144"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/gordon_max\/status\/131767642649411584",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-11-02T16:20:28+00:00",
+                "author": {
+                    "id_on_source": "gordon_max",
+                    "tweeter_id": 395849456
+                },
+                "tweet_id": "131767642649411584"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/advantagephysio\/status\/177218436261359617",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2012-03-07T02:25:42+00:00",
+                "author": {
+                    "name": "Rob Willcott",
+                    "url": "http:\/\/www.advantage-physio.ca",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/750863117106765825\/3oMHn7vX_normal.jpg",
+                    "description": "Rob Willcott is physiotherapist at Advantage Physiotherapy at 102 Main St Fredericton. Tweets are my own. Email advantage-physio@gmail.com or call 506-460-3030",
+                    "id_on_source": "advantagephysio",
+                    "tweeter_id": "120942663",
+                    "geo": {
+                        "lt": 45.94541,
+                        "ln": -66.66558,
+                        "country": "CA"
+                    },
+                    "followers": 4325
+                },
+                "tweet_id": "177218436261359617"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/SundialClinic\/status\/116418399189479424",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-09-21T07:48:03+00:00",
+                "author": {
+                    "name": "Sundial Clinics",
+                    "url": "http:\/\/SundialClinics.co.uk",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/1259619650\/SundialClinic_Twitter_Profile_v2_normal.jpg",
+                    "description": "Sundial, Brighton's favourite clinics, where our chiropractors and physio's can help if you have back or neck pain or sports injuries. Work with BHAFC.",
+                    "id_on_source": "sundialclinic",
+                    "tweeter_id": "252573775",
+                    "geo": {
+                        "lt": 50.82838,
+                        "ln": -0.13947,
+                        "country": "GB"
+                    },
+                    "followers": 901
+                },
+                "tweet_id": "116418399189479424"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/domoritaku\/status\/118203578442727425",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-09-26T06:01:43+00:00",
+                "author": {
+                    "name": "T.Domori",
+                    "url": "http:\/\/shenq.blogzine.jp\/",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/228155635\/owl008a_normal.jpg",
+                    "description": "a life living apart from my family for business reasons.",
+                    "id_on_source": "domoritaku",
+                    "tweeter_id": "41786118",
+                    "geo": {
+                        "lt": 32.991405,
+                        "ln": 138.460247,
+                        "country": "JP"
+                    },
+                    "followers": 104
+                },
+                "tweet_id": "118203578442727425"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/tmsah703\/status\/119612202528419840",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-09-30T03:19:06+00:00",
+                "author": {
+                    "name": "\u7530\u4e2d\u54f2\u592b",
+                    "url": "http:\/\/www.geocities.jp\/waa61488\/top.html",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/1564498260\/my_hand_normal.jpg",
+                    "description": "\u30de\u30c3\u30b5\u30fc\u30b8\u3057\u3001\u662d\u548c\uff12\uff19\u5e74\u751f\u307e\u308c\u3001\u5168\u76f2\u3002\u97f3\u58f0\u3068\u70b9\u5b57\u3067\u30d1\u30bd\u30b3\u30f3\u3092\u4f7f\u3063\u3066\u3044\u307e\u3059\u3002\u4eba\u304b\u3089\u805e\u3044\u305f\u9762\u767d\u3044\u8a71\u3057\u3001\u82e6\u52b4\u8a71\u3002\u30e1\u30eb\u30de\u30ac\u304b\u3089\u5f97\u305f\u533b\u5b66\u60c5\u5831\u3092\u3064\u3076\u3084\u304d\u307e\u3059\u3002\u30d1\u30bd\u30b3\u30f3\u306e\u97f3\u58f0\u3067\u3001\uff11\u3064\u305a\u3064\u3064\u3076\u3084\u304d\u3092\u8aad\u307f\u307e\u3059\u306e\u3067\u3001\u540c\u3058\u4e8b\u3092\u4f55\u5ea6\u3082\u66f8\u304f\u4eba\u3084\u3001rt\u3092\u9023\u767a\u3059\u308b\u4eba\u306f\u82e6\u624b\u3067\u3059\u3002\u5f8c\u3001\u8a00\u8449\u306e\u529b\u3092\u4fe1\u3058\u308b\u4eba\u3082\u82e6\u624b\u3067\u3059\uff01",
+                    "id_on_source": "tmsah703",
+                    "tweeter_id": "87205819",
+                    "geo": {
+                        "lt": 34.786758,
+                        "ln": 134.849731,
+                        "country": "JP"
+                    },
+                    "followers": 1527
+                },
+                "tweet_id": "119612202528419840"
+            },
+            {
+                "url": "http:\/\/twitter.com\/EnrSainzMurieta\/status\/418436177876619264",
+                "license": "public",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2014-01-01T17:38:53+00:00",
+                "author": {
+                    "name": "Enrique SainzMurieta",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/904284364032401408\/boEwtclD_normal.jpg",
+                    "description": "M\u00e9dico Especialista en Medicina F\u00edsica y Rehabilitaci\u00f3n. #Innovaci\u00f3n Salud centrada en las personas. #prescriboejercicio #eSalud #eHealth",
+                    "id_on_source": "EnrSainzMurieta",
+                    "tweeter_id": "452500840",
+                    "geo": {
+                        "lt": 42.81687,
+                        "ln": -1.64323,
+                        "country": "ES"
+                    },
+                    "followers": 1956
+                },
+                "tweet_id": "418436177876619264"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/13_tatari\/status\/115026186299637760",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-09-17T11:35:54+00:00",
+                "author": {
+                    "name": "\u60b6\u7d76\u305f\u305f\u308a\u3061\u3083\u3093\u3002",
+                    "url": "http:\/\/13-tatari.tumblr.com\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/1808008523\/2406_normal.gif",
+                    "description": "\u9662\u5185\u3077\u3089\u3077\u3089\u3057\u3066\u308b\u3060\u3051\u3067\u306a\u306b\u3084\u3063\u3066\u308b\u306e\u304b\u3055\u3063\u3071\u308a\u308f\u304b\u3093\u306a\u3044\u306a\u306a\u85ac\u5264\u5e2b\u3002\n\u3059\u304d\u3093\u3060\u3044\u3073\u3093\u3050\u3068\u3058\u3066\u3093\u3057\u3083\u3002\u6642\u901f10km\u3002",
+                    "id_on_source": "13_tatari",
+                    "tweeter_id": "167032679",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 3316
+                },
+                "tweet_id": "115026186299637760"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/NkfColumna\/status\/120514111141457921",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-10-02T15:02:57+00:00",
+                "author": {
+                    "name": "NKF",
+                    "url": "http:\/\/t.co\/zft2TsIHxq",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/1523651690\/167961_174322299276057_174315599276727_363814_2669694_n_normal.jpg",
+                    "description": "",
+                    "id_on_source": "nkfcolumna",
+                    "tweeter_id": "366054121",
+                    "geo": {
+                        "lt": "65.8481486",
+                        "ln": "13.4765575",
+                        "_id": "Norge",
+                        "country": "NO"
+                    },
+                    "followers": 115
+                },
+                "tweet_id": "120514111141457921"
+            }
+        ],
+        "linkedin": [
+            {
+                "title": "Lumbar disc herniation may be aided by steroid injections: new Mayo study",
+                "url": "http:\/\/www.linkedin.com\/groupItem?view=&gid=3657739&item=94526259&type=member&trk=api*a215519*s223511*#g-3657739-S-94526259-70087583",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2012-02-25T13:23:31+00:00",
+                "summary": "Interesting, indeed. I am looking forward to a publication. We do caudal epidural steroid injections, but regard a discodural conflict with regionally radiating pain as the primary indication. There is a relatively fresh, larger study that didn't show any",
+                "author": {
+                    "name": "Johannes I.",
+                    "image": "http:\/\/m3.licdn.com\/mpr\/mprx\/0_oLg_hdJjvYg6BCiJo3YyhEjrBUaFc3iJHTWphER3ejVcH5qMQiS7mo7fMnm4N6GzI6xgfDLnNkt4",
+                    "description": "General practitioner at Lillestr\u00f8m legesenter and Klinikk for Ortopedisk Medisin R\u00f8yken",
+                    "group_name": "Breaking Sports Medicine News",
+                    "group_logo": "http:\/\/m3.licdn.com\/mpr\/mpr\/p\/1\/000\/079\/3c1\/04726bf.png",
+                    "group_description": "This group posts and discusses news and information about sports medicine, exercise science, and sports-related injuries."
+                }
+            }
+        ],
+        "blogs": [
+            {
+                "title": "Research highlights \u2013 15 September 2011",
+                "url": "http:\/\/feeds.bmj.com\/~r\/bmj\/blogs\/~3\/9duAPqJm0Z4\/",
+                "citation_ids": [
+                    343197,
+                    260173,
+                    260467,
+                    256000,
+                    256421,
+                    261505,
+                    260893,
+                    248654
+                ],
+                "posted_on": "2011-09-16T09:11:00+00:00",
+                "summary": "&#8220;Research highlights&#8221; is a weekly round-up of research papers appearing in the print BMJ. We start off with this week\u2019s research questions, before providing more detail on some individual research papers and accompanying articles.\n\nAre epidural",
+                "author": {
+                    "name": "Latest BMJ blogs",
+                    "url": "http:\/\/blogs.bmj.com\/bmj",
+                    "description": "Just another blogs.bmj.com weblog"
+                }
+            },
+            {
+                "title": "Richard Lehman\u2019s journal review \u2013 19 September 2011",
+                "url": "http:\/\/feeds.bmj.com\/~r\/bmj\/blogs\/~3\/JMo2O_wh4m8\/",
+                "citation_ids": [
+                    260424,
+                    260484,
+                    250190,
+                    255622,
+                    268867,
+                    259906,
+                    246747,
+                    343197,
+                    259070,
+                    260467,
+                    257137,
+                    201994,
+                    236843,
+                    259161,
+                    248654
+                ],
+                "posted_on": "2011-09-19T08:44:00+00:00",
+                "summary": "JAMA\u00a0 14 Sep 2011\u00a0 Vol 306\n1089\u00a0\u00a0 In medicine, always expect the counterintuitive. For some time it has been known that removing more lymph nodes at the time of bowel cancer surgery is associated with better outcomes. This is nicely confirmed in this large",
+                "author": {
+                    "name": "Latest BMJ blogs",
+                    "url": "http:\/\/blogs.bmj.com\/bmj",
+                    "description": "Just another blogs.bmj.com weblog"
+                }
+            },
+            {
+                "title": "Harms of Epidural Steroid Injections Examined",
+                "url": "http:\/\/updates.pain-topics.org\/2012\/01\/harms-of-epidural-steroid-injections.html",
+                "citation_ids": [
+                    548991,
+                    548992,
+                    343197
+                ],
+                "posted_on": "2012-01-05T17:24:00+00:00",
+                "summary": "A surge in epidural steroid injections to alleviate back and neck pain in the United States is bringing with it an increase in severe and unexpected complications, including paralysis and death, according to a report in Bloomberg News [here]. Nearly 9-mill",
+                "author": {
+                    "name": "Pain-Topics.org News\/Research UPDATES",
+                    "url": "http:\/\/updates.pain-topics.org\/",
+                    "description": "UPDATES are a component of the website Pain Treatment Topics (http:\/\/Pain-Topics.org). The mission of this website is to serve as a noncommercial resource for healthcare professionals &amp; their patients, providing open access to clinical news, information, research, and education for a better understanding of evidence-based pain-management practices. YOUR COMMENTS ARE WELCOMED."
+                }
+            }
+        ],
+        "facebook": [
+            {
+                "title": "Effect of caudal epidural steroid or saline injection in chronic lumbar radiculopathy: multicentre,.",
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=141336969296404&id=273730660032",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-09-20T15:58:15+00:00",
+                "summary": "Viktig informasjon om epidural steroidbehandling av kroniske pasienter med radikulopati",
+                "author": {
+                    "name": "Bj\u00f8lsenklinikken",
+                    "url": "https:\/\/www.facebook.com\/273730660032",
+                    "facebook_wall_name": "Bj\u00f8lsenklinikken",
+                    "image": "https:\/\/graph.facebook.com\/273730660032\/picture",
+                    "id_on_source": "273730660032"
+                }
+            },
+            {
+                "title": "Effect of caudal epidural steroid or saline injection in... [BMJ. 2011] - PubMed - NCBI",
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=228276503901199&id=105753489472833",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-10-27T14:15:34+00:00",
+                "summary": "More discouraging results for epidural steroid injections...",
+                "author": {
+                    "name": "Research Review Service",
+                    "url": "https:\/\/www.facebook.com\/105753489472833",
+                    "facebook_wall_name": "RRS Education",
+                    "image": "https:\/\/graph.facebook.com\/105753489472833\/picture",
+                    "id_on_source": "105753489472833"
+                }
+            },
+            {
+                "title": "Effect of caudal epidural steroid or saline injection in chronic lumbar radiculopathy: multicentre,.",
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=185046468244226&id=253081991371727",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-11-03T01:44:36+00:00",
+                "summary": "Norway RCT shows that LBP improves with sham injection to same extent as more invasive epidural cortisone injection. PT is recommended for LBP along with other conservative treatment",
+                "author": {
+                    "name": "Pain Science Division CPA",
+                    "url": "https:\/\/www.facebook.com\/253081991371727",
+                    "facebook_wall_name": "Pain Science Division CPA",
+                    "image": "https:\/\/graph.facebook.com\/253081991371727\/picture",
+                    "id_on_source": "253081991371727"
+                }
+            },
+            {
+                "title": "Effect of caudal epidural steroid or saline injection in chronic lumbar radiculopathy: multicentre,.",
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=271010272942311&id=151018094939372",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-11-14T13:07:22+00:00",
+                "summary": "Conclusions Caudal epidural steroid or saline injections are not recommended for chronic lumbar radiculopathy",
+                "author": {
+                    "name": "Physio Science Clinic",
+                    "url": "https:\/\/www.facebook.com\/151018094939372",
+                    "facebook_wall_name": "Physio Science Clinic",
+                    "image": "https:\/\/graph.facebook.com\/151018094939372\/picture",
+                    "id_on_source": "151018094939372"
+                }
+            },
+            {
+                "title": "Effect of caudal epidural steroid or saline injection in... [BMJ. 2011] - PubMed - NCBI",
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=257989000914918&id=238509766196589",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-11-12T20:23:25+00:00",
+                "summary": "http:\/\/www.ncbi.nlm.nih.gov\/pubmed\/21914755\n\nThink an epidural is the answer to long term back pain? Think again!\n\nRecent scientific studies are showing spinal injections for long term back pain and sciatica are only as good as placebo. The above study eve",
+                "author": {
+                    "name": "Sure Health",
+                    "url": "https:\/\/www.facebook.com\/238509766196589",
+                    "facebook_wall_name": "Sure Health",
+                    "image": "https:\/\/graph.facebook.com\/238509766196589\/picture",
+                    "id_on_source": "238509766196589"
+                }
+            },
+            {
+                "title": "Effect of caudal epidural steroid or saline injection in chronic lumbar radiculopathy: multicentre,.",
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=240706039317671&id=194388720575941",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2011-11-03T08:24:20+00:00",
+                "summary": "Objective To assess the efficacy of caudal epidural steroid or saline injection in chronic lumbar radiculopathy in the short (6 weeks),                                  intermediate (12 weeks), and long term (52 weeks).",
+                "author": {
+                    "name": "Faggruppen for Manuellterapi",
+                    "url": "https:\/\/www.facebook.com\/194388720575941",
+                    "facebook_wall_name": "Faggruppen for Manuellterapi",
+                    "image": "https:\/\/graph.facebook.com\/194388720575941\/picture",
+                    "id_on_source": "194388720575941"
+                }
+            },
+            {
+                "title": "Epidural Corticosteroid Injections for Sciatica Due to Herniated Nucleus Pulposus \u2014 NEJM",
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=315240391975209&id=123589414473642",
+                "license": "public",
+                "citation_ids": [
+                    2107445,
+                    1064066,
+                    343197,
+                    1905972
+                ],
+                "posted_on": "2014-07-31T04:05:01+00:00",
+                "summary": "\u5c3e\u690e\u786c\u810a\u819c\u4e0a\u6ce8\u5c04\uff08caudal epidural steroid injection\uff09\u56e0\u70ba\u6709\u7acb\u5373\u7684\u6548\u679c\uff0c\u4e00\u76f4\u662f\u4e0b\u80cc\u75db\u5f88\u91cd\u8981\u6cbb\u7642\u65b9\u5f0f\n\u53ef\u662f\u4e5f\u4e00\u76f4\u9817\u53d7\u722d\u8b70\n\u4f8b\u5982NEJM 1997\u5e74\u4fbf\u63d0\u51fa\u8cea\u7591\uff0c\u8ddf\u6253\u751f\u7406\u98df\u9e7d\u6c34\u6bd4\n\u767c\u73fe\u53ea\u6709\u77ed\u671f\u6548\u679c\nhttp:\/\/www.nejm.org\/doi\/full\/10.1056\/NEJM199706053362303\nAnn Intern Med. 2012\u4e5f\u63d0\u51fa\u540c\u6a23\u7684\u7d50\u8ad6\nhttp:\/\/www.ncbi.nlm.nih.gov\/pubmed\/23362516\n\nBMJ\u57282011\u5e74\u66f4\u662f\u76f4\u63a5",
+                "author": {
+                    "name": "\u6c85\u6607\u5fa9\u5065\u79d1\u8a3a\u6240",
+                    "url": "https:\/\/www.facebook.com\/123589414473642",
+                    "facebook_wall_name": "\u6c85\u6607\u5fa9\u5065\u79d1\u8a3a\u6240",
+                    "image": "https:\/\/graph.facebook.com\/123589414473642\/picture",
+                    "id_on_source": "123589414473642"
+                }
+            },
+            {
+                "title": "Effect of caudal epidural steroid or saline injection in chronic lumbar radiculopathy: multicentre, blinded, randomised controlled trial. - PubMed - NCBI",
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=1272964119476126&id=308601545912393",
+                "license": "public",
+                "citation_ids": [
+                    343197,
+                    343197
+                ],
+                "posted_on": "2017-09-17T10:35:34+00:00",
+                "summary": "https:\/\/www.ncbi.nlm.nih.gov\/pubmed\/21914755",
+                "author": {
+                    "name": "D\u00e1vid L\u00ed\u0161ka",
+                    "url": "https:\/\/www.facebook.com\/10206152241385128",
+                    "facebook_wall_name": false,
+                    "image": "https:\/\/graph.facebook.com\/10206152241385128\/picture",
+                    "id_on_source": "10206152241385128"
+                }
+            },
+            {
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=1408735825912392&id=1050326108420034",
+                "license": "public",
+                "citation_ids": [
+                    343197
+                ],
+                "posted_on": "2017-09-23T17:16:57+00:00",
+                "summary": "Cie\u013eom \u0161t\u00fadie bolo porovna\u0165 efektivitu kaud\u00e1lnych epidur\u00e1lnych steroidov pri chronickej lumb\u00e1lnej radikulopatii po 6t\u00fd\u017ed\u0148och, 12 t\u00fd\u017ed\u0148och a 52 t\u00fd\u017ed\u0148och. Vzorku tvorilo 461 pacientov z ktor\u00fdch bolo 328 pacientov vyl\u00fa\u010den\u00fdch.  Intervencie zah\u0155\u0148ali:  1. injekc",
+                "author": {
+                    "name": "Integrative physiotherapy",
+                    "url": "https:\/\/www.facebook.com\/1050326108420034",
+                    "facebook_wall_name": "Integrative physiotherapy",
+                    "image": "https:\/\/graph.facebook.com\/1050326108420034\/picture",
+                    "id_on_source": "1050326108420034"
+                }
+            }
+        ]
+    }
+}
