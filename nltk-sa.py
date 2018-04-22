@@ -127,7 +127,9 @@ print() """
     iterate through a root directory
         for each json file found
             load json
-            create dict of necessary values from json
+            skip if altmetric score < 5
+            create dict of useful values from json
+            remove title from post summary
             apply sentiment analysis and store it
             append dict to data list
     build chart: sentiment score vs. altmetric score
@@ -140,15 +142,24 @@ for rootpath, subdirectories, files in os.walk(rootdir):
         # if (filename.endswith(".json")):
         filepath = rootpath + "/" + filename
         jsonfile = json.load(open(filepath))
-        tw = []
-        for k in jsonfile["posts"]["twitter"]:
-            tw.append({
-                "tweet_id": k["tweet_id"]
-            })
-        data.append({
-            "altmetric_id": jsonfile["altmetric_id"],
+        if (jsonfile["altmetric_score"]["score"] < 50):
+            continue
+        tempDict = {"altmetric_id": jsonfile["altmetric_id"],
             "title": jsonfile["citation"]["title"],
-            "score": jsonfile["altmetric_score"]["score"],
-            "twitter": tw
-        })
-pprint(data)
+            "score": jsonfile["altmetric_score"]["score"]}
+        tw = []
+        try:
+            for k in jsonfile["posts"]["twitter"]:
+                # ss = SentimentIntensityAnalyzer().polarity_scores(k["summary"].replace(tempDict["title"], ""))
+                # print(k["summary"])
+                # pprint(ss)
+                tw.append({
+                    "summary": k["summary"].replace(tempDict["title"], ""),
+                    "tweet_id": k["tweet_id"]
+                })
+            tempDict["twitter"] = tw
+        except KeyError as ke:
+            # pprint(tw)
+            continue
+        data.append(tempDict)
+# pprint(data[10])
