@@ -2,164 +2,204 @@ import json
 import os
 from pprint import pprint
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from langdetect import detect
+from langdetect.lang_detect_exception import LangDetectException
+import matplotlib
+import numpy as np
+import matplotlib.pyplot as plt
 
-"""
-from nltk import tokenize
-from nltk.corpus import subjectivity, stopwords, sentiwordnet
-from twython import Twython
-import keys
-
- # --- BASIC NLTK PROCESSING ---
-
-text = "Here is journal on something. It showcases some interesting blah blah. Read it here."
-text_words = tokenize.word_tokenize(text)
-custom_sentences = tokenize.sent_tokenize(text)
-text_filtered = []
-stop_words = set(stopwords.words("english"))
-for i in text_words:
-    if i not in stop_words:
-        text_filtered.append(i)
-
-print("Words:")
-print(text_words)
-print("\nSentences:")
-print(custom_sentences)
-print("\nNo stop words:")
-print(text_filtered)
-
-print("\nNLTK data: subjectivity")
-print(subjectivity.words())
-
-
-# --- NLTK SENTIMENT ANALYSIS ---
-
-print("\n\n--- Sentiwordnet: ---")
-breakdown = sentiwordnet.senti_synset('breakdown.n.03')
-print(breakdown)
-
-sentences = [
-    "VADER is smart, handsome, and funny.", # punctuation emphasis handled correctly (sentiment intensity adjusted)
-    "VADER is very smart, handsome, and funny.",  # booster words handled correctly (sentiment intensity adjusted)
-    "VADER is VERY SMART, handsome, and FUNNY.",  # emphasis for ALLCAPS handled
-    "VADER is VERY SMART, handsome, and FUNNY!!!",# combination of signals - VADER appropriately adjusts intensity
-    "VADER is VERY SMART, really handsome, and INCREDIBLY FUNNY!!!",# booster words & punctuation make this close to ceiling for score
-    "The book was good.",         # positive sentence
-    "The book was kind of good.", # qualified positive sentence is handled correctly (intensity adjusted)
-    "The plot was good, but the characters are uncompelling and the dialog is not great.", # mixed negation sentence
-    "A really bad, horrible book.",       # negative sentence with booster words
-    "At least it isn't a horrible book.", # negated negative sentence with contraction
-    ":) and :D",     # emoticons handled
-    "",              # an empty string is correctly handled
-    "Today sux",     #  negative slang handled
-    "Today sux!",    #  negative slang with punctuation emphasis handled
-    "Today SUX!",    #  negative slang with capitalization emphasis
-    "Today kinda sux! But I'll get by, lol" # mixed sentiment example with slang and constrastive conjunction "but"
-]
-
-paragraph = "It was one of the worst movies I've seen, despite good reviews for Justice League. \
-Unbelievably bad acting!! Poor direction. VERY poor production. \
-The movie was bad. Very bad movie. VERY bad movie. VERY BAD movie. VERY BAD movie!"
-paragraph_sentences = tokenize.sent_tokenize(paragraph)
-
-tricky_sentences = [
-    "Most automated sentiment analysis tools are shit.",
-    "VADER sentiment analysis is the shit.",
-    "Sentiment analysis has never been good.",
-    "Sentiment analysis with VADER has never been this good.",
-    "Warren Beatty has never been so entertaining.",
-    "I won't say that the movie is astounding and I wouldn't claim that the movie is too banal either.",
-    "I like to hate Michael Bay films, but I couldn't fault this one",
-    "It's one thing to watch an Uwe Boll film, but another thing entirely to pay for it",
-    "The movie was too good",
-    "This movie was actually neither that funny, nor super witty.",
-    "This movie doesn't care about cleverness, wit or any other kind of intelligent humor.",
-    "Those who find ugly meanings in beautiful things are corrupt without being charming.",
-    "There are slow and repetitive parts, BUT it has just enough spice to keep it interesting.",
-    "The script is not fantastic, but the acting is decent and the cinematography is EXCELLENT!",
-    "Roger Dodger is one of the most compelling variations on this theme.",
-    "Roger Dodger is one of the least compelling variations on this theme.",
-    "Roger Dodger is at least compelling as a variation on the theme.",
-    "they fall in love with the product",
-    "but then it breaks",
-    "usually around the time the 90 day warranty expires",
-    "the twin towers collapsed today",
-    "However, Mr. Carter solemnly argues, his client carried out the kidnapping under orders and in the ''least offensive way possible.''"
-]
-
-sentences.extend(paragraph_sentences)
-sentences.extend(tricky_sentences)
-sentences.extend(custom_sentences)
-
-sid = SentimentIntensityAnalyzer()
-
-print("\n\n--- VADER SentimentIntensityAnalyzer: ---")
-for sentence in sentences:
-    print(sentence)
-    print("  ", end='')
-    ss = sid.polarity_scores(sentence) # dict stored in {string: float} format
-    for key in sorted(ss):
-        print('{0}: {1}, '.format(key, ss[key]), end='')
-    print()
-
-
-# --- ALTMETRIC DATA ---
-
-twitter = Twython(keys.CONSUMER_KEY, keys.CONSUMER_SECRET, keys.OAUTH_TOKEN, keys.OAUTH_TOKEN_SECRET)
-filepath = "altmetric_data/2580030.json"
-data = json.load(open(filepath))
-
-title = data['citation']['title']
-tweet_id = data['posts']['twitter'][12]['tweet_id']
-tweet = twitter.show_status(id=tweet_id)['text']
-
-print("\n\n--- Altmetric data: --")
-print(tweet)
-print("** RESEARCH TITLE: ", title)
-print("** TWEET W/O TITLE: ", tweet.replace(title, ''))
-ss = SentimentIntensityAnalyzer().polarity_scores(tweet.replace(title, '')) # remove publication title from tweet and process it
-for key in sorted(ss):
-    print('{0}:  {1}, '.format(key, ss[key]), end='')
-print() """
-
-""" Need to store JSON files into a list of dicts that can be used to build a chart
+""" Need to store JSON files into a list or dicts that can be used to build a chart
     PSEUDOCODE:
     create data list
     iterate through a root directory
         for each json file found
             load json
-            skip if altmetric score < 5
-            create dict of useful values from json
-            remove title from post summary
-            apply sentiment analysis and store it
-            append dict to data list
-    build chart: sentiment score vs. altmetric score
-    build chart: platform vs. altmetric score 
+            skip if altmetric score < 100
+            try to get twitter data
+                create dict of useful values from json
+                skip tweets already processed (retweets)
+                remove title from post summary
+                apply sentiment analysis and store it
+                append dict to data list
+            try to get facebook data
+                blah
+            try to get googleplus data
+                blah
+            try to get blog data
+                blah
+    build chart: sentiment score histogram
+    build chart: platform comparison
 """
-data = []
-rootdir = "altmetric_data"
+sa = SentimentIntensityAnalyzer()
+countries = ["US", "AU", "UK", "NZ", "IE", "JM", "BS", "GD"]  # english-speaking countries
+jsonData = []
+total_sent_scores = []
+total_avg_sent_scores = []
+total_post_counts = []
+
+all_twitter_sent_scores = []
+all_twitter_avg_scores =[]
+all_tweet_counts = []
+tCount = 0
+
+all_facebook_sent_scores = []
+all_facebook_avg_scores = []
+all_facebook_counts = []
+fCount = 0
+
+all_blog_sent_scores = []
+all_blog_avg_scores = []
+all_blog_counts = []
+bCount = 0
+
+all_googleplus_sent_scores = []
+all_googleplus_avg_scores = []
+all_googleplus_counts = []
+gCount = 0
+rootdir = "altmetric_data/"
+
 for rootpath, subdirectories, files in os.walk(rootdir):
     for filename in files:
-        # if (filename.endswith(".json")):
-        filepath = rootpath + "/" + filename
+        filepath = os.path.join(rootpath, filename)
         jsonfile = json.load(open(filepath))
-        if (jsonfile["altmetric_score"]["score"] < 50):
+        if (jsonfile["altmetric_score"]["score"] < 100):  # filter out papers with score < 100
             continue
-        tempDict = {"altmetric_id": jsonfile["altmetric_id"],
+        """ tempDict = {
+            "altmetric_id": jsonfile["altmetric_id"],
             "title": jsonfile["citation"]["title"],
-            "score": jsonfile["altmetric_score"]["score"]}
-        tw = []
-        try:
-            for k in jsonfile["posts"]["twitter"]:
-                # ss = SentimentIntensityAnalyzer().polarity_scores(k["summary"].replace(tempDict["title"], ""))
-                # print(k["summary"])
-                # pprint(ss)
-                tw.append({
-                    "summary": k["summary"].replace(tempDict["title"], ""),
-                    "tweet_id": k["tweet_id"]
-                })
-            tempDict["twitter"] = tw
+            "altmetric_score": jsonfile["altmetric_score"]["score"]
+            } """
+        """ try:
+            tUsers = jsonfile["counts"]["twitter"]["unique_users_count"]
         except KeyError as ke:
-            # pprint(tw)
-            continue
-        data.append(tempDict)
-# pprint(data[10])
+            tUsers = 0
+            tempDict["counts"] = {
+                "twitter": 0
+                "tweet_sentiment": 0
+            } """
+        
+        try:
+            # tw = []
+            retweets = []
+            tAnalyzed = 0
+            for t in jsonfile["posts"]["twitter"]:
+                """ try:
+                    if t["author"]["geo"]["country"] not in countries:  # exclude non-english-speaking country
+                        # print("Non-US", t["author"]["geo"]["country"])
+                        continue
+                except KeyError as ke:  # exclude tweets with no country listed
+                    # print("Non-US")
+                    continue """
+
+                if t["summary"] in retweets:  # exclude retweet
+                    continue
+                retweets.append(t["summary"])
+
+                try:
+                    if (detect(t["summary"]) != "en"):
+                        continue
+                except LangDetectException as le:
+                    continue
+
+                tCount += 1  # running count of ALL tweets
+                tAnalyzed += 1  # running count of tweets analyzed for the current json
+                saScores = sa.polarity_scores(t["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
+                all_twitter_sent_scores.append(saScores["compound"])
+                total_sent_scores.append(saScores["compound"])
+                """ tw.append({
+                    "summary": t["summary"],
+                    "tweet_id": t["tweet_id"],
+                    "sent_score": saScores["compound"]
+                }) """
+        except KeyError as ke:
+            pass
+        if (tAnalyzed > 0):
+            avgscore = sum(all_twitter_sent_scores) / len(all_twitter_sent_scores)  # find average sentiment score in for the current JSON
+            total_avg_sent_scores.append(avgscore)
+            total_post_counts.append(jsonfile["counts"]["twitter"]["unique_users_count"])
+            """ tempDict["counts"] = {
+                "tweets": twCount,
+                "avg_tweet_sentiment": avgscore
+                }
+            tempDict["twitter"] = tw
+        jsonData.append(tempDict) """
+
+        try:
+            fRepost = []
+            fAnalyzed = 0
+            for f in jsonfile["posts"]["facebook"]:
+                try:
+                    if f["summary"] in fRepost:
+                        continue
+                    fRepost.append(f["summary"])
+                except KeyError as ke2:  # skip facebook posts w/o summary
+                    continue
+                
+                fCount += 1  # running count of ALL facebook posts
+                fAnalyzed += 1  # running count of facebook posts analyzed for the current json
+                # saScores = sa.polarity_scores(f["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
+                # all_facebook_sent_scores.append(saScores["compound"])
+                # total_sent_scores.append(saScores["compound"])
+
+        except KeyError as ke:
+            pass
+        
+        try:
+            bReposts = []
+            bAnalyzed = 0
+            for b in jsonfile["posts"]["blogs"]:
+                try:
+                    if b["summary"] in bReposts:
+                        continue
+                    bReposts.append(b["summary"])
+                except KeyError as ke2:
+                    continue
+
+                bCount += 1
+                bAnalyzed += 1
+        except KeyError as ke:
+            pass
+            
+        try:
+            gRepost = []
+            gAnalyzed = 0
+            for g in jsonfile["posts"]["googleplus"]:
+                try:
+                    if g["summary"] in gRepost:
+                        continue
+                    gRepost.append(g["summary"])
+                except KeyError as ke2:
+                    continue
+                
+                gCount += 1
+                gAnalyzed += 1
+        except KeyError as ke:
+            pass
+
+# pprint(sorted(jsonData, key=lambda k: k["score"], reverse=True))  # sorted by altmetric score
+# pprint(jsonData)
+print("twitter posts:", tCount)
+# print("papers:", len(jsonData))
+print("papers: ", len(total_avg_sent_scores), len(total_post_counts))
+print("facebook posts: ", fCount)
+print("blog posts: ", bCount)
+print("googleplus posts: ", gCount)
+
+## PLOTS
+
+num_bins = 50
+# num_bins = [-1, -0.3, 0.3, 1]  # preset ranges for bins
+n, bins, patches = plt.hist(total_sent_scores, num_bins, facecolor='blue', alpha=0.5)
+plt.xlim(-1, 1)
+plt.xlabel("Sentiment Score")
+plt.ylabel("Frequency")
+plt.title("Histogram of Twitter Sentiment Scores")
+plt.show()
+# print(n)  # number of frequency in each category
+
+plt.scatter(total_avg_sent_scores, total_post_counts)
+plt.xlim(-1, 1)
+plt.xlabel("Sentiment Score")
+plt.ylabel("Number of Tweets")
+plt.title("Twitter Sentiment Scores vs. Tweet Count")
+plt.show()
