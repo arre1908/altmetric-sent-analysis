@@ -9,30 +9,34 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 """ Need to store JSON files into a list or dicts that can be used to build a chart
+
     PSEUDOCODE:
-    create data list
+    create variables
     iterate through a root directory
         for each json file found
             load json
             skip if altmetric score < 100
             try to get twitter data
-                create dict of useful values from json
-                skip tweets already processed (retweets)
-                remove title from post summary
-                apply sentiment analysis and store it
-                append dict to data list
+                for each twitter post
+                    skip tweets already processed (retweets)
+                    skip tweets not in english
+                    remove title from post summary and apply sentiment analysis
+                    append result to lists
+                find average sentiment score for current JSON file and store it
+                store posts count for JSON
             try to get facebook data
-                blah
+                (repeat process)
+                ...
             try to get googleplus data
-                blah
+                (repeat process)
+                ...
             try to get blog data
-                blah
-    build chart: sentiment score histogram
+                (repeat process)
+                ...
+    build charts: sentiment score histogram
+    build charts: scatter plot sentiment vs. post count
     build chart: platform comparison
 """
-sa = SentimentIntensityAnalyzer()
-countries = ["US", "AU", "UK", "NZ", "IE", "JM", "BS", "GD"]  # english-speaking countries
-jsonData = []
 total_sent_scores = []
 total_avg_sent_scores = []
 total_post_counts = []
@@ -47,50 +51,36 @@ all_facebook_avg_scores = []
 all_facebook_counts = []
 fCount = 0
 
-all_blog_sent_scores = []
-all_blog_avg_scores = []
-all_blog_counts = []
+all_blogs_sent_scores = []
+all_blogs_avg_scores = []
+all_blogs_counts = []
 bCount = 0
 
 all_googleplus_sent_scores = []
 all_googleplus_avg_scores = []
 all_googleplus_counts = []
 gCount = 0
-rootdir = "altmetric_data/"
+
+pCount = 0
+sa = SentimentIntensityAnalyzer()
+rootdir = "some/folder/path"
 
 for rootpath, subdirectories, files in os.walk(rootdir):
     for filename in files:
         filepath = os.path.join(rootpath, filename)
         jsonfile = json.load(open(filepath))
+
         if (jsonfile["altmetric_score"]["score"] < 100):  # filter out papers with score < 100
             continue
-        """ tempDict = {
-            "altmetric_id": jsonfile["altmetric_id"],
-            "title": jsonfile["citation"]["title"],
-            "altmetric_score": jsonfile["altmetric_score"]["score"]
-            } """
-        """ try:
-            tUsers = jsonfile["counts"]["twitter"]["unique_users_count"]
-        except KeyError as ke:
-            tUsers = 0
-            tempDict["counts"] = {
-                "twitter": 0
-                "tweet_sentiment": 0
-            } """
+        pCount += 1
         
+        # get Twitter data
         try:
             # tw = []
+            paper_twitter_sent_scores = []
             retweets = []
             tAnalyzed = 0
             for t in jsonfile["posts"]["twitter"]:
-                """ try:
-                    if t["author"]["geo"]["country"] not in countries:  # exclude non-english-speaking country
-                        # print("Non-US", t["author"]["geo"]["country"])
-                        continue
-                except KeyError as ke:  # exclude tweets with no country listed
-                    # print("Non-US")
-                    continue """
-
                 if t["summary"] in retweets:  # exclude retweet
                     continue
                 retweets.append(t["summary"])
@@ -104,63 +94,92 @@ for rootpath, subdirectories, files in os.walk(rootdir):
                 tCount += 1  # running count of ALL tweets
                 tAnalyzed += 1  # running count of tweets analyzed for the current json
                 saScores = sa.polarity_scores(t["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
-                all_twitter_sent_scores.append(saScores["compound"])
-                total_sent_scores.append(saScores["compound"])
-                """ tw.append({
-                    "summary": t["summary"],
-                    "tweet_id": t["tweet_id"],
-                    "sent_score": saScores["compound"]
-                }) """
+                paper_twitter_sent_scores.append(saScores["compound"])  # add to list of sentiment scores for the current JSON
+                all_twitter_sent_scores.append(saScores["compound"])  # add to the list of all twitter sentiment scores
+                total_sent_scores.append(saScores["compound"])  # add to the list of all sentiment scores
+
+            if (tAnalyzed > 0):
+                avgscore = sum(paper_twitter_sent_scores) / len(paper_twitter_sent_scores)  # find average sentiment score in for the current JSON
+                total_avg_sent_scores.append(avgscore)
+                all_twitter_avg_scores.append(avgscore)
+                total_post_counts.append(jsonfile["counts"]["twitter"]["posts_count"])
+                all_tweet_counts.append(jsonfile["counts"]["twitter"]["posts_count"])
         except KeyError as ke:
             pass
-        if (tAnalyzed > 0):
-            avgscore = sum(all_twitter_sent_scores) / len(all_twitter_sent_scores)  # find average sentiment score in for the current JSON
-            total_avg_sent_scores.append(avgscore)
-            total_post_counts.append(jsonfile["counts"]["twitter"]["unique_users_count"])
-            """ tempDict["counts"] = {
-                "tweets": twCount,
-                "avg_tweet_sentiment": avgscore
-                }
-            tempDict["twitter"] = tw
-        jsonData.append(tempDict) """
 
+        # get Facebook data
         try:
+            paper_facebook_sent_scores = []
             fRepost = []
             fAnalyzed = 0
             for f in jsonfile["posts"]["facebook"]:
                 try:
-                    if f["summary"] in fRepost:
+                    if f["summary"] in fRepost:  #skip reposts
                         continue
                     fRepost.append(f["summary"])
                 except KeyError as ke2:  # skip facebook posts w/o summary
                     continue
+
+                try:
+                    if (detect(f["summary"]) != "en"):
+                        continue
+                except LangDetectException as le:
+                    continue
                 
                 fCount += 1  # running count of ALL facebook posts
                 fAnalyzed += 1  # running count of facebook posts analyzed for the current json
-                # saScores = sa.polarity_scores(f["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
-                # all_facebook_sent_scores.append(saScores["compound"])
-                # total_sent_scores.append(saScores["compound"])
-
+                saScores = sa.polarity_scores(f["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
+                paper_facebook_sent_scores.append(saScores["compound"])
+                all_facebook_sent_scores.append(saScores["compound"])
+                total_sent_scores.append(saScores["compound"])
+            
+            if (fAnalyzed > 0):
+                avgScore = sum(paper_facebook_sent_scores) / len(paper_facebook_sent_scores)
+                all_facebook_avg_scores.append(avgScore)
+                total_avg_sent_scores.append(avgScore)
+                all_facebook_counts.append(jsonfile["counts"]["facebook"]["posts_count"])
+                total_post_counts.append(jsonfile["counts"]["facebook"]["posts_count"])
         except KeyError as ke:
             pass
         
+        # get blogs data
         try:
+            paper_blogs_sent_scores = []
             bReposts = []
             bAnalyzed = 0
             for b in jsonfile["posts"]["blogs"]:
                 try:
-                    if b["summary"] in bReposts:
+                    if b["summary"] in bReposts:  # skip reposts
                         continue
                     bReposts.append(b["summary"])
-                except KeyError as ke2:
+                except KeyError as ke2:  # skip blogs w/o summary
                     continue
 
-                bCount += 1
-                bAnalyzed += 1
+                try:
+                    if (detect(b["summary"]) != "en"):
+                        continue
+                except LangDetectException as le:
+                    continue
+
+                bCount += 1  # running count of ALL blog posts
+                bAnalyzed += 1  # running count of blog posts analyzed for the current json
+                saScores = sa.polarity_scores(b["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
+                paper_blogs_sent_scores.append(saScores["compound"])
+                all_blogs_sent_scores.append(saScores["compound"])
+                total_sent_scores.append(saScores["compound"])
+            
+            if (bAnalyzed > 0):
+                avgScore = sum(paper_blogs_sent_scores) / len(paper_blogs_sent_scores)
+                all_blogs_avg_scores.append(avgScore)
+                total_avg_sent_scores.append(avgScore)
+                all_blogs_counts.append(jsonfile["counts"]["blogs"]["posts_count"])
+                total_post_counts.append(jsonfile["counts"]["blogs"]["posts_count"])
         except KeyError as ke:
             pass
-            
+        
+        # get Google Plus data
         try:
+            paper_googleplus_sent_scores = []
             gRepost = []
             gAnalyzed = 0
             for g in jsonfile["posts"]["googleplus"]:
@@ -171,16 +190,31 @@ for rootpath, subdirectories, files in os.walk(rootdir):
                 except KeyError as ke2:
                     continue
                 
+                try:
+                    if (detect(g["summary"]) != "en"):
+                        continue
+                except LangDetectException as le:
+                    continue
+                
                 gCount += 1
                 gAnalyzed += 1
+                saScores = sa.polarity_scores(g["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
+                paper_googleplus_sent_scores.append(saScores["compound"])
+                all_googleplus_sent_scores.append(saScores["compound"])
+                total_sent_scores.append(saScores["compound"])
+
+            if (gAnalyzed > 0):
+                avgScore = sum(paper_googleplus_sent_scores) / len(paper_googleplus_sent_scores)
+                all_googleplus_avg_scores.append(avgScore)
+                total_avg_sent_scores.append(avgScore)
+                all_googleplus_counts.append(jsonfile["counts"]["googleplus"]["posts_count"])
+                total_post_counts.append(jsonfile["counts"]["googleplus"]["posts_count"])
         except KeyError as ke:
             pass
 
-# pprint(sorted(jsonData, key=lambda k: k["score"], reverse=True))  # sorted by altmetric score
-# pprint(jsonData)
+print("papers:", pCount)
+print("sources: ", len(total_avg_sent_scores), len(total_post_counts))
 print("twitter posts:", tCount)
-# print("papers:", len(jsonData))
-print("papers: ", len(total_avg_sent_scores), len(total_post_counts))
 print("facebook posts: ", fCount)
 print("blog posts: ", bCount)
 print("googleplus posts: ", gCount)
@@ -188,18 +222,79 @@ print("googleplus posts: ", gCount)
 ## PLOTS
 
 num_bins = 50
-# num_bins = [-1, -0.3, 0.3, 1]  # preset ranges for bins
-n, bins, patches = plt.hist(total_sent_scores, num_bins, facecolor='blue', alpha=0.5)
+range_bins = [-1, -0.3, 0.3, 1]  # preset ranges for bins
+
+n, bins, patches = plt.hist(all_twitter_sent_scores, num_bins, facecolor='darkturquoise', alpha=0.5)
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
 plt.ylabel("Frequency")
 plt.title("Histogram of Twitter Sentiment Scores")
 plt.show()
-# print(n)  # number of frequency in each category
+# print(n)  # number of frequency in each categorynum_bins = 50
 
-plt.scatter(total_avg_sent_scores, total_post_counts)
+n, bins, patches = plt.hist(all_facebook_sent_scores, num_bins, facecolor='blue', alpha=0.5)
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
-plt.ylabel("Number of Tweets")
-plt.title("Twitter Sentiment Scores vs. Tweet Count")
+plt.ylabel("Frequency")
+plt.title("Histogram of Facebook Sentiment Scores")
+plt.show()
+# print(n)  # number of frequency in each category
+
+n, bins, patches = plt.hist(all_blogs_sent_scores, num_bins, facecolor='purple', alpha=0.5)
+plt.xlim(-1, 1)
+plt.xlabel("Sentiment Score")
+plt.ylabel("Frequency")
+plt.title("Histogram of Blog Sentiment Scores")
+plt.show()
+# print(n)  # number of frequency in each category
+
+n, bins, patches = plt.hist(all_googleplus_sent_scores, num_bins, facecolor='orange', alpha=0.5)
+plt.xlim(-1, 1)
+plt.xlabel("Sentiment Score")
+plt.ylabel("Frequency")
+plt.title("Histogram of Google+ Sentiment Scores")
+plt.show()
+# print(n)  # number of frequency in each category
+
+n, bins, patches = plt.hist(total_sent_scores, num_bins, facecolor='red', alpha=0.5)
+plt.xlim(-1, 1)
+plt.xlabel("Sentiment Score")
+plt.ylabel("Frequency")
+plt.title("Histogram of ALL Sentiment Scores")
+plt.show()
+# print(n)  # number of frequency in each category
+
+plt.scatter(all_twitter_avg_scores, all_tweet_counts, facecolor='darkturquoise', alpha=0.5)
+plt.xlim(-1, 1)
+plt.xlabel("Sentiment Score")
+plt.ylabel("Number of Posts")
+plt.title("Twitter: Sentiment Scores vs. Tweet Count")
+plt.show()
+
+plt.scatter(all_facebook_avg_scores, all_facebook_counts, facecolor='blue', alpha=0.5)
+plt.xlim(-1, 1)
+plt.xlabel("Sentiment Score")
+plt.ylabel("Number of Posts")
+plt.title("Facebook: Sentiment Scores vs. Post Count")
+plt.show()
+
+plt.scatter(all_blogs_avg_scores, all_blogs_counts, facecolor='purple', alpha=0.5)
+plt.xlim(-1, 1)
+plt.xlabel("Sentiment Score")
+plt.ylabel("Number of Posts")
+plt.title("Blogs: Sentiment Scores vs. Post Count")
+plt.show()
+
+plt.scatter(all_googleplus_avg_scores, all_googleplus_counts, facecolor='orange', alpha=0.5)
+plt.xlim(-1, 1)
+plt.xlabel("Sentiment Score")
+plt.ylabel("Number of Posts")
+plt.title("Google+: Sentiment Scores vs. Post Count")
+plt.show()
+
+plt.scatter(total_avg_sent_scores, total_post_counts, facecolor='red', alpha=0.5)
+plt.xlim(-1, 1)
+plt.xlabel("Sentiment Score")
+plt.ylabel("Number of Posts")
+plt.title("Total: Sentiment Scores vs. Post Count")
 plt.show()
