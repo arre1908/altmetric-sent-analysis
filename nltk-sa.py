@@ -1,18 +1,14 @@
 import json
 import os
-from pprint import pprint
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from langdetect import detect
 from langdetect.lang_detect_exception import LangDetectException
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib import rc
 from matplotlib.ticker import PercentFormatter
 import pandas as pd
 
-""" Need to store JSON files into a list or dicts that can be used to build a chart
-
-    PSEUDOCODE:
+""" PSEUDOCODE:
     create variables
     iterate through a root directory
         for each json file found
@@ -36,6 +32,7 @@ import pandas as pd
                 (repeat process)
                 ...
             find overall average sentiment score and store it
+            store altmetric score
     build charts: sentiment score histogram
     build charts: sentiment vs. altmetric score scatter plot
     build chart: platform comparison
@@ -47,33 +44,29 @@ total_paper_altmetric_scores = []
 
 all_twitter_sent_scores = []
 all_twitter_avg_scores =[]
-# all_tweet_counts = []
 all_twitter_altmetric_scores = []
 tCount = 0
 
 all_facebook_sent_scores = []
 all_facebook_avg_scores = []
-# all_facebook_counts = []
 all_facebook_altmetric_scores = []
 fCount = 0
 
 all_blogs_sent_scores = []
 all_blogs_avg_scores = []
-# all_blogs_counts = []
 all_blogs_altmetric_scores = []
 bCount = 0
 
 all_googleplus_sent_scores = []
 all_googleplus_avg_scores = []
-# all_googleplus_counts = []
 all_googleplus_altmetric_scores = []
 gCount = 0
 
 pCount = 0
 sa = SentimentIntensityAnalyzer()
-rootdir = "D:/altmetrics/data/10/"
+rootdir = "some/path/to/json/"
 
-for rootpath, subdirectories, files in os.walk(rootdir):
+for rootpath, subdirectories, files in os.walk(rootdir):  # iterate through directory
     for filename in files:
         filepath = os.path.join(rootpath, filename)
         jsonfile = json.load(open(filepath))
@@ -88,12 +81,12 @@ for rootpath, subdirectories, files in os.walk(rootdir):
             retweets = []
             tAnalyzed = 0
             for t in jsonfile["posts"]["twitter"]:
-                if t["summary"] in retweets:  # exclude retweet
+                if t["summary"] in retweets:  # skip retweet
                     continue
                 retweets.append(t["summary"])
 
                 try:
-                    if (detect(t["summary"]) != "en"):
+                    if (detect(t["summary"]) != "en"):  # skip non-english text
                         continue
                 except LangDetectException as le:
                     continue
@@ -106,8 +99,8 @@ for rootpath, subdirectories, files in os.walk(rootdir):
                 total_sent_scores.append(saScores["compound"])  # add to the list of all sentiment scores
 
             if (tAnalyzed > 0):
-                avgscore = sum(paper_twitter_sent_scores) / len(paper_twitter_sent_scores)  # find average sentiment score in for the current JSON
-                all_twitter_avg_scores.append(avgscore)  # add to list of average twitter sentiments
+                avgscore = sum(paper_twitter_sent_scores) / len(paper_twitter_sent_scores)  # find average twitter sentiment score in for the current JSON
+                all_twitter_avg_scores.append(avgscore)
                 all_twitter_altmetric_scores.append(jsonfile["altmetric_score"]["score"])
                 paper_total_sent_scores.extend(paper_twitter_sent_scores)
         except KeyError as ke:
@@ -127,7 +120,7 @@ for rootpath, subdirectories, files in os.walk(rootdir):
                     continue
 
                 try:
-                    if (detect(f["summary"]) != "en"):
+                    if (detect(f["summary"]) != "en"):  # skip non-english text
                         continue
                 except LangDetectException as le:
                     continue
@@ -135,13 +128,13 @@ for rootpath, subdirectories, files in os.walk(rootdir):
                 fCount += 1  # running count of ALL facebook posts
                 fAnalyzed += 1  # running count of facebook posts analyzed for the current json
                 saScores = sa.polarity_scores(f["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
-                paper_facebook_sent_scores.append(saScores["compound"])
-                all_facebook_sent_scores.append(saScores["compound"])
-                total_sent_scores.append(saScores["compound"])
+                paper_facebook_sent_scores.append(saScores["compound"])  # add to list of facebook sentiment scores for the current JSON
+                all_facebook_sent_scores.append(saScores["compound"])  # add to the list of facebook sentiment scores
+                total_sent_scores.append(saScores["compound"])  # add to the list of all sentiment scores
             
             if (fAnalyzed > 0):
-                avgScore = sum(paper_facebook_sent_scores) / len(paper_facebook_sent_scores)
-                all_facebook_avg_scores.append(avgScore)
+                avgScore = sum(paper_facebook_sent_scores) / len(paper_facebook_sent_scores)  # find average facebook sentiment score in for the current JSON
+                all_facebook_avg_scores.append(avgScore) 
                 all_facebook_altmetric_scores.append(jsonfile["altmetric_score"]["score"])
                 paper_total_sent_scores.extend(paper_facebook_sent_scores)
         except KeyError as ke:
@@ -161,7 +154,7 @@ for rootpath, subdirectories, files in os.walk(rootdir):
                     continue
 
                 try:
-                    if (detect(b["summary"]) != "en"):
+                    if (detect(b["summary"]) != "en"):  # skip non-english text
                         continue
                 except LangDetectException as le:
                     continue
@@ -169,12 +162,12 @@ for rootpath, subdirectories, files in os.walk(rootdir):
                 bCount += 1  # running count of ALL blog posts
                 bAnalyzed += 1  # running count of blog posts analyzed for the current json
                 saScores = sa.polarity_scores(b["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
-                paper_blogs_sent_scores.append(saScores["compound"])
-                all_blogs_sent_scores.append(saScores["compound"])
-                total_sent_scores.append(saScores["compound"])
+                paper_blogs_sent_scores.append(saScores["compound"])  # add to list of blog sentiment scores for the current JSON
+                all_blogs_sent_scores.append(saScores["compound"])  # add to the list of blog sentiment scores
+                total_sent_scores.append(saScores["compound"])  # add to the list of all sentiment scores
             
             if (bAnalyzed > 0):
-                avgScore = sum(paper_blogs_sent_scores) / len(paper_blogs_sent_scores)
+                avgScore = sum(paper_blogs_sent_scores) / len(paper_blogs_sent_scores)  # find average blog sentiment score in for the current JSON
                 all_blogs_avg_scores.append(avgScore)
                 all_blogs_altmetric_scores.append(jsonfile["altmetric_score"]["score"])
                 paper_total_sent_scores.extend(paper_blogs_sent_scores)
@@ -188,14 +181,14 @@ for rootpath, subdirectories, files in os.walk(rootdir):
             gAnalyzed = 0
             for g in jsonfile["posts"]["googleplus"]:
                 try:
-                    if g["summary"] in gRepost:
+                    if g["summary"] in gRepost:  # skip reposts
                         continue
                     gRepost.append(g["summary"])
-                except KeyError as ke2:
+                except KeyError as ke2:  # skip googleplus posts w/o summary
                     continue
                 
                 try:
-                    if (detect(g["summary"]) != "en"):
+                    if (detect(g["summary"]) != "en"):  # skip non-english text
                         continue
                 except LangDetectException as le:
                     continue
@@ -203,12 +196,12 @@ for rootpath, subdirectories, files in os.walk(rootdir):
                 gCount += 1
                 gAnalyzed += 1
                 saScores = sa.polarity_scores(g["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
-                paper_googleplus_sent_scores.append(saScores["compound"])
-                all_googleplus_sent_scores.append(saScores["compound"])
-                total_sent_scores.append(saScores["compound"])
+                paper_googleplus_sent_scores.append(saScores["compound"])  # add to list of googleplus sentiment scores for the current JSON
+                all_googleplus_sent_scores.append(saScores["compound"])  # add to the list of googeplus sentiment scores
+                total_sent_scores.append(saScores["compound"])  # add to the list of all sentiment scores
 
             if (gAnalyzed > 0):
-                avgScore = sum(paper_googleplus_sent_scores) / len(paper_googleplus_sent_scores)
+                avgScore = sum(paper_googleplus_sent_scores) / len(paper_googleplus_sent_scores)  # find average googleplus sentiment score in for the current JSON
                 all_googleplus_avg_scores.append(avgScore)
                 all_googleplus_altmetric_scores.append(jsonfile["altmetric_score"]["score"])
                 paper_total_sent_scores.extend(paper_googleplus_sent_scores)
@@ -216,7 +209,7 @@ for rootpath, subdirectories, files in os.walk(rootdir):
             pass
         if (tAnalyzed + fAnalyzed + bAnalyzed + gAnalyzed > 0):  # if posts were processed
             pCount += 1
-            paperAvgSentiment = sum(paper_total_sent_scores) / len(paper_total_sent_scores)
+            paperAvgSentiment = sum(paper_total_sent_scores) / len(paper_total_sent_scores)  # find overall average sentiment score in for the current JSON
             total_paper_avg_sent_scores.append(paperAvgSentiment)
             total_paper_altmetric_scores.append(jsonfile["altmetric_score"]["score"])
 
@@ -310,6 +303,7 @@ positive = [0, 0, 0, 0]
 neutral = [0, 0, 0, 0]
 negative = [0, 0, 0, 0]
 
+# split lists sentiments for each platform into three arrays (negative, neutral, positive)
 for t in all_twitter_sent_scores:
     if (t <= -0.4):
         negative[0] += 1
@@ -343,6 +337,7 @@ print("fb: ", positive[1], neutral[1], negative[1], positive[1] + neutral[1] + n
 print("g+: ", positive[2], neutral[2], negative[2], positive[2] + neutral[2] + negative[2])
 print("bl: ", positive[3], neutral[3], negative[3], positive[3] + neutral[3] + negative[3])
 
+# turn raw numbers into percentages
 positive[0] /= tCount / 100
 neutral[0] /= tCount / 100
 negative[0] /= tCount / 100
@@ -363,6 +358,7 @@ print("bl: ", positive[3], neutral[3], negative[3], positive[3] + neutral[3] + n
 labels = ('Twitter', 'Facebook', 'Google+', 'Blogs')
 index = np.arange(4)
 
+# create graph
 barWidth = 0.25
 index1 = np.arange(4)
 index2 = [x + barWidth for x in index1]
@@ -380,6 +376,7 @@ plt.show()
 
 ## CORRELATION
 
+# create DataFrames to store values
 tf = pd.DataFrame({
     "all_twitter_avg_scores": all_twitter_avg_scores,
     "all_twitter_altmetric_scores": all_twitter_altmetric_scores
@@ -401,6 +398,7 @@ af = pd.DataFrame({
     "total_paper_altmetric_scores": total_paper_altmetric_scores
 })
 
+#print correlation results
 print("CORR: Twitter sent vs altmetric score - ", tf["all_twitter_avg_scores"].corr(tf["all_twitter_altmetric_scores"]))
 print("CORR: Facebook sent vs altmetric score - ", ff["all_facebook_avg_scores"].corr(ff["all_facebook_altmetric_scores"]))
 print("CORR: Google+ sent vs altmetric score - ", gf["all_googleplus_avg_scores"].corr(gf["all_googleplus_altmetric_scores"]))
