@@ -1,0 +1,3886 @@
+{
+    "altmetric_id": 101320,
+    "counts": {
+        "downloads": {
+            "pmc": {
+                "unique_ips": 1225,
+                "full_text": 1337,
+                "pdf": 561,
+                "abstract": 33,
+                "timeline": {
+                    "2012-05": "31",
+                    "2012-04": "47",
+                    "2012-03": "60",
+                    "2012-02": "25",
+                    "2012-01": "21",
+                    "2011-12": "20",
+                    "2011-11": "45",
+                    "2011-10": "34",
+                    "2011-09": "26",
+                    "2011-08": "22",
+                    "2011-07": "25",
+                    "2011-06": "22",
+                    "2011-05": "32",
+                    "2011-04": "39",
+                    "2011-03": "53",
+                    "2011-02": "33",
+                    "2011-01": "41",
+                    "2010-12": "23",
+                    "2010-11": "31",
+                    "2010-10": "28",
+                    "2010-09": "40",
+                    "2010-08": "53",
+                    "2010-07": "46",
+                    "2010-06": "43",
+                    "2010-05": "60",
+                    "2010-04": "126",
+                    "2010-03": "72",
+                    "2010-02": "53",
+                    "2010-01": "74"
+                }
+            }
+        },
+        "readers": {
+            "mendeley": 392,
+            "citeulike": 3,
+            "connotea": 0
+        },
+        "facebook": {
+            "unique_users_count": 4,
+            "unique_users": [
+                "295885067210357",
+                "100004798956779",
+                "1010257580",
+                "167833809994634"
+            ],
+            "posts_count": 4
+        },
+        "blogs": {
+            "unique_users_count": 24,
+            "unique_users": [
+                51710,
+                1586,
+                51871,
+                125,
+                73,
+                51911,
+                542,
+                876,
+                1571,
+                1172,
+                524,
+                52401,
+                51600,
+                573,
+                416,
+                651,
+                385,
+                1798,
+                1593,
+                53398,
+                55610,
+                52568,
+                788,
+                55863
+            ],
+            "posts_count": 30
+        },
+        "googleplus": {
+            "unique_users_count": 6,
+            "unique_users": [
+                "Blue Bop",
+                "Melissa Garcia",
+                "www.byrdnick.com",
+                "Adam Croom",
+                "Bang Lang",
+                "Tony Searl"
+            ],
+            "posts_count": 6
+        },
+        "news": {
+            "unique_users_count": 9,
+            "unique_users": [
+                "the_guardian",
+                "huffington_post",
+                "the_raw_story",
+                "medical_daily",
+                "scientific_american",
+                "salon",
+                "world_news_network",
+                "the_atlantic",
+                "lifehacker"
+            ],
+            "posts_count": 15
+        },
+        "total": {
+            "posts_count": 160
+        },
+        "twitter": {
+            "unique_users_count": 103,
+            "unique_users": [
+                "reaktorplayer",
+                "MediaWest",
+                "EisMC2",
+                "jynyates",
+                "kardenny60",
+                "brandonjnelson",
+                "JustScritching",
+                "markegould",
+                "AbstractedMusic",
+                "KayDesigner",
+                "Paul26910",
+                "NoMoreJazzz",
+                "yurimpro",
+                "iPatrioticmom",
+                "kanakana2011311",
+                "camilalpav",
+                "CTSMASTERING",
+                "interdixit",
+                "HutchingsThomas",
+                "Dancementia",
+                "Phil_Robichaud",
+                "taopauly",
+                "rosmith11",
+                "BibliotecaFPCEE",
+                "ProfSteveFuller",
+                "cinnamon_carter",
+                "bladmoreno",
+                "hooliganjaman",
+                "Slam_Skillet",
+                "DreGuess",
+                "calliope8muse",
+                "christopherdr",
+                "Papapagina",
+                "vecchias",
+                "TClarksonMusic",
+                "inobrec",
+                "DaveDaversa",
+                "AliceProverbio",
+                "dhruv22uk",
+                "paperdollsteph",
+                "italkguitarnews",
+                "lukeneff",
+                "lifebloodpicks",
+                "AndySchroeder",
+                "tmitter",
+                "Rrose_Seravy",
+                "CAPITALMTS",
+                "EPMusicoterapia",
+                "aljorape",
+                "wesevanstra",
+                "stephspiro",
+                "kotlersteven",
+                "sbaroncohen",
+                "rockinangeluk",
+                "robinhosking",
+                "blumes15",
+                "HoccleveSociety",
+                "passingstranger",
+                "painphysio",
+                "MilaVulchanova",
+                "Carlotta_raby",
+                "MoniquePost1",
+                "PatelVijita",
+                "Aaspieguy",
+                "lisamareedom",
+                "ITLWorldwide",
+                "neuroraf",
+                "OsteopathEdin",
+                "itsJackL",
+                "embws",
+                "SonneImPark",
+                "PaulaVicensB",
+                "DrXaverius",
+                "RRiverosM",
+                "tauppen",
+                "lazycunt",
+                "GammaCounter",
+                "PrinceofRazors",
+                "RoxanaStere",
+                "wasuzuki",
+                "Dulce_LoRa",
+                "JustinCaouette",
+                "fishmarketstew",
+                "jknox78251",
+                "emtenenbaum",
+                "AutismResearchT",
+                "LisaLisaLisaD",
+                "inscapetherapi1",
+                "UTAS_MPH",
+                "anibalmastobiza",
+                "MartinDowds1",
+                "RocioCarrion81",
+                "MDRoberts7",
+                "MaryChambers",
+                "BalamMageria22",
+                "JonLundbom",
+                "NilsThS",
+                "amit_pande",
+                "BrunoGebarski",
+                "Mary_Spiro",
+                "pablonoel",
+                "symphonicworks",
+                "JGHJazz"
+            ],
+            "posts_count": 105
+        }
+    },
+    "selected_quotes": [
+        "Creative attempt by neuroscience to study creativity in the brain in musicians",
+        "Reminded again of Charles Limb's great research into the neurobiology of flow and jazz improv",
+        "MRI during spontaneous musical performance. Much cortical disinhibition. \u219d@eatchaos",
+        "The Neuroscience of a Musicians Mind!"
+    ],
+    "citation": {
+        "abstract": "To investigate the neural substrates that underlie spontaneous musical performance, we examined improvisation in professional jazz pianists using functional MRI. By employing two paradigms that differed widely in musical complexity, we found that improvisation (compared to production of over-learned musical sequences) was consistently characterized by a dissociated pattern of activity in the prefrontal cortex: extensive deactivation of dorsolateral prefrontal and lateral orbital regions with focal activation of the medial prefrontal (frontal polar) cortex. Such a pattern may reflect a combination of psychological processes required for spontaneous improvisation, in which internally motivated, stimulus-independent behaviors unfold in the absence of central processes that typically mediate self-monitoring and conscious volitional control of ongoing performance. Changes in prefrontal activity during improvisation were accompanied by widespread activation of neocortical sensorimotor areas (that mediate the organization and execution of musical performance) as well as deactivation of limbic structures (that regulate motivation and emotional tone). This distributed neural pattern may provide a cognitive context that enables the emergence of spontaneous creative activity.",
+        "abstract_source": "pubmed",
+        "ads_id": "2008PLoSO...3.1679L",
+        "altmetric_jid": "4f6fa5313cf058f6100043e3",
+        "authors": [
+            "Charles J. Limb",
+            "Allen R. Braun",
+            "Limb CJ",
+            "Braun AR"
+        ],
+        "doi": "10.1371\/journal.pone.0001679",
+        "issns": [
+            "1932-6203",
+            ""
+        ],
+        "issue": "2",
+        "journal": "PLoS ONE",
+        "links": [
+            "http:\/\/www.plosone.org\/article\/info:doi\/10.1371\/journal.pone.0001679",
+            "http:\/\/www.plosone.org\/article\/info%3Adoi%2F10.1371%2Fjournal.pone.0001679",
+            "http:\/\/www.ncbi.nlm.nih.gov\/pubmed\/18301756",
+            "http:\/\/www.plosone.org\/article\/info%3Adoi%2F10.1371%2Fjournal.pone.0001679;jsessionid=D663D4BED4616006324374A358254A02",
+            "http:\/\/www.plosone.org\/article\/info:doi%2F10.1371%2Fjournal.pone.0001679",
+            "http:\/\/dx.doi.org\/10.1371\/journal.pone.0001679",
+            "http:\/\/www.plosone.org\/article\/info:doi\/10.1371\/journal.pone.0001679?utm_content=buffer2b523&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
+            "http:\/\/www.plosone.org\/article\/info:doi\/10.1371\/journal.pone.0001679#pone-0001679-g003",
+            "http:\/\/journals.plos.org\/plosone\/article?id=10.1371\/journal.pone.0001679",
+            "http:\/\/journals.plos.org\/plosone\/article?id=10.1371%2Fjournal.pone.0001679",
+            "http:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC2244806\/",
+            "http:\/\/www.ncbi.nlm.nih.gov\/pubmed\/18301756\/"
+        ],
+        "pdf_url": "http:\/\/www.plosone.org\/article\/fetchObjectAttachment.action;jsessionid=9984C923BC04F47DF43B2F93E97DB666.ambra01?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0001679&representation=PDF",
+        "pmcid": "PMC2244806",
+        "pmid": "18301756",
+        "pubdate": "2008-02-27T00:00:00+00:00",
+        "publisher": "Public Library of Science",
+        "publisher_subjects": [
+            {
+                "name": "Multidisciplinary",
+                "scheme": "era"
+            }
+        ],
+        "scopus_subjects": [
+            "Medicine",
+            "Agricultural and Biological Sciences",
+            "Life Sciences",
+            "Health Sciences",
+            "Biochemistry, Genetics and Molecular Biology"
+        ],
+        "startpage": "e1679",
+        "subjects": [
+            "medicine",
+            "science"
+        ],
+        "title": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation",
+        "type": "article",
+        "volume": "3",
+        "mendeley_url": "http:\/\/www.mendeley.com\/research\/neural-substrates-spontaneous-musical-performance-fmri-study-jazz-improvisation"
+    },
+    "altmetric_score": {
+        "score": 343.928,
+        "score_history": {
+            "1y": 126.8,
+            "6m": 40,
+            "3m": 20,
+            "1m": 1,
+            "1w": 0,
+            "6d": 0,
+            "5d": 0,
+            "4d": 0,
+            "3d": 0,
+            "2d": 0,
+            "1d": 0,
+            "at": 343.928
+        },
+        "context_for_score": {
+            "all": {
+                "total_number_of_other_articles": 5187054,
+                "mean": 6.1241286456898,
+                "rank": 6638,
+                "this_scored_higher_than_pct": 99,
+                "this_scored_higher_than": 5180425,
+                "rank_type": "exact",
+                "sample_size": 5187054,
+                "percentile": 99
+            },
+            "similar_age_3m": {
+                "total_number_of_other_articles": 4212727,
+                "mean": 6.8920199851614,
+                "rank": 6484,
+                "this_scored_higher_than_pct": 99,
+                "this_scored_higher_than": 4206243,
+                "rank_type": "exact",
+                "sample_size": 4212727,
+                "percentile": 99
+            },
+            "this_journal": {
+                "total_number_of_other_articles": 91172,
+                "mean": 9.4492829737526,
+                "rank": 264,
+                "this_scored_higher_than_pct": 99,
+                "this_scored_higher_than": 90909,
+                "rank_type": "exact",
+                "sample_size": 91172,
+                "percentile": 99
+            },
+            "similar_age_this_journal_3m": {
+                "total_number_of_other_articles": 87682,
+                "mean": 9.6666551248275,
+                "rank": 262,
+                "this_scored_higher_than_pct": 99,
+                "this_scored_higher_than": 87420,
+                "rank_type": "exact",
+                "sample_size": 87682,
+                "percentile": 99
+            }
+        }
+    },
+    "demographics": {
+        "poster_types": {
+            "member_of_the_public": 86,
+            "researcher": 10,
+            "practitioner": 4,
+            "science_communicator": 3
+        },
+        "users": {
+            "twitter": {
+                "cohorts": {
+                    "Members of the public": 86,
+                    "Practitioners (doctors, other healthcare professionals)": 4,
+                    "Scientists": 10,
+                    "Science communicators (journalists, bloggers, editors)": 3
+                }
+            },
+            "mendeley": {
+                "by_status": {
+                    "Lecturer > Senior Lecturer": 1,
+                    "Lecturer": 10,
+                    "Student  > Bachelor": 55,
+                    "Researcher": 72,
+                    "Other": 19,
+                    "Professor > Associate Professor": 24,
+                    "Student  > Master": 59,
+                    "Student  > Postgraduate": 17,
+                    "Professor": 29,
+                    "Student  > Ph. D. Student": 96,
+                    "Student  > Doctoral Student": 10
+                },
+                "by_discipline": {
+                    "Medicine and Dentistry": 39,
+                    "Social Sciences": 32,
+                    "Psychology": 159,
+                    "Physics and Astronomy": 3,
+                    "Sports and Recreations": 1,
+                    "Mathematics": 2,
+                    "Arts and Humanities": 23,
+                    "Design": 3,
+                    "Engineering": 12,
+                    "Chemistry": 2,
+                    "Neuroscience": 10,
+                    "Economics, Econometrics and Finance": 1,
+                    "Agricultural and Biological Sciences": 70,
+                    "Computer Science": 23,
+                    "Business, Management and Accounting": 6,
+                    "Linguistics": 3,
+                    "Philosophy": 3
+                }
+            }
+        },
+        "geo": {
+            "twitter": {
+                "US": 28,
+                "GB": 13,
+                "JP": 1,
+                "BR": 1,
+                "CA": 4,
+                "NL": 3,
+                "ES": 5,
+                "DK": 1,
+                "AU": 3,
+                "IT": 2,
+                "VE": 1,
+                "IE": 1,
+                "CH": 1,
+                "MX": 1,
+                "NO": 1,
+                "FR": 1
+            },
+            "mendeley": {
+                "US": 34,
+                "PT": 4,
+                "NG": 1,
+                "ES": 2,
+                "CL": 1,
+                "CH": 2,
+                "IT": 1,
+                "FR": 8,
+                "AU": 3,
+                "DK": 2,
+                "NL": 2,
+                "CN": 1,
+                "UY": 1,
+                "LT": 1,
+                "AT": 1,
+                "GB": 13,
+                "CZ": 1,
+                "HU": 1,
+                "MX": 1,
+                "CA": 3,
+                "BR": 1,
+                "BE": 2,
+                "RU": 1,
+                "DE": 6,
+                "NO": 1,
+                "JP": 5,
+                "SE": 1
+            }
+        }
+    },
+    "posts": {
+        "twitter": [
+            {
+                "url": "http:\/\/twitter.com\/reaktorplayer\/statuses\/646143931537866752",
+                "posted_on": "2015-09-22T02:08:12+00:00",
+                "license": "gnip",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\/t.co\/NJCMBexkQl",
+                "author": {
+                    "name": "reaktorplayer",
+                    "url": "http:\/\/reaktorplayer.wordpress.com\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/138423627\/IMG0036_copy_normal.jpg",
+                    "description": "Better Music Thru Technology",
+                    "id_on_source": "reaktorplayer",
+                    "geo": {
+                        "lt": 41.85003,
+                        "ln": -87.65005,
+                        "country": "US"
+                    },
+                    "followers": 30393
+                },
+                "tweet_id": "646143931537866752"
+            },
+            {
+                "url": "http:\/\/twitter.com\/MediaWest\/statuses\/646144532342398976",
+                "posted_on": "2015-09-22T02:10:35+00:00",
+                "license": "gnip",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance-  fMRI Study of #Jazz Improvisation #music #Musicians #musiced\n\n http:\/\/t.co\/JSAYQ3uSPW",
+                "author": {
+                    "name": "Media\/West \u266c Prods.",
+                    "url": "https:\/\/www.youtube.com\/channel\/UCVzeX3r_lwB-JNOiKwvol9Q\/featured?view_as=public",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/703426677364232193\/slqG2xj0_normal.jpg",
+                    "description": "There are other worlds they have not told you of.  They wish to speak to you...",
+                    "id_on_source": "MediaWest",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 720
+                },
+                "tweet_id": "646144532342398976"
+            },
+            {
+                "url": "http:\/\/twitter.com\/EisMC2\/statuses\/646145776419270656",
+                "posted_on": "2015-09-22T02:15:32+00:00",
+                "license": "gnip",
+                "rt": [
+                    "reaktorplayer"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @reaktorplayer: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\u2026",
+                "author": {
+                    "name": "Esq.",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/2225009744\/preview_normal.jpeg",
+                    "description": "As well as being strange, I am transparent. I believe in the revolution. We the People are No Longer Silent.",
+                    "id_on_source": "EisMC2",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 6757
+                },
+                "tweet_id": "646145776419270656"
+            },
+            {
+                "url": "http:\/\/twitter.com\/jynyates\/statuses\/646146462565429249",
+                "posted_on": "2015-09-22T02:18:16+00:00",
+                "license": "gnip",
+                "rt": [
+                    "reaktorplayer"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @reaktorplayer: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\u2026",
+                "author": {
+                    "name": "jyn yates\u2122",
+                    "url": "http:\/\/jynyates.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/426573179704709121\/A9VppuYo_normal.png",
+                    "description": "#chickdrummer 4 #BeverlyMcClellan #HillbillySwagger #Femtronica #MAAM -- a writer, gnome collector, IT major, audio guru, green thumb, music teacher, black belt",
+                    "id_on_source": "jynyates",
+                    "geo": {
+                        "lt": 38.25424,
+                        "ln": -85.75941,
+                        "country": "US"
+                    },
+                    "followers": 2794
+                },
+                "tweet_id": "646146462565429249"
+            },
+            {
+                "url": "http:\/\/twitter.com\/kardenny60\/statuses\/646147148602474496",
+                "posted_on": "2015-09-22T02:20:59+00:00",
+                "license": "gnip",
+                "rt": [
+                    "reaktorplayer"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @reaktorplayer: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\u2026",
+                "author": {
+                    "name": "Kim Reiter",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/1813439751\/Lighthouse_normal.jpg",
+                    "description": "Awaiting the Mother Ships return. Looking for the true meaning of Zen drumming...I think it's a myth.",
+                    "id_on_source": "kardenny60",
+                    "geo": {
+                        "lt": 42.00027,
+                        "ln": -93.50049,
+                        "country": "US"
+                    },
+                    "followers": 1088
+                },
+                "tweet_id": "646147148602474496"
+            },
+            {
+                "url": "http:\/\/twitter.com\/brandonjnelson\/statuses\/646147966751760388",
+                "posted_on": "2015-09-22T02:24:14+00:00",
+                "license": "gnip",
+                "rt": [
+                    "reaktorplayer"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @reaktorplayer: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\u2026",
+                "author": {
+                    "name": "Brandon Nelson",
+                    "url": "http:\/\/bnelsonmusic.wordpress.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/716426796086874112\/tlzK7Vqy_normal.jpg",
+                    "description": "My cats like my music ...\n\nno, they hate everything.",
+                    "id_on_source": "brandonjnelson",
+                    "geo": {
+                        "lt": 44.25029,
+                        "ln": -85.50033,
+                        "country": "US"
+                    },
+                    "followers": 2092
+                },
+                "tweet_id": "646147966751760388"
+            },
+            {
+                "url": "http:\/\/twitter.com\/JustScritching\/statuses\/646152834266738688",
+                "posted_on": "2015-09-22T02:43:35+00:00",
+                "license": "gnip",
+                "rt": [
+                    "reaktorplayer"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @reaktorplayer: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\u2026",
+                "author": {
+                    "name": "crowquill gal",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/578642326446194688\/XO19xTsJ_normal.jpeg",
+                    "description": "family, art, coffee, scbwi. Looking for the world at the bottom of an inkwell. https:\/\/www.pinterest.com\/orchidhouse\/",
+                    "id_on_source": "JustScritching",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 355
+                },
+                "tweet_id": "646152834266738688"
+            },
+            {
+                "url": "http:\/\/twitter.com\/markegould\/statuses\/646190155519279105",
+                "posted_on": "2015-09-22T05:11:53+00:00",
+                "license": "gnip",
+                "rt": [
+                    "reaktorplayer"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @reaktorplayer: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\u2026",
+                "author": {
+                    "name": "Mark Gould",
+                    "url": "http:\/\/markgould.net",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/483445705311137792\/UpyGWlKl_normal.jpeg",
+                    "description": "artist, photographer, writer",
+                    "id_on_source": "markegould",
+                    "geo": {
+                        "lt": "37.7789601",
+                        "ln": "-122.419199",
+                        "country": "US"
+                    },
+                    "followers": 137
+                },
+                "tweet_id": "646190155519279105"
+            },
+            {
+                "url": "http:\/\/twitter.com\/AbstractedMusic\/statuses\/646274140668841985",
+                "posted_on": "2015-09-22T10:45:36+00:00",
+                "license": "gnip",
+                "rt": [
+                    "reaktorplayer"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @reaktorplayer: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\u2026",
+                "author": {
+                    "name": "Giles Appleton",
+                    "url": "http:\/\/www.abstractedmusic.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/582638812951658496\/Jm-qmirK_normal.jpg",
+                    "description": "iTunes: http:\/\/smarturl.it\/AuthorityQuestion \nhttps:\/\/soundcloud.com\/gilesappleton http:\/\/www.gilesappletonaudio.com\/",
+                    "id_on_source": "AbstractedMusic",
+                    "geo": {
+                        "lt": "51.4580216",
+                        "ln": "-0.9673727",
+                        "country": "GB"
+                    },
+                    "followers": 1403
+                },
+                "tweet_id": "646274140668841985"
+            },
+            {
+                "url": "http:\/\/twitter.com\/KayDesigner\/statuses\/646296729516646400",
+                "posted_on": "2015-09-22T12:15:22+00:00",
+                "license": "gnip",
+                "rt": [
+                    "reaktorplayer"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @reaktorplayer: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\u2026",
+                "author": {
+                    "name": "Kay Designer",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/733727059860578305\/AedOVMga_normal.jpg",
+                    "description": "Research, Design & Development, Technology, Media, Entertainment, Architecture KY-CID, USGBC LEED-AP BD+C. @SolarImpulse Supporter  #FutureIsClean",
+                    "id_on_source": "KayDesigner",
+                    "geo": {
+                        "lt": 38.25424,
+                        "ln": -85.75941,
+                        "country": "US"
+                    },
+                    "followers": 11239
+                },
+                "tweet_id": "646296729516646400"
+            },
+            {
+                "url": "http:\/\/twitter.com\/Paul26910\/statuses\/646410720347820032",
+                "posted_on": "2015-09-22T19:48:20+00:00",
+                "license": "gnip",
+                "rt": [
+                    "reaktorplayer"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @reaktorplayer: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\u2026",
+                "author": {
+                    "name": "Paul Ma$$on",
+                    "url": "http:\/\/promopalacellc.mybigcommerce.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/565977314538684416\/kbxOod1k_normal.jpeg",
+                    "description": "Musician\/Radio Broadcaster,\/Celebrity Booking Agent\/Music Promoter\/Music Industry Consultant Email promopalace1@gmail.com Follow at https:\/\/t.co\/XZgmxh71Ri",
+                    "id_on_source": "Paul26910",
+                    "geo": {
+                        "lt": "35.0529931",
+                        "ln": "-78.8787058",
+                        "country": "US"
+                    },
+                    "followers": 6011
+                },
+                "tweet_id": "646410720347820032"
+            },
+            {
+                "url": "http:\/\/twitter.com\/NoMoreJazzz\/statuses\/646478121202511872",
+                "posted_on": "2015-09-23T00:16:09+00:00",
+                "license": "gnip",
+                "rt": [
+                    "reaktorplayer"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @reaktorplayer: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation: http:\/\/t.co\/TVVkkipYm4 http:\/\u2026",
+                "author": {
+                    "name": "No More Jazzz",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/501731203431813120\/LcPgxX6s_normal.jpeg",
+                    "description": "#music #concert #audio #video #production #postproduction",
+                    "id_on_source": "NoMoreJazzz",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 2130
+                },
+                "tweet_id": "646478121202511872"
+            },
+            {
+                "url": "http:\/\/twitter.com\/yurimpro\/statuses\/638179252311949312",
+                "posted_on": "2015-08-31T02:39:25+00:00",
+                "license": "gnip",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "\u5373\u8208\u30df\u30e5\u30fc\u30b8\u30b7\u30e3\u30f3\u306e\u8133\u5185\u3092fMRI\u3067\u8abf\u3079\u305f\u8ad6\u6587\u3058\u3083\u3002http:\/\/t.co\/hFMSjhX6E7",
+                "author": {
+                    "name": "\u7d79\u5ddd\u53cb\u68a8",
+                    "url": "http:\/\/www.impro-works.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/511190339718090753\/_IJupETL_normal.jpeg",
+                    "description": "\u4ff3\u512a\u3084\u308a\u306a\u304c\u3089\u5275\u9020\u6027\u3084\u5373\u8208\u6027\u306e\u7814\u7a76\u3057\u3066\u307e\u3059\u3002\u6771\u4eac\u5927\u5b66\u5927\u5b66\u9662\u535a\u58eb\u904e\u7a0b\u524d\u671f\uff0f\u30a4\u30f3\u30d7\u30ed\u30ef\u30fc\u30af\u30b9\uff08\u682a\uff09\uff0f\u7389\u5ddd\u5927\u5b66\uff06\u685c\u7f8e\u6797\u5927\u5b66\u975e\u5e38\u52e4\u8b1b\u5e2b\u3002",
+                    "id_on_source": "yurimpro",
+                    "geo": {
+                        "lt": 35.6895,
+                        "ln": 139.69171,
+                        "country": "JP"
+                    },
+                    "followers": 898
+                },
+                "tweet_id": "638179252311949312"
+            },
+            {
+                "url": "http:\/\/twitter.com\/iPatrioticmom\/statuses\/640315988626419712",
+                "posted_on": "2015-09-06T00:10:02+00:00",
+                "license": "gnip",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance\nhttp:\/\/t.co\/gRt8Gy7TX6\u3000\n\n\u30b8\u30e3\u30ba\u30d4\u30a2\u30cb\u30b9\u30c8\u306e\u30a2\u30c9\u30ea\u30d6\u4e2d\u306eMRI\u3092\u3068\u3063\u305f\u3089\u3057\u3044\uff57",
+                "author": {
+                    "name": "iPatrioticmom",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/723795074484576256\/43o9Aggs_normal.jpg",
+                    "description": "\u91ce\u826f\u732b\u30b2\u30ea\u30e9\u4e3b\u5a66\u3002\u4f4e\u7dda\u91cf\u30ea\u30b9\u30af\u554f\u984c\u8ffd\u53ca\u306e\u305f\u3081\u306b\u66b4\u8d70\u4e2d\u3002\u663c\u5bdd\u3068\u81ea\u7531\u3068\u30cd\u30b3\u96c6\u4f1a\u304c\u5927\u597d\u304d\u3002\u3057\u3063\u307d\u306a\u3093\u304b\u632f\u3089\u306a\u3044\u3051\u3069\u3001\u4e00\u5ea6\u982d\u306a\u3067\u3066\u304f\u308c\u305f\u4eba\u306f\u5fd8\u308c\u306a\u3044\u3088\u3002\u722a\u3092\u51fa\u3059\u3068\u5371\u967a\u3002",
+                    "id_on_source": "iPatrioticmom",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 3278
+                },
+                "tweet_id": "640315988626419712"
+            },
+            {
+                "url": "http:\/\/twitter.com\/kanakana2011311\/statuses\/640319477184200704",
+                "posted_on": "2015-09-06T00:23:54+00:00",
+                "license": "gnip",
+                "rt": [
+                    "iPatrioticmom"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @iPatrioticmom: Neural Substrates of Spontaneous Musical Performance\nhttp:\/\/t.co\/gRt8Gy7TX6\u3000\n\n\u30b8\u30e3\u30ba\u30d4\u30a2\u30cb\u30b9\u30c8\u306e\u30a2\u30c9\u30ea\u30d6\u4e2d\u306eMRI\u3092\u3068\u3063\u305f\u3089\u3057\u3044\uff57",
+                "author": {
+                    "name": "kanakana",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/3478193197\/133c7e1489fe0ea02bd46fcbac9fcff9_normal.jpeg",
+                    "description": "\u82b1\u3005\u306e\u7f8e\u3057\u3055\u306e\u5148\u304c\u4f55\u306a\u306e\u304b\u5206\u304b\u3089\u306a\u3044\u3002\u30af\u30ea\u30a2\u306a\u8996\u899a\u306e\u5148\u3001\u3053\u3069\u3082\u305f\u3061\u3001\u5e7d\u7384\u3002",
+                    "id_on_source": "kanakana2011311",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 558
+                },
+                "tweet_id": "640319477184200704"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/camilalpav\/status\/184313236936593408",
+                "posted_on": "2012-03-26T16:17:54+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/MLdCqJtw (via @TIMEIdeas)",
+                "author": {
+                    "name": "Camila Pavanelli",
+                    "url": "http:\/\/boletimdafaltadagua.tumblr.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/555002804490600450\/PNl2G5HW_normal.jpeg",
+                    "description": "A mala da falta d'\u00e1gua",
+                    "id_on_source": "camilalpav",
+                    "geo": {
+                        "lt": "-23.5503279",
+                        "ln": "-46.6339647",
+                        "country": "BR"
+                    },
+                    "followers": 4318
+                },
+                "tweet_id": "184313236936593408"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/CTSMASTERING\/status\/194519189875212289",
+                "posted_on": "2012-04-23T20:12:43+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation:\nhttp:\/\/t.co\/BTh2GnF4",
+                "author": {
+                    "name": "CTS mastering",
+                    "url": "http:\/\/www.ctsmastering.com",
+                    "image": "http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_4_normal.png",
+                    "description": "CTS Mastering offers professional and affordable audio mixing and mastering. Our goal is to make your music sound its very best!",
+                    "id_on_source": "CTSMASTERING",
+                    "geo": {
+                        "lt": "43.2256613",
+                        "ln": "-79.9765956",
+                        "country": "CA"
+                    },
+                    "followers": 270
+                },
+                "tweet_id": "194519189875212289"
+            },
+            {
+                "url": "http:\/\/twitter.com\/interdixit\/statuses\/270945369502937089",
+                "posted_on": "2012-11-20T17:43:04+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Esc\u00e1ner del cerebro de un pianista de jazz cuando improvisa: las estructuras l\u00edmbicas neuronales se desactivan http:\/\/t.co\/2iJtc5D3",
+                "author": {
+                    "name": "interdixit",
+                    "url": "http:\/\/www.interdixit.com",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/2388750968\/d1kdorexwkp6axkr08lh_normal.png",
+                    "description": "Dise\u00f1o + Desarrollo, Multimedia, Web, Comunicaci\u00f3n, Grafismo, Arte",
+                    "id_on_source": "interdixit",
+                    "followers": 69
+                },
+                "tweet_id": "270945369502937089"
+            },
+            {
+                "url": "http:\/\/twitter.com\/HutchingsThomas\/statuses\/269230053341134850",
+                "posted_on": "2012-11-16T00:07:01+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "#PLOSONE: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/IzHyXx01",
+                "author": {
+                    "name": "Thomas Hutchings",
+                    "url": "http:\/\/www.thomashutchings.com",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/458981792989470720\/iH0MMHs9_normal.jpeg",
+                    "description": "Saxophonist, producer, composer, artrepreneur, urban survivalist, attempted polymath, professional underdog https:\/\/soundcloud.com\/thomashutchings\/sets\/my-faves",
+                    "id_on_source": "HutchingsThomas",
+                    "geo": {
+                        "lt": "40.7305991",
+                        "ln": "-73.9865812",
+                        "country": "US"
+                    },
+                    "followers": 441
+                },
+                "tweet_id": "269230053341134850"
+            },
+            {
+                "url": "http:\/\/twitter.com\/Dancementia\/statuses\/338042047665676288",
+                "posted_on": "2013-05-24T21:21:19+00:00",
+                "license": "public",
+                "rt": [
+                    "RRiverosM"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Hoy hablaremos de neurociencias, movimiento y creatividad. Quiere ver un ejemplo? http:\/\/t.co\/eAZPT6r6R0",
+                "author": {
+                    "name": "Dr Azucena Guzman",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/561965844268191744\/1FH82NZo_normal.jpeg",
+                    "description": "Chartered Clinical Psychologist. Lecturer in Health & Ageing. #Dementia. #Mental-Health. #Research. Dance & Music Aficionada!",
+                    "id_on_source": "Dancementia",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 832
+                },
+                "tweet_id": "338042047665676288"
+            },
+            {
+                "url": "http:\/\/twitter.com\/Phil_Robichaud\/status\/430675960808361984",
+                "posted_on": "2014-02-04T12:15:25+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "So awesome: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/WwRO43aV3h",
+                "author": {
+                    "name": "Philip Robichaud",
+                    "url": "http:\/\/philiprobichaud.weebly.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/532645839571664896\/K8_1me4Z_normal.jpeg",
+                    "description": "Assistant Professor in Philosophy at VU University, Amsterdam. Things I value: philosophy, law, coffee, craft beer, running and live music.",
+                    "id_on_source": "Phil_Robichaud",
+                    "geo": {
+                        "lt": 52,
+                        "ln": 5.25,
+                        "country": "NL"
+                    },
+                    "followers": 181
+                },
+                "tweet_id": "430675960808361984"
+            },
+            {
+                "url": "http:\/\/twitter.com\/taopauly\/status\/430726519728513025",
+                "posted_on": "2014-02-04T15:36:19+00:00",
+                "license": "public",
+                "rt": [
+                    "fishmarketstew"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "ICYMI: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation. cc: @mike_gordon http:\/\/t.co\/831fL5cqjE",
+                "author": {
+                    "name": "Pauly",
+                    "url": "http:\/\/taopauly.tumblr.com\/about",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/421271132\/blue-pauly_normal.jpg",
+                    "description": "Writer. Traveler. Insomniac. Author of 'Lost Vegas' & 'Jack Tripper Stole My Dog'. Creator of Tao of Pauly, Tao of Poker, @CoventryMusic @TaoFear & @TaoBacon",
+                    "id_on_source": "taopauly",
+                    "geo": {
+                        "lt": 34.073485,
+                        "ln": -118.400344,
+                        "country": "US"
+                    },
+                    "followers": 6290
+                },
+                "tweet_id": "430726519728513025"
+            },
+            {
+                "url": "http:\/\/twitter.com\/rosmith11\/status\/435794509343911936",
+                "posted_on": "2014-02-18T15:14:42+00:00",
+                "license": "public",
+                "rt": [
+                    "anniemurphypaul"
+                ],
+                "citation_ids": [
+                    101320,
+                    1572300,
+                    1285270
+                ],
+                "summary": "Improvise like a jazz musician \nhttp:\/\/t.co\/EGIoJKCtKr \nhttp:\/\/t.co\/4S5djhwai3 \nhttp:\/\/t.co\/Z8EDx6fTAH HT @anniemurphypaul",
+                "author": {
+                    "name": "Robert Smith",
+                    "url": "https:\/\/www.library.carleton.ca\/contact\/staff-directory\/robert-smith",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/573118149\/Robert_Smith_normal.jpg",
+                    "description": "Subject Specialist for Science & Engineering Carleton University Library Ottawa Canada. Updates and posts expressed here are my own.",
+                    "id_on_source": "rosmith11",
+                    "geo": {
+                        "lt": 60.10867,
+                        "ln": -113.64258,
+                        "country": "CA"
+                    },
+                    "followers": 4218
+                },
+                "tweet_id": "435794509343911936"
+            },
+            {
+                "url": "https:\/\/twitter.com\/BibliotecaFPCEE\/status\/437893620859822080",
+                "posted_on": "2014-02-24T10:15:49+00:00",
+                "license": "public",
+                "rt": [
+                    "elmundoes"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "\"Los circuitos neuronales del jazz\": http:\/\/t.co\/PsjIRWjNFM via @elmundoes\nInvestigaci\u00f3 publicada a la rev. Plos One: http:\/\/t.co\/BLf82Nyl0N",
+                "author": {
+                    "name": "BibFPCEE Blanquerna",
+                    "url": "http:\/\/biblioteca.blanquerna.edu\/ca\/fpcee",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/2758250336\/e9e5d2d84cdc573301d7f6c1175198ce_normal.png",
+                    "description": "Twitter oficial de la Biblioteca de la Facultat de Ci\u00e8ncies de l'Educaci\u00f3 i l'Esport Blanquerna",
+                    "id_on_source": "BibliotecaFPCEE",
+                    "geo": {
+                        "lt": 41.38879,
+                        "ln": 2.15899,
+                        "country": "ES"
+                    },
+                    "followers": 810
+                },
+                "tweet_id": "437893620859822080"
+            },
+            {
+                "url": "https:\/\/twitter.com\/ProfSteveFuller\/status\/480778928727281664",
+                "posted_on": "2014-06-22T18:26:43+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Perhaps neuroscience of musical improvisation extends to prose oral performance, e.g. teaching, stand-up: http:\/\/t.co\/WyK3DEIIkP HT @moukwa",
+                "author": {
+                    "name": "Steve Fuller",
+                    "url": "http:\/\/www2.warwick.ac.uk\/fac\/soc\/sociology\/staff\/academicstaff\/sfuller\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/534250817868402688\/_l7HgWAL_normal.jpeg",
+                    "description": "Prof of Sociology, @warwickuni. Founder of Social Epistemology and Author of Humanity 2.0 & The Proactionary Imperative: A Foundation for Transhumanism",
+                    "id_on_source": "ProfSteveFuller",
+                    "geo": {
+                        "lt": 52.28333,
+                        "ln": -1.58333,
+                        "country": "GB"
+                    },
+                    "followers": 4181
+                },
+                "tweet_id": "480778928727281664"
+            },
+            {
+                "url": "https:\/\/twitter.com\/cinnamon_carter\/status\/593607711226523648",
+                "posted_on": "2015-04-30T02:48:01+00:00",
+                "license": "datasift",
+                "rt": [
+                    "GammaCounter"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "MRI during \"spontaneous musical performance.\" Much cortical disinhibition. http:\/\/t.co\/vbs7FwJk8Z \u219d@eatchaos @shar418 http:\/\/t.co\/4f7C91vbhU",
+                "author": {
+                    "name": "cinnamon_carter",
+                    "url": "http:\/\/photoncoin.org\/wp\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/2420044578\/jn4hfisec2cbn48efp9n_normal.jpeg",
+                    "description": "Science Culture Technology Truth Things I Think Are Cool - See also @cinnamonshelper  @PhotonCoin\r\nOfficial faq + twitter policy is here http:\/\/bit.ly\/1zoC1Oa",
+                    "id_on_source": "cinnamon_carter",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 75736
+                },
+                "tweet_id": "593607711226523648"
+            },
+            {
+                "url": "http:\/\/twitter.com\/bladmoreno\/statuses\/215172131888173056",
+                "posted_on": "2012-06-19T20:00:08+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/apajyPh2",
+                "author": {
+                    "name": "Blad Moreno",
+                    "url": "http:\/\/www.facebook.com\/bladmoreno",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/1639506495\/291856_10150289296372375_718287374_7712332_4666103_n_normal.jpg",
+                    "description": "Cantante, Actor y Entrenador de Impro, Locutor,  Productor, Ex-Novio de @canalesdiosa, cuando no era tan Diosa. Me dicen el @RealHughJackman Venezolano",
+                    "id_on_source": "bladmoreno",
+                    "geo": {
+                        "lt": 10.457648,
+                        "ln": -66.797132,
+                        "country": ""
+                    },
+                    "followers": 632
+                },
+                "tweet_id": "215172131888173056"
+            },
+            {
+                "url": "http:\/\/twitter.com\/hooliganjaman\/statuses\/216114589367140353",
+                "posted_on": "2012-06-22T10:25:07+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "http:\/\/t.co\/M4oLkhEC http:\/\/t.co\/huS33q9N",
+                "author": {
+                    "name": "Al Agami",
+                    "url": "http:\/\/about.me\/alagami",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/599676303827165184\/BQWGxVOx_normal.jpg",
+                    "description": "cosmopolitician",
+                    "id_on_source": "hooliganjaman",
+                    "geo": {
+                        "lt": "55.670249",
+                        "ln": "10.3333283",
+                        "country": "DK"
+                    },
+                    "followers": 451
+                },
+                "tweet_id": "216114589367140353"
+            },
+            {
+                "url": "http:\/\/twitter.com\/Slam_Skillet\/statuses\/269205582483968000",
+                "posted_on": "2012-11-15T22:29:47+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "cool MRI study on hip\/hop jazz improvisation  http:\/\/t.co\/PK1GkmXp",
+                "author": {
+                    "name": "Sam Stevens",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/2436253388\/558471_10150831389201559_1247191436_n_normal.jpeg",
+                    "description": "producer :: new EP  - http:\/\/slamskillet.bandcamp.com\/",
+                    "id_on_source": "Slam_Skillet",
+                    "followers": 55
+                },
+                "tweet_id": "269205582483968000"
+            },
+            {
+                "url": "http:\/\/twitter.com\/DreGuess\/statuses\/269526913683451904",
+                "posted_on": "2012-11-16T19:46:38+00:00",
+                "license": "public",
+                "rt": [
+                    "zite"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "PLOS ONE: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/kTo35CqZ via @zite",
+                "author": {
+                    "name": "Andr\u00e9 Guess",
+                    "url": "http:\/\/andreguess.com",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/1778815487\/Dre1_normal.png",
+                    "description": "Harold and Joyce Guess's baby boy. ",
+                    "id_on_source": "DreGuess",
+                    "geo": {
+                        "lt": 40.03694,
+                        "ln": -76.198524,
+                        "country": "US"
+                    },
+                    "followers": 31
+                },
+                "tweet_id": "269526913683451904"
+            },
+            {
+                "url": "http:\/\/twitter.com\/calliope8muse\/statuses\/272392287600910336",
+                "posted_on": "2012-11-24T17:32:36+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "\u201c@99u: Brain Scans of Rappers Shed Light on Creativity http:\/\/t.co\/eSqB17jG\u201d RT I am more interested in this http:\/\/t.co\/lFswp6dS",
+                "author": {
+                    "name": "Calliope Georgousi",
+                    "url": "http:\/\/cargocollective.com\/calliopemuse\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/705388622787309568\/QRh1ByDm_normal.jpg",
+                    "description": "UX designer BBC & Calliope Muse Ltd.",
+                    "id_on_source": "calliope8muse",
+                    "geo": {
+                        "lt": 51.50853,
+                        "ln": -0.12574,
+                        "country": "GB"
+                    },
+                    "followers": 919
+                },
+                "tweet_id": "272392287600910336"
+            },
+            {
+                "url": "http:\/\/twitter.com\/christopherdr\/statuses\/287001289236287488",
+                "posted_on": "2013-01-04T01:03:34+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "In the sleep of Executive Function,  Jazz Improvisation is born http:\/\/t.co\/uXzGuQ0w",
+                "author": {
+                    "name": "christopher rappleye",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/332063765\/dad_henry_normal.jpg",
+                    "description": "interests:creativity, writing; mind & brain,education; place, the sacred, the profane,the neighborhood;literature,graphic & otherwise",
+                    "id_on_source": "christopherdr",
+                    "geo": {
+                        "lt": 38.62727,
+                        "ln": -90.19789,
+                        "country": "US"
+                    },
+                    "followers": 162
+                },
+                "tweet_id": "287001289236287488"
+            },
+            {
+                "url": "http:\/\/twitter.com\/Papapagina\/status\/403859988080521217",
+                "posted_on": "2013-11-22T12:18:19+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Substratos neurales de improvisaci\u00f3n en jazz...http:\/\/t.co\/wn31Z6DRIn #JIF22N",
+                "author": {
+                    "name": "Virginia Azagra",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/594987341728641025\/Q0FEsmI__normal.jpg",
+                    "description": "Fisioterapeuta, interesada en m\u00fasicos y neurolog\u00eda. Madre, hija, y esp\u00edritu libre. Amante de la parodia, las artes y la ciencia.",
+                    "id_on_source": "Papapagina",
+                    "geo": {
+                        "lt": 40.42526,
+                        "ln": -3.69063,
+                        "country": "ES"
+                    },
+                    "followers": 218
+                },
+                "tweet_id": "403859988080521217"
+            },
+            {
+                "url": "http:\/\/twitter.com\/vecchias\/status\/415820466335395840",
+                "posted_on": "2013-12-25T12:24:59+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "http:\/\/t.co\/4DI5oZ1yUL",
+                "author": {
+                    "name": "Umut \u00d6zel",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/634280205251702784\/2rjYyWgW_normal.jpg",
+                    "description": "Optimism is the opium of the people.",
+                    "id_on_source": "vecchias",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 449
+                },
+                "tweet_id": "415820466335395840"
+            },
+            {
+                "url": "http:\/\/twitter.com\/TClarksonMusic\/status\/430668296816713728",
+                "posted_on": "2014-02-04T11:44:58+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: fMRI Study of Jazz Impro http:\/\/t.co\/hoTcq0cUpF  #jazz #neuroscience @ethan_iverson",
+                "author": {
+                    "name": "Tim Clarkson",
+                    "url": "http:\/\/t.co\/Fdnx7NURLs",
+                    "image": "http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_3_normal.png",
+                    "description": "",
+                    "id_on_source": "TClarksonMusic",
+                    "geo": {
+                        "lt": "-33.8548157",
+                        "ln": "151.2164539",
+                        "_id": "Sydney,Australia",
+                        "country": "AU"
+                    },
+                    "followers": 44
+                },
+                "tweet_id": "430668296816713728"
+            },
+            {
+                "url": "http:\/\/twitter.com\/inobrec\/status\/447675803971514368",
+                "posted_on": "2014-03-23T10:06:43+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Abstract\n\nTo investigate the neural substrates that underlie spontaneous musical performance, we examined... http:\/\/t.co\/R3QhgjGL8B",
+                "author": {
+                    "name": "Alessandro Cerboni",
+                    "url": "http:\/\/inobrec.wordpress.com\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/465248379568541697\/eHHt6-Bg_normal.jpeg",
+                    "description": "Study of paradigms of Complexity and Chaos Theory, Behavioral Economics, their application in enterprises.",
+                    "id_on_source": "inobrec",
+                    "geo": {
+                        "lt": 42.83333,
+                        "ln": 12.83333,
+                        "country": "IT"
+                    },
+                    "followers": 682
+                },
+                "tweet_id": "447675803971514368"
+            },
+            {
+                "url": "https:\/\/twitter.com\/DaveDaversa\/status\/516285560344698881",
+                "posted_on": "2014-09-28T17:57:24+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Your brain on jazz: #PLOSONE: Neural Substrates of Spontaneous Musical Performance http:\/\/t.co\/tOTTrHXUiZ",
+                "author": {
+                    "name": "Dave Daversa",
+                    "url": "http:\/\/www2.zoo.cam.ac.uk\/manica\/DRDaversa.htm",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/1735370402\/SixtyLake_Self_Portrait_normal.jpg",
+                    "id_on_source": "DaveDaversa",
+                    "geo": {
+                        "lt": "52.2033051",
+                        "ln": "0.124862",
+                        "country": "GB"
+                    },
+                    "followers": 81
+                },
+                "tweet_id": "516285560344698881"
+            },
+            {
+                "url": "http:\/\/twitter.com\/AliceProverbio\/statuses\/270081199664406528",
+                "posted_on": "2012-11-18T08:29:10+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/ssltMzOB",
+                "author": {
+                    "name": "Alice Proverbio",
+                    "url": "http:\/\/bicoccaerplab.wordpress.com\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/2223521989\/nave_normal.JPG",
+                    "description": "Editor at ScientificReports@Nature.com - Cognitive Neuroscience Professor at Univ Milano-Bicocca. Electrophysiol (EEG\/ERP\/neuroimg.), love Mind & Brain, Music",
+                    "id_on_source": "AliceProverbio",
+                    "geo": {
+                        "lt": 45.46427,
+                        "ln": 9.18951,
+                        "country": "IT"
+                    },
+                    "followers": 2070
+                },
+                "tweet_id": "270081199664406528"
+            },
+            {
+                "url": "http:\/\/twitter.com\/dhruv22uk\/statuses\/278581882298437632",
+                "posted_on": "2012-12-11T19:27:51+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "@RevealPoison I found one for Jazz improvisation as well http:\/\/t.co\/uoWehhOl",
+                "author": {
+                    "name": "Dhruv Shah",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/562753903989895168\/NK1PKY5b_normal.jpeg",
+                    "description": "Anti-Imperialist \u2022 Filmmaker In Training \u2022 Ulcerative Colitis Survivor",
+                    "id_on_source": "dhruv22uk",
+                    "geo": {
+                        "lt": 51.50853,
+                        "ln": -0.12574,
+                        "country": "GB"
+                    },
+                    "followers": 974
+                },
+                "tweet_id": "278581882298437632"
+            },
+            {
+                "url": "http:\/\/twitter.com\/paperdollsteph\/statuses\/311877339917209600",
+                "posted_on": "2013-03-13T16:32:06+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Your brain on Jazz http:\/\/t.co\/9WQZrRp3G4",
+                "author": {
+                    "name": "stephanie mercado",
+                    "url": "http:\/\/www.stephaniemercado.com",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/502150891814662145\/G0deGi7I_normal.jpeg",
+                    "description": "Painting :: Printmaking :: Costuming :: Gallerina::\r\nLife, from the perspective of a creative type.",
+                    "id_on_source": "paperdollsteph",
+                    "geo": {
+                        "lt": "34.0536781",
+                        "ln": "-118.2427025",
+                        "country": "US"
+                    },
+                    "followers": 272
+                },
+                "tweet_id": "311877339917209600"
+            },
+            {
+                "url": "http:\/\/twitter.com\/italkguitarnews\/statuses\/370501296748761089",
+                "posted_on": "2013-08-22T11:02:47+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "The Neuroscience of a Musicians Mind! http:\/\/t.co\/YN7Hap0rrK",
+                "author": {
+                    "name": "italkguitar",
+                    "url": "https:\/\/twitter.com\/italkguitarnews",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/108737947\/ITG_3_MONO_PLEC_LO_normal.jpg",
+                    "description": "Guitar related news, views and features",
+                    "id_on_source": "italkguitarnews",
+                    "followers": 4231
+                },
+                "tweet_id": "370501296748761089"
+            },
+            {
+                "url": "http:\/\/twitter.com\/lukeneff\/status\/379224471451619328",
+                "posted_on": "2013-09-15T12:45:34+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "\"... spontaneous improvisation...is characterized by widespread deactivation of ... the prefrontal cortex ...\" http:\/\/t.co\/JWQjtbZxaK",
+                "author": {
+                    "name": "Luke",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/378800000861421259\/s96tDJVq_normal.jpeg",
+                    "description": "I used to make writing prompts: http:\/\/writingprompts.tumblr.com",
+                    "id_on_source": "lukeneff",
+                    "geo": {
+                        "lt": 45.30012,
+                        "ln": -122.97316,
+                        "country": "US"
+                    },
+                    "followers": 1342
+                },
+                "tweet_id": "379224471451619328"
+            },
+            {
+                "url": "http:\/\/twitter.com\/lifebloodpicks\/status\/381914087095287808",
+                "posted_on": "2013-09-22T22:53:08+00:00",
+                "license": "public",
+                "rt": [
+                    "italkguitarnews"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "The Neuroscience of a Musicians Mind! http:\/\/t.co\/YN7Hap0rrK",
+                "author": {
+                    "name": "Frank    ",
+                    "url": "http:\/\/t.co\/iACG44bOPO",
+                    "image": "http:\/\/si0.twimg.com\/profile_images\/378800000059965940\/4b71fbcf451e5446397a6fe1c9e09b9e_normal.jpeg",
+                    "description": "Lifeblood Picks a revolutionary design in guitar picks.",
+                    "id_on_source": "lifebloodpicks",
+                    "followers": 84
+                },
+                "tweet_id": "381914087095287808"
+            },
+            {
+                "url": "https:\/\/twitter.com\/AndySchroeder\/status\/399922884006903808",
+                "posted_on": "2013-11-11T15:33:40+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation - http:\/\/t.co\/y9qA1w1RXC",
+                "author": {
+                    "name": "Andy Schroeder",
+                    "url": "http:\/\/www.unexpectedproductions.org\/cast\/AndySchroeder",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/484097573326581762\/rqBhPwqC_normal.jpeg",
+                    "description": "Improviser and Improv Instructor and Coach with @UnexpectedImpro",
+                    "id_on_source": "AndySchroeder",
+                    "geo": {
+                        "lt": "47.6038321",
+                        "ln": "-122.3300624",
+                        "country": "US"
+                    },
+                    "followers": 4559
+                },
+                "tweet_id": "399922884006903808"
+            },
+            {
+                "url": "http:\/\/twitter.com\/tmitter\/status\/434332942731837440",
+                "posted_on": "2014-02-14T14:26:57+00:00",
+                "license": "public",
+                "citation_ids": [
+                    120790,
+                    101320
+                ],
+                "summary": "\u611b\u3059\u308b\u4eba\u306e\u9854\u3092\u898b\u3066\u3044\u308b\u3068\u304d(http:\/\/t.co\/HLS2sztN7p)\u3068\u3001\u30b8\u30e3\u30ba\u306e\u5373\u8208\u6f14\u594f\u3092\u3057\u3066\u3044\u308b\u3068\u304d(http:\/\/t.co\/uqabnIKfez)\u306b\u6d3b\u52d5\u306e\u6291\u5236\u304c\u307f\u3089\u308c\u308b\u8133\u9818\u57df\u306f\u3001\u7279\u306bLPFC\u5468\u8fba\u3067\u4f3c\u3066\u3044\u308b\u304b\u3082\u3002\u30bb\u30eb\u30d5\u30e2\u30cb\u30bf\u30ea\u30f3\u30b0\u3084\u8a8d\u77e5\u7684\u5224\u65ad\u6a5f\u80fd\u3092\u30e2\u30c2\u30e5\u30ec\u30fc\u30c8\u3057\u3066\u308b\u306e\u304b",
+                "author": {
+                    "name": "\u77f3\u6d25\u667a\u5927 Tomohiro Ishizu",
+                    "url": "http:\/\/www.vislab.ucl.ac.uk\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/451138900128313344\/tMz2GP2q_normal.jpeg",
+                    "description": "\u795e\u7d4c\u7f8e\u5b66\u306e\u7814\u7a76\u3092\u3057\u3066\u3044\u307e\u3059\u3002\u5728\u502b7\u5e74\u76ee\u3002Camping at the crossroads of science & arts. Neuroaesthetics scientist.",
+                    "id_on_source": "tmitter",
+                    "geo": {
+                        "lt": 51.50853,
+                        "ln": -0.12574,
+                        "country": "GB"
+                    },
+                    "followers": 376
+                },
+                "tweet_id": "434332942731837440"
+            },
+            {
+                "url": "http:\/\/twitter.com\/Rrose_Seravy\/status\/434337435430830080",
+                "posted_on": "2014-02-14T14:44:48+00:00",
+                "license": "public",
+                "rt": [
+                    "tmitter"
+                ],
+                "citation_ids": [
+                    120790,
+                    101320
+                ],
+                "summary": "\u611b\u3059\u308b\u4eba\u306e\u9854\u3092\u898b\u3066\u3044\u308b\u3068\u304d(http:\/\/t.co\/HLS2sztN7p)\u3068\u3001\u30b8\u30e3\u30ba\u306e\u5373\u8208\u6f14\u594f\u3092\u3057\u3066\u3044\u308b\u3068\u304d(http:\/\/t.co\/uqabnIKfez)\u306b\u6d3b\u52d5\u306e\u6291\u5236\u304c\u307f\u3089\u308c\u308b\u8133\u9818\u57df\u306f\u3001\u7279\u306bLPFC\u5468\u8fba\u3067\u4f3c\u3066\u3044\u308b\u304b\u3082\u3002\u30bb\u30eb\u30d5\u30e2\u30cb\u30bf\u30ea\u30f3\u30b0\u3084\u8a8d\u77e5\u7684\u5224\u65ad\u6a5f\u80fd\u3092\u30e2\u30c2\u30e5\u30ec\u30fc\u30c8\u3057\u3066\u308b\u306e\u304b",
+                "author": {
+                    "name": "Irene_Adler",
+                    "url": "http:\/\/d.hatena.ne.jp\/lilium-aesthetica69",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/534170561354555392\/cG9f4tbw_normal.jpeg",
+                    "description": "plotin\u306b\u604b\u5fc3\u3001schelling\u306b\u6de1\u304d\u60f3\u3044\u3001bachelard\u306e\u5bb6\u3067\u5fae\u7761\u307f\u3001hei\u306e\u5de8\u77f3\u306b\u3057\u304b\u3081\u3063\u9762\u3001\u30e1\u30eb\u30dd\u30f3\u3092\u89e6\u77e5\u3057\u3064\u3064\u3001\u30e9\u30b8\u30aa\u304c\u604b\u4eba\u3001violin\u306f\u7247\u5272\u308c\u3001\u306a\u8ff7\u8d70\u4eba\u3002\u89e6\u899a,\u7a7a\u9593,\u63a5\u89e6,\u5bd3\u610f,\u610f\u5fd7,\u80af\u5b9a\u611f\u3002",
+                    "id_on_source": "Rrose_Seravy",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 272
+                },
+                "tweet_id": "434337435430830080"
+            },
+            {
+                "url": "https:\/\/twitter.com\/CAPITALMTS\/status\/438286083890368512",
+                "posted_on": "2014-02-25T12:15:20+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "PLOS ONE: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation  http:\/\/t.co\/fz61JqRIw4",
+                "author": {
+                    "name": "CAPITALMTS",
+                    "url": "http:\/\/t.co\/hRwr9cz9p7",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/436671421943537664\/hKFLTulZ_normal.png",
+                    "description": "Using Music to Reach Your Full Potential",
+                    "id_on_source": "CAPITALMTS",
+                    "geo": {
+                        "_id": "NOVA, D.C., & MD"
+                    },
+                    "followers": 62
+                },
+                "tweet_id": "438286083890368512"
+            },
+            {
+                "url": "http:\/\/twitter.com\/EPMusicoterapia\/status\/440440186372366336",
+                "posted_on": "2014-03-03T10:54:58+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Estudio neurol\u00f3gico sobre la creatividad en los m\u00fasicos de jazz. http:\/\/t.co\/UGJrJfFRkg",
+                "author": {
+                    "name": "Esther Musicoterapia",
+                    "url": "http:\/\/t.co\/hGnxfOyC",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/2958236580\/4db88fea13861b9eb0c9fd48f38ae212_normal.jpeg",
+                    "description": "Psic\u00f3loga y musicoterapeuta, intentando vivir la m\u00fasica, tocar la vida...",
+                    "id_on_source": "EPMusicoterapia",
+                    "geo": {
+                        "lt": "40.4167047",
+                        "ln": "-3.7035825",
+                        "_id": "Madrid",
+                        "country": "ES"
+                    },
+                    "followers": 155
+                },
+                "tweet_id": "440440186372366336"
+            },
+            {
+                "url": "http:\/\/twitter.com\/aljorape\/status\/450631041292959744",
+                "posted_on": "2014-03-31T13:49:47+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/GtPfLDFY7R",
+                "author": {
+                    "name": "aljorape",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/433376707773743105\/TQ615ftN_normal.jpeg",
+                    "description": "Lcdo en M\u00fasica - UNET. Amante de la LIBERTAD, la DEMOCRACIA, y la REP\u00daBLICA",
+                    "id_on_source": "aljorape",
+                    "geo": {
+                        "lt": "7.7711317",
+                        "ln": "-72.2231038",
+                        "_id": "San Crist\u00f3bal, Venezuela",
+                        "country": "VE"
+                    },
+                    "followers": 317
+                },
+                "tweet_id": "450631041292959744"
+            },
+            {
+                "url": "https:\/\/twitter.com\/wesevanstra\/status\/550332778769035267",
+                "posted_on": "2014-12-31T16:48:53+00:00",
+                "license": "datasift",
+                "rt": [
+                    "byrd_nick"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "\"Neural Substrates of Spontaneous Musical Performance: An fMRI Study of #Jazz Improvisation\" http:\/\/t.co\/r9A99pkStv #cogSci #neuroscience",
+                "author": {
+                    "name": "Evan Westra",
+                    "url": "https:\/\/sites.google.com\/site\/ewestraphilosophy\/",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/466052145507078144\/3Lq_rQh1_normal.jpeg",
+                    "description": "Ph.D. student doing philosophy of psychology at UMD.",
+                    "id_on_source": "wesevanstra",
+                    "geo": {
+                        "lt": "38.980666",
+                        "ln": "-76.9369189",
+                        "country": "US"
+                    },
+                    "followers": 103
+                },
+                "tweet_id": "550332778769035267"
+            },
+            {
+                "url": "https:\/\/twitter.com\/stephspiro\/status\/573169734109302784",
+                "posted_on": "2015-03-04T17:14:48+00:00",
+                "license": "datasift",
+                "rt": [
+                    "wasuzuki"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Keith Jarrett solo piano improviations at Carnegie last night.  Amazing and here is what's happening in his brain:  http:\/\/t.co\/zebP5yyeAi",
+                "author": {
+                    "name": "Stephanie Spiro",
+                    "url": "http:\/\/theviralmedialab.org\/author\/stephanie\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/3507608880\/625989494110519d9a0670c6163ff155_normal.jpeg",
+                    "description": "#Film #Culture #Neuro Contributor @bitrebels @HuffingtonPost @LunaLunaMag | Feat in HuffPost's #twitterpowerhouses. Started a series on #crowdfunding.",
+                    "id_on_source": "stephspiro",
+                    "geo": {
+                        "lt": 43.00035,
+                        "ln": -75.4999,
+                        "country": "US"
+                    },
+                    "followers": 2205
+                },
+                "tweet_id": "573169734109302784"
+            },
+            {
+                "url": "https:\/\/twitter.com\/kotlersteven\/status\/608015360328089600",
+                "posted_on": "2015-06-08T20:58:52+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Reminded again of Charles Limb's great research into the neurobiology of flow and jazz improv: http:\/\/t.co\/esR2NVUa9f",
+                "author": {
+                    "name": "Steven Kotler",
+                    "url": "http:\/\/www.stevenkotler.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/378800000795087072\/b1fe734eb0987bdcaffa57db0f94d15b_normal.jpeg",
+                    "description": "Author. Cofounder and Director of Research Flow Genome Project. Gravity Lover.",
+                    "id_on_source": "kotlersteven",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 7494
+                },
+                "tweet_id": "608015360328089600"
+            },
+            {
+                "url": "https:\/\/twitter.com\/sbaroncohen\/status\/609979106558648320",
+                "posted_on": "2015-06-14T07:02:06+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Simon Baron-Cohen",
+                    "url": "http:\/\/www.autismresearchcentre.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/1567009587\/simon_in_trinity_low_res_normal.jpg",
+                    "description": "cognitive neuroscientist;\n\nauthor 'Zero Degrees of Empathy' (Penguin), 'The Essential Difference' (Penguin), and 'Mindblindness' (MIT Press)",
+                    "id_on_source": "sbaroncohen",
+                    "geo": {
+                        "lt": 52.2,
+                        "ln": 0.11667,
+                        "country": "GB"
+                    },
+                    "followers": 20836
+                },
+                "tweet_id": "609979106558648320"
+            },
+            {
+                "url": "https:\/\/twitter.com\/rockinangeluk\/status\/609980742991527936",
+                "posted_on": "2015-06-14T07:08:36+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Gillian Naysmith",
+                    "url": "http:\/\/embracingautism.co.uk",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/2705037449\/8648f3646f41dfa1d1cd870e55112c65_normal.jpeg",
+                    "description": "Mum to a 7 yr old son with Autism.  Embracing Autism run workshops for anyone wishing to learn about Autism, check our website for details...",
+                    "id_on_source": "rockinangeluk",
+                    "followers": 147
+                },
+                "tweet_id": "609980742991527936"
+            },
+            {
+                "url": "https:\/\/twitter.com\/robinhosking\/status\/609981782855942144",
+                "posted_on": "2015-06-14T07:12:44+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Mr Robin Hosking",
+                    "url": "http:\/\/www.hosking.me",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/698646280738889729\/KSR-jPCv_normal.jpg",
+                    "description": "North London leftie. Partial to pressed white shirts and dark blue jeans. Old soul at heart. Tall leggy brunette. Interested in neuropsychiatry and #EDS",
+                    "id_on_source": "robinhosking",
+                    "geo": {
+                        "lt": 51.50853,
+                        "ln": -0.12574,
+                        "country": "GB"
+                    },
+                    "followers": 2039
+                },
+                "tweet_id": "609981782855942144"
+            },
+            {
+                "url": "https:\/\/twitter.com\/blumes15\/status\/609981796898504704",
+                "posted_on": "2015-06-14T07:12:47+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Stacy Blume",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/2678462470\/4cfde8097dd0d3060538ef15270923a1_normal.jpeg",
+                    "id_on_source": "blumes15",
+                    "geo": {
+                        "lt": "40.7305991",
+                        "ln": "-73.9865812",
+                        "country": "US"
+                    },
+                    "followers": 15
+                },
+                "tweet_id": "609981796898504704"
+            },
+            {
+                "url": "https:\/\/twitter.com\/HoccleveSociety\/status\/609982876390703104",
+                "posted_on": "2015-06-14T07:17:05+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Hoccleve Society",
+                    "url": "http:\/\/hocclevesociety.org\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/3695842177\/f28ec4910fdad992874d32661df7b6e4_normal.png",
+                    "description": "The International Hoccleve Society is a community devoted to promoting innovative research and scholarship on the late-medieval poet Thomas Hoccleve.",
+                    "id_on_source": "HoccleveSociety",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 1260
+                },
+                "tweet_id": "609982876390703104"
+            },
+            {
+                "url": "https:\/\/twitter.com\/passingstranger\/status\/609985896314740736",
+                "posted_on": "2015-06-14T07:29:05+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "lyn",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/418305131353210880\/HfWB0M3j_normal.jpeg",
+                    "description": "Freespirited,motorcyclist,campervan loving media freelancer. Music lover.Autism Advocate,Compassionate Campaigner for Children's Rights.Bilingual.",
+                    "id_on_source": "passingstranger",
+                    "followers": 317
+                },
+                "tweet_id": "609985896314740736"
+            },
+            {
+                "url": "https:\/\/twitter.com\/painphysio\/status\/610010296279822336",
+                "posted_on": "2015-06-14T09:06:02+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Richmond Stace",
+                    "url": "http:\/\/www.specialistpainphysio.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/568136171050795009\/MKr8Y8XB_normal.jpeg",
+                    "description": "I think about pain, consciousness, life | physio, pain coach, neuroscience, coffee, rock, speaker, write here http:\/\/bit.ly\/1OUSAdU | co-founder @upandsing",
+                    "id_on_source": "painphysio",
+                    "geo": {
+                        "lt": 51.50853,
+                        "ln": -0.12574,
+                        "country": "GB"
+                    },
+                    "followers": 7640
+                },
+                "tweet_id": "610010296279822336"
+            },
+            {
+                "url": "https:\/\/twitter.com\/MilaVulchanova\/status\/610015054155632640",
+                "posted_on": "2015-06-14T09:24:57+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Mila Vulchanova",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/544741235231961088\/ol95_H7S_normal.jpeg",
+                    "id_on_source": "MilaVulchanova",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 42
+                },
+                "tweet_id": "610015054155632640"
+            },
+            {
+                "url": "https:\/\/twitter.com\/Carlotta_raby\/status\/610017262720954368",
+                "posted_on": "2015-06-14T09:33:43+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Carlotta",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/542054840730681344\/dTzZHSXJ_normal.jpeg",
+                    "description": "Particularly interested in current affairs, human rights, child and adolescent psychology, and PTSD: views are all my own.",
+                    "id_on_source": "Carlotta_raby",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 110
+                },
+                "tweet_id": "610017262720954368"
+            },
+            {
+                "url": "https:\/\/twitter.com\/MoniquePost1\/status\/610022126733631488",
+                "posted_on": "2015-06-14T09:53:03+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Monique Post",
+                    "url": "http:\/\/www.moniquepost.com",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/459222259123879936\/oC3N1RHx_normal.jpeg",
+                    "description": "Autism lecturer + campaigner| Voorzitter Ervaringsraad LeoKannerhuisNederland | Artist | Believer that just one person CAN make a difference!",
+                    "id_on_source": "MoniquePost1",
+                    "geo": {
+                        "lt": "51.588785",
+                        "ln": "4.7760206",
+                        "country": "NL"
+                    },
+                    "followers": 1130
+                },
+                "tweet_id": "610022126733631488"
+            },
+            {
+                "url": "https:\/\/twitter.com\/PatelVijita\/status\/610022380392587264",
+                "posted_on": "2015-06-14T09:54:03+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Vijita Patel",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/436519878661791745\/pjnK3tEJ_normal.jpeg",
+                    "description": "Associate Principal @ Swiss Cottage School Development & Research Centre...Passionate about meeting the real needs of SEN learners.",
+                    "id_on_source": "PatelVijita",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 240
+                },
+                "tweet_id": "610022380392587264"
+            },
+            {
+                "url": "https:\/\/twitter.com\/Aaspieguy\/status\/610034063244689408",
+                "posted_on": "2015-06-14T10:40:29+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "michael jones",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/698562781684088832\/MD_VIkp2_normal.jpg",
+                    "description": "A Film,Sci-fi and book fan I have High Functioning Autism I am Autistic",
+                    "id_on_source": "Aaspieguy",
+                    "geo": {
+                        "lt": 54.75844,
+                        "ln": -2.69531,
+                        "country": "GB"
+                    },
+                    "followers": 216
+                },
+                "tweet_id": "610034063244689408"
+            },
+            {
+                "url": "https:\/\/twitter.com\/lisamareedom\/status\/610034168119066624",
+                "posted_on": "2015-06-14T10:40:54+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "lisa domican",
+                    "url": "https:\/\/www.youtube.com\/watch?v=vYe2Vp6YxK4",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/691758194838913025\/nXEXTxNA_normal.jpg",
+                    "description": "Social Entrepreneur, Autism & Communications Advocate & Mum to 2 lovable autistic teenagers. Co-created Grace app with Steve Troughton-Smith.",
+                    "id_on_source": "lisamareedom",
+                    "geo": {
+                        "lt": 53,
+                        "ln": -8,
+                        "country": "IE"
+                    },
+                    "followers": 4099
+                },
+                "tweet_id": "610034168119066624"
+            },
+            {
+                "url": "https:\/\/twitter.com\/ITLWorldwide\/status\/610034788896870400",
+                "posted_on": "2015-06-14T10:43:22+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Independent Thinking",
+                    "url": "http:\/\/www.independentthinking.co.uk",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/638416659489800192\/pYd0IPUB_normal.jpg",
+                    "description": "There's always another way. Teaching. Learning. Thinking. Leadership. Ideas, not egos. People, not systems. Join us.",
+                    "id_on_source": "ITLWorldwide",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 6728
+                },
+                "tweet_id": "610034788896870400"
+            },
+            {
+                "url": "https:\/\/twitter.com\/neuroraf\/status\/610039129326419970",
+                "posted_on": "2015-06-14T11:00:37+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Raphael Bene",
+                    "url": "http:\/\/coreinterface.org",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/447002839974281216\/nevg65-F_normal.jpeg",
+                    "description": "Track, teach & share brain science to open my mind, connect & find how it can help my patients. MD, CRO @Core_Interface. Danchi's man, Roko & Luna's daddy pliiz",
+                    "id_on_source": "neuroraf",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 2201
+                },
+                "tweet_id": "610039129326419970"
+            },
+            {
+                "url": "https:\/\/twitter.com\/OsteopathEdin\/status\/610054175209205760",
+                "posted_on": "2015-06-14T12:00:24+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Edinburgh Osteopath",
+                    "url": "http:\/\/www.howclinic.com\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/482899646478835713\/gBaFe_tP_normal.jpeg",
+                    "description": "Helen =European School of Osteopathy hands on Skills uses MKS shockwave therapy on muscles + EB rehab = collagen takes 100 days to mature please be patient !",
+                    "id_on_source": "OsteopathEdin",
+                    "geo": {
+                        "lt": 55.95206,
+                        "ln": -3.19648,
+                        "country": "GB"
+                    },
+                    "followers": 536
+                },
+                "tweet_id": "610054175209205760"
+            },
+            {
+                "url": "https:\/\/twitter.com\/itsJackL\/status\/610147470564323328",
+                "posted_on": "2015-06-14T18:11:07+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Jack C. Lennon Jr.",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/638146261351276544\/zRn7bUxZ_normal.jpg",
+                    "description": "Clinical Neuropsychology student | Researcher | Humanist | Grantwriter | Social justice activist | Advocate for science & reason",
+                    "id_on_source": "itsJackL",
+                    "geo": {
+                        "lt": "39.7837304",
+                        "ln": "-100.4458825",
+                        "country": "US"
+                    },
+                    "followers": 834
+                },
+                "tweet_id": "610147470564323328"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/embws\/status\/222967451451785216",
+                "posted_on": "2012-07-11T08:15:57+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "@yusunbin Hello! Your prefrontal cortex disengages during Jazz improvisation.see http:\/\/t.co\/xuT3AZFf",
+                "author": {
+                    "name": "Dr Emma",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/378800000611759342\/c30c5a1d7d0d73fa413d21a4c59f9fd7_normal.jpeg",
+                    "description": "Neuroscientist. Mouse whisperer. Tasmanian lady.",
+                    "id_on_source": "embws",
+                    "geo": {
+                        "lt": -37.83333,
+                        "ln": 144.96667,
+                        "country": "AU"
+                    },
+                    "followers": 1741
+                },
+                "tweet_id": "222967451451785216"
+            },
+            {
+                "url": "https:\/\/twitter.com\/SonneImPark\/status\/610430482157842432",
+                "posted_on": "2015-06-15T12:55:42+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "PatriziaTamborrini",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/680428000576434176\/L9GWdXC6_normal.jpg",
+                    "description": "Amateur photographer,Nurse\/hobbies:books,art,yoga,politics-SP\/work:Demenz,Palliative care,ethics,age questions\/privately:everything about autism",
+                    "id_on_source": "SonneImPark",
+                    "geo": {
+                        "lt": "46.7985624",
+                        "ln": "8.2319736",
+                        "country": "CH"
+                    },
+                    "followers": 465
+                },
+                "tweet_id": "610430482157842432"
+            },
+            {
+                "url": "https:\/\/twitter.com\/PaulaVicensB\/status\/610452589365329921",
+                "posted_on": "2015-06-15T14:23:33+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Paula Vicens",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/434755398000594944\/uhCz4E3S_normal.jpeg",
+                    "description": "M\u2019agrada la meva feina. Soc doctora en Psicologia des que vaig tenir el meu primer fill, l\u2019any 1992. Estic agra\u00efda per tot el que encara em queda per aprendre.",
+                    "id_on_source": "PaulaVicensB",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 57
+                },
+                "tweet_id": "610452589365329921"
+            },
+            {
+                "url": "https:\/\/twitter.com\/DrXaverius\/status\/611220210020958208",
+                "posted_on": "2015-06-17T17:13:48+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Como muestra de lo que digo, este paper http:\/\/t.co\/H9KBYlTv0Z que busca la base neurol\u00f3gica de la creatividad... https:\/\/t.co\/sLbuispAwT",
+                "author": {
+                    "name": "Doctor Zorronkonstin",
+                    "url": "https:\/\/biolovulpes.wordpress.com\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/698103843935154176\/MK_wJOGy_normal.png",
+                    "description": "Bi\u00f3logo v\u00edctima de asesinato casi una veces. Metacontrarian. Neurosupremacista trastornado. Enemigo de la naturaleza humana. Tuitcasado con @Artirkel",
+                    "id_on_source": "DrXaverius",
+                    "geo": {
+                        "lt": 37.18817,
+                        "ln": -3.60667,
+                        "country": "ES"
+                    },
+                    "followers": 1231
+                },
+                "tweet_id": "611220210020958208"
+            },
+            {
+                "url": "http:\/\/twitter.com\/RRiverosM\/statuses\/337996027330179072",
+                "posted_on": "2013-05-24T18:18:27+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Hoy hablaremos de neurociencias, movimiento y creatividad. Quiere ver un ejemplo? http:\/\/t.co\/eAZPT6r6R0",
+                "author": {
+                    "name": "Rodrigo Riveros M",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/528749754243493888\/fD4rg2fT_normal.jpeg",
+                    "description": "Brain and Cognitive Science en USC. Me dedico a investigar la interacci\u00f3n entre cerebro y cultura. Me gusta el tuit costumbrista.",
+                    "id_on_source": "RRiverosM",
+                    "geo": {
+                        "lt": 34.05223,
+                        "ln": -118.24368,
+                        "country": "US"
+                    },
+                    "followers": 743
+                },
+                "tweet_id": "337996027330179072"
+            },
+            {
+                "url": "http:\/\/twitter.com\/#!\/AndySchroeder\/status\/339797563240751105",
+                "posted_on": "2013-05-29T17:37:06+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation (via @Pocket) #longreads - http:\/\/t.co\/TAO17ZhWPX",
+                "author": {
+                    "name": "Andy Schroeder",
+                    "url": "http:\/\/www.unexpectedproductions.org\/cast\/AndySchroeder",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/484097573326581762\/rqBhPwqC_normal.jpeg",
+                    "description": "Improviser and Improv Instructor and Coach with @UnexpectedImpro",
+                    "id_on_source": "AndySchroeder",
+                    "geo": {
+                        "lt": "47.6038321",
+                        "ln": "-122.3300624",
+                        "country": "US"
+                    },
+                    "followers": 4559
+                },
+                "tweet_id": "339797563240751105"
+            },
+            {
+                "url": "https:\/\/twitter.com\/tauppen\/status\/611504296144826368",
+                "posted_on": "2015-06-18T12:02:40+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Jane",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/618848096433233920\/3dCkm7vi_normal.png",
+                    "description": "Campaigner for social justice,mental health,carers and human rights,austerity only exists to enrich the rich.",
+                    "id_on_source": "tauppen",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 584
+                },
+                "tweet_id": "611504296144826368"
+            },
+            {
+                "url": "https:\/\/twitter.com\/lazycunt\/status\/611510750901858304",
+                "posted_on": "2015-06-18T12:28:18+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "andrea barker",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/1746475010\/f4daf558-e8f9-43b8-9793-69d7814c6711_normal.png",
+                    "id_on_source": "lazycunt",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 763
+                },
+                "tweet_id": "611510750901858304"
+            },
+            {
+                "url": "https:\/\/twitter.com\/GammaCounter\/status\/593421033408966658",
+                "posted_on": "2015-04-29T14:26:14+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "MRI during \"spontaneous musical performance.\" Much cortical disinhibition. http:\/\/t.co\/vbs7FwJk8Z \u219d@eatchaos @shar418 http:\/\/t.co\/4f7C91vbhU",
+                "author": {
+                    "name": "Alan",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/558811867796086785\/bxxwwR8C_normal.jpeg",
+                    "description": "Radiologist, & former molecular biologist. Opinions may not be statistically significant.",
+                    "id_on_source": "GammaCounter",
+                    "geo": {
+                        "lt": 41.85003,
+                        "ln": -87.65005,
+                        "country": "US"
+                    },
+                    "followers": 3864
+                },
+                "tweet_id": "593421033408966658"
+            },
+            {
+                "url": "https:\/\/twitter.com\/PrinceofRazors\/status\/593421879660142593",
+                "posted_on": "2015-04-29T14:29:36+00:00",
+                "license": "datasift",
+                "rt": [
+                    "GammaCounter"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "MRI during \"spontaneous musical performance.\" Much cortical disinhibition. http:\/\/t.co\/vbs7FwJk8Z \u219d@eatchaos @shar418 http:\/\/t.co\/4f7C91vbhU",
+                "author": {
+                    "name": "Unrevealed",
+                    "url": "http:\/\/twitter.com\/PrinceofRazors",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/1220825142\/hog1_normal.jpg",
+                    "description": "A devotee of trainwrecks, with an aversion to toxicity. Rumored to vacation in Paracosma and carouse in Carcosa. Mad, bad, and dangerous to know.",
+                    "id_on_source": "PrinceofRazors",
+                    "geo": {
+                        "lt": 34.00043,
+                        "ln": -81.00009,
+                        "country": "US"
+                    },
+                    "followers": 1498
+                },
+                "tweet_id": "593421879660142593"
+            },
+            {
+                "url": "https:\/\/twitter.com\/RoxanaStere\/status\/612598530809720832",
+                "posted_on": "2015-06-21T12:30:45+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "roxana stere",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/579205607565225984\/yzMIb0A9_normal.jpg",
+                    "description": "G33 researcher human rights, organized crime,etc Co-author-Protection of Children from Illicit Drugs..CRC Art 33. Views = my own RT\/\/follow\u2260 always endorsements",
+                    "id_on_source": "RoxanaStere",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 539
+                },
+                "tweet_id": "612598530809720832"
+            },
+            {
+                "url": "https:\/\/twitter.com\/wasuzuki\/status\/573135294146453505",
+                "posted_on": "2015-03-04T14:57:57+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Keith Jarrett solo piano improviations at Carnegie last night.  Amazing and here is what's happening in his brain:  http:\/\/t.co\/zebP5yyeAi",
+                "author": {
+                    "name": "Wendy Suzuki",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/1448713738\/wendysuzuki_normal.jpg",
+                    "id_on_source": "wasuzuki",
+                    "followers": 248
+                },
+                "tweet_id": "573135294146453505"
+            },
+            {
+                "url": "http:\/\/twitter.com\/Dulce_LoRa\/status\/475369540226801664",
+                "posted_on": "2014-06-07T20:11:44+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "#PLOSONE: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/JaKHYnOxAN",
+                "author": {
+                    "name": "Dulce L\u00f3pez",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/475027633822904320\/uShb7-K7_normal.jpeg",
+                    "description": "Estudiante de Psicolog\u00eda en la UMSNH. No por mucho m\u00e1s... O s\u00ed?",
+                    "id_on_source": "Dulce_LoRa",
+                    "geo": {
+                        "lt": "19.65471545",
+                        "ln": "-101.262401399049",
+                        "country": "MX"
+                    },
+                    "followers": 46
+                },
+                "tweet_id": "475369540226801664"
+            },
+            {
+                "url": "http:\/\/twitter.com\/JustinCaouette\/status\/430716735541374976",
+                "posted_on": "2014-02-04T14:57:26+00:00",
+                "license": "public",
+                "rt": [
+                    "Phil_Robichaud"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "So awesome: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/WwRO43aV3h",
+                "author": {
+                    "name": "Justin Caouette",
+                    "url": "http:\/\/www.profjustincaouette.com\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/717609277058260993\/kf-leMFQ_normal.jpg",
+                    "description": "PhD candidate in Philosophy (Massachusetts native) Tweeting: Ethics, Enhancement, Free Will, Mind, Emotions, Punishment, Academia, Psychology, Neuroscience.",
+                    "id_on_source": "JustinCaouette",
+                    "geo": {
+                        "lt": 51.05011,
+                        "ln": -114.08529,
+                        "country": "CA"
+                    },
+                    "followers": 2650
+                },
+                "tweet_id": "430716735541374976"
+            },
+            {
+                "url": "http:\/\/twitter.com\/fishmarketstew\/status\/430723746706382848",
+                "posted_on": "2014-02-04T15:25:18+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "ICYMI: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation. cc: @mike_gordon http:\/\/t.co\/831fL5cqjE",
+                "author": {
+                    "name": "fishmarketstew",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/2291667515\/image_normal.jpg",
+                    "description": "Philosophy, Phish and politics.",
+                    "id_on_source": "fishmarketstew",
+                    "geo": {
+                        "lt": 52.088928,
+                        "ln": 5.1154,
+                        "country": "NL"
+                    },
+                    "followers": 249
+                },
+                "tweet_id": "430723746706382848"
+            },
+            {
+                "url": "https:\/\/twitter.com\/jknox78251\/status\/608015422030548992",
+                "posted_on": "2015-06-08T20:59:07+00:00",
+                "license": "datasift",
+                "rt": [
+                    "kotlersteven"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Reminded again of Charles Limb's great research into the neurobiology of flow and jazz improv: http:\/\/t.co\/esR2NVUa9f",
+                "author": {
+                    "name": "Jess Knox",
+                    "url": "http:\/\/www.olympicostrategies.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/509036607001722880\/fgXrB26b_normal.jpeg",
+                    "description": "movement maker; growth consultant; father; love Maine & progress; Maine Startup & Create Week, @MaineXGrowth @startupportland @olympicostrat",
+                    "id_on_source": "jknox78251",
+                    "geo": {
+                        "lt": 43.66147,
+                        "ln": -70.25533,
+                        "country": "US"
+                    },
+                    "followers": 1999
+                },
+                "tweet_id": "608015422030548992"
+            },
+            {
+                "url": "https:\/\/twitter.com\/emtenenbaum\/status\/608016638185734144",
+                "posted_on": "2015-06-08T21:03:57+00:00",
+                "license": "datasift",
+                "rt": [
+                    "kotlersteven"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Reminded again of Charles Limb's great research into the neurobiology of flow and jazz improv: http:\/\/t.co\/esR2NVUa9f",
+                "author": {
+                    "name": "E M",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/491599301714247680\/Xml-ZtN1_normal.jpeg",
+                    "id_on_source": "emtenenbaum",
+                    "followers": 67
+                },
+                "tweet_id": "608016638185734144"
+            },
+            {
+                "url": "https:\/\/twitter.com\/AutismResearchT\/status\/614022458761478144",
+                "posted_on": "2015-06-25T10:48:56+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "AutismResearchTrust",
+                    "url": "http:\/\/www.AutismResearchTrust.org",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/613797191803609088\/yytUWvml_normal.png",
+                    "description": "Funding high quality and ground breaking research into Autism Spectrum Condition.",
+                    "id_on_source": "AutismResearchT",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 1524
+                },
+                "tweet_id": "614022458761478144"
+            },
+            {
+                "url": "https:\/\/twitter.com\/LisaLisaLisaD\/status\/614029329547325440",
+                "posted_on": "2015-06-25T11:16:14+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "LeilaD",
+                    "url": "http:\/\/www.mixcloud.com\/djvidkid\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/720414861604364288\/d2uwheM8_normal.jpg",
+                    "description": "Speech Language Pathologist in the making. autism research and advocacy, educational policy, and curriculum development #SearchandResearch #Wheresthedata?",
+                    "id_on_source": "LisaLisaLisaD",
+                    "geo": {
+                        "lt": 42.3751,
+                        "ln": -71.10561,
+                        "country": "US"
+                    },
+                    "followers": 111
+                },
+                "tweet_id": "614029329547325440"
+            },
+            {
+                "url": "https:\/\/twitter.com\/inscapetherapi1\/status\/611937779094790144",
+                "posted_on": "2015-06-19T16:45:10+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Brian Smith",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/589512050931585024\/-K-7td9P_normal.jpg",
+                    "description": "Consutant Music Therapist.  Founder and director of Inscape Therapies Scotland.",
+                    "id_on_source": "inscapetherapi1",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 90
+                },
+                "tweet_id": "611937779094790144"
+            },
+            {
+                "url": "https:\/\/twitter.com\/UTAS_MPH\/status\/615359403382829056",
+                "posted_on": "2015-06-29T03:21:29+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "SoM Public Health",
+                    "url": "http:\/\/www.utas.edu.au\/medicine\/medicine\/postgrad",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/463123725995352064\/VuNxudQm_normal.png",
+                    "description": "University of Tasmania, Public Health        Remote & Polar Medicine Stream  http:\/\/t.co\/AUilXNPteQ",
+                    "id_on_source": "UTAS_MPH",
+                    "geo": {
+                        "lt": -42.87936,
+                        "ln": 147.32941,
+                        "country": "AU"
+                    },
+                    "followers": 811
+                },
+                "tweet_id": "615359403382829056"
+            },
+            {
+                "url": "https:\/\/twitter.com\/anibalmastobiza\/status\/615760521216720898",
+                "posted_on": "2015-06-30T05:55:23+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Anibal M. Astobiza",
+                    "url": "http:\/\/sapereaudere.blogspot.com\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/557161853726384128\/dx6v1teK_normal.jpeg",
+                    "description": "Graduated in Philosophy from University of Deusto (\u00b403) and PhD  in Cognitive Science and Humanities from  University of the Basque Country (\u00b414).",
+                    "id_on_source": "anibalmastobiza",
+                    "geo": {
+                        "lt": 40,
+                        "ln": -4,
+                        "country": "ES"
+                    },
+                    "followers": 2613
+                },
+                "tweet_id": "615760521216720898"
+            },
+            {
+                "url": "https:\/\/twitter.com\/MartinDowds1\/status\/617577712627134464",
+                "posted_on": "2015-07-05T06:16:15+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Martin Dowds",
+                    "url": "https:\/\/www.writersandartists.co.uk\/profile\/martin-dowds\/work\/569cf70d387140ce498b4569",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/689467246507352064\/ED1uZixu_normal.jpg",
+                    "description": "Writer, musician\r\n\r\nmartindowds@hotmail.com",
+                    "id_on_source": "MartinDowds1",
+                    "geo": {
+                        "lt": 55.95206,
+                        "ln": -3.19648,
+                        "country": "GB"
+                    },
+                    "followers": 87
+                },
+                "tweet_id": "617577712627134464"
+            },
+            {
+                "url": "https:\/\/twitter.com\/RocioCarrion81\/status\/618404815442444288",
+                "posted_on": "2015-07-07T13:02:52+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Roc\u00edo Garc\u00eda Carri\u00f3n",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/1508957454\/roci_en_montblanc_normal.jpg",
+                    "description": "Ikerbasque Res Fellow at Deusto Univ. Advancing knowledge to provide better education for all. Co-editor of the International Journal of Educational Psychology",
+                    "id_on_source": "RocioCarrion81",
+                    "followers": 1042
+                },
+                "tweet_id": "618404815442444288"
+            },
+            {
+                "url": "https:\/\/twitter.com\/MDRoberts7\/status\/621501683634302976",
+                "posted_on": "2015-07-16T02:08:42+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Michelle Roberts",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/670280629800427520\/hqSCfEAR_normal.jpg",
+                    "description": "Journalist turned therapist. By day: @healthlitmo. By night: PhD candidate and empathy researcher. MEd. MSJ. INFJ.",
+                    "id_on_source": "MDRoberts7",
+                    "geo": {
+                        "lt": 38.6245,
+                        "ln": -90.15094,
+                        "country": "US"
+                    },
+                    "followers": 136
+                },
+                "tweet_id": "621501683634302976"
+            },
+            {
+                "url": "https:\/\/twitter.com\/MaryChambers\/status\/622923994359046145",
+                "posted_on": "2015-07-20T00:20:28+00:00",
+                "license": "datasift",
+                "rt": [
+                    "sbaroncohen"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Creative attempt by neuroscience http:\/\/t.co\/bNEIiAyXC8 to study creativity in the brain in musicians http:\/\/t.co\/DeyqrPShil",
+                "author": {
+                    "name": "Dr Mary Chambers",
+                    "url": "http:\/\/www.education.leeds.ac.uk\/people\/staff\/academic\/chambersm",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/727252632746790917\/AzRQhCTF_normal.jpg",
+                    "description": "Married to Mark, Mum to 2 great boys J + Matt. Love life, family, faith, and friends. Associate Professor Developmental Psychology. Musician. Love Wales + WRU",
+                    "id_on_source": "MaryChambers",
+                    "geo": {
+                        "lt": 54,
+                        "ln": -1.5,
+                        "country": "GB"
+                    },
+                    "followers": 688
+                },
+                "tweet_id": "622923994359046145"
+            },
+            {
+                "url": "https:\/\/twitter.com\/BalamMageria22\/status\/627875647721897984",
+                "posted_on": "2015-08-02T16:16:34+00:00",
+                "license": "datasift",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of #Jazz Improvisation http:\/\/t.co\/bFlamEg4E0",
+                "author": {
+                    "name": "\u24b6 \u028d\u01df\u0280\u0188\u0585\u0586 \u0561\u0585\u029f\u0284 \u262f",
+                    "url": "https:\/\/cyberchaosblog.wordpress.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/676596642766716929\/edRlEcDv_normal.jpg",
+                    "description": "Cyber-Dissident: http:\/\/thefifthcolumnnews.com Writer:\/\/Art-Alchemy-Code-rEvolution-Philosophy #BlackLivesMatter",
+                    "id_on_source": "BalamMageria22",
+                    "geo": {
+                        "lt": "45.5202471",
+                        "ln": "-122.6741949",
+                        "country": "US"
+                    },
+                    "followers": 350
+                },
+                "tweet_id": "627875647721897984"
+            },
+            {
+                "url": "http:\/\/twitter.com\/JonLundbom\/statuses\/655962113228279808",
+                "posted_on": "2015-10-19T04:22:09+00:00",
+                "license": "gnip",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": ".@radiolab Get on it! http:\/\/t.co\/mZVVrc5yS5",
+                "author": {
+                    "name": "Jon Lundbom",
+                    "url": "http:\/\/www.jonlundbom.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/567695948373966848\/2rV8t_NY_normal.jpeg",
+                    "description": "Guitar, banjo, beer, whiskey, cheese, music. Performer, educator, enthusiast. Beer stuff @BUnitedInt, music stuff @BigFiveChord and http:\/\/www.JonLundbom.com",
+                    "id_on_source": "JonLundbom",
+                    "geo": {
+                        "lt": "40.6501038",
+                        "ln": "-73.9495823",
+                        "country": "US"
+                    },
+                    "followers": 284
+                },
+                "tweet_id": "655962113228279808"
+            },
+            {
+                "url": "http:\/\/twitter.com\/NilsThS\/statuses\/655966919523045376",
+                "posted_on": "2015-10-19T04:41:15+00:00",
+                "license": "gnip",
+                "rt": [
+                    "JonLundbom"
+                ],
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "RT @JonLundbom: .@radiolab Get on it! http:\/\/t.co\/mZVVrc5yS5",
+                "author": {
+                    "name": "Nils Thomas Songstad",
+                    "url": "http:\/\/www.facebook.com\/nils.thomas.songstad",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/502833986495066112\/atTUYLy2_normal.jpeg",
+                    "description": "Tr\u00f8tt, men blid far til 4 og barnelege. Troms\u00f8 @UNN_HF Currently Neonatal research at @thewomens Melbourne #CyclingMamil #Swansea #NorthMel",
+                    "id_on_source": "NilsThS",
+                    "geo": {
+                        "lt": 69.6489,
+                        "ln": 18.95508,
+                        "country": "NO"
+                    },
+                    "followers": 1183
+                },
+                "tweet_id": "655966919523045376"
+            },
+            {
+                "url": "http:\/\/twitter.com\/amit_pande\/status\/378427965429645312",
+                "posted_on": "2013-09-13T08:00:32+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "#PLOSONE: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/SrInUKO3VS",
+                "author": {
+                    "name": "Amit",
+                    "url": "http:\/\/amitpande.co",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/701541027505549312\/V8hIwwO0_normal.jpg",
+                    "description": "Enterprise Product Marketing, UX Design, Product Dev. Stanford GSB Sloan. Graphic Novel writer. Podcast Host https:\/\/medium.com\/enterprise-should-suck-less.",
+                    "id_on_source": "amit_pande",
+                    "geo": {
+                        "lt": 37.77493,
+                        "ln": -122.41942,
+                        "country": "US"
+                    },
+                    "followers": 1720
+                },
+                "tweet_id": "378427965429645312"
+            },
+            {
+                "url": "http:\/\/twitter.com\/BrunoGebarski\/status\/436621035392466944",
+                "posted_on": "2014-02-20T21:59:01+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "4 The Excel CxO a MUST READ! Neural Substrates of Spontaneous Study of Jazz Improvisation #socbiz #socialCEO http:\/\/t.co\/HbhYrY0jyQ",
+                "author": {
+                    "name": "Bruno Gebarski",
+                    "url": "https:\/\/brunogebarski.wordpress.com\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/378800000592994208\/0f0ae26cc6e2ff02ddd98d4cf043c848_normal.png",
+                    "description": "Founder of Vision 2021 #ChangeManagement, Collaborative Enterprise; Aligning People, Culture, Strategy & Processes | With a touch of Sauvignon blanc & foie gras",
+                    "id_on_source": "BrunoGebarski",
+                    "geo": {
+                        "lt": 48.85693,
+                        "ln": 2.3412,
+                        "country": "FR"
+                    },
+                    "followers": 16752
+                },
+                "tweet_id": "436621035392466944"
+            },
+            {
+                "url": "http:\/\/twitter.com\/fishmarketstew\/status\/430675963744382977",
+                "posted_on": "2014-02-04T12:15:25+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "So awesome: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/V9t8mtKMEe",
+                "author": {
+                    "name": "fishmarketstew",
+                    "image": "http:\/\/a0.twimg.com\/profile_images\/2291667515\/image_normal.jpg",
+                    "description": "Philosophy, Phish and politics.",
+                    "id_on_source": "fishmarketstew",
+                    "geo": {
+                        "lt": 52.088928,
+                        "ln": 5.1154,
+                        "country": "NL"
+                    },
+                    "followers": 249
+                },
+                "tweet_id": "430675963744382977"
+            },
+            {
+                "url": "http:\/\/twitter.com\/Mary_Spiro\/status\/436522043622699008",
+                "posted_on": "2014-02-20T15:25:40+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "This is your brain on jazz.Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/t.co\/5zi4TN9KNk",
+                "author": {
+                    "name": "Mary Spiro",
+                    "url": "http:\/\/metallomusikum.wordpress.com\/",
+                    "image": "http:\/\/pbs.twimg.com\/profile_images\/458804465802301440\/ErD3kuqL_normal.jpeg",
+                    "description": "#science #university #research #writer #Baltimore #concerts #blogger #HeavyMetal #blackmetal #reviews  Comments are my own.",
+                    "id_on_source": "Mary_Spiro",
+                    "geo": {
+                        "lt": "39.2908608",
+                        "ln": "-76.6108073",
+                        "country": "US"
+                    },
+                    "followers": 2387
+                },
+                "tweet_id": "436522043622699008"
+            },
+            {
+                "url": "http:\/\/twitter.com\/pablonoel\/status\/418945521894424576",
+                "posted_on": "2014-01-03T03:22:50+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation \u2014 http:\/\/t.co\/Z11oc6mcGa",
+                "author": {
+                    "name": "Pablo Noel",
+                    "url": "http:\/\/pablonoel.com",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/3603206687\/1bb4bbf6f9da7f8b2e7c7cd70edc60c3_normal.jpeg",
+                    "id_on_source": "pablonoel",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 381
+                },
+                "tweet_id": "418945521894424576"
+            },
+            {
+                "url": "https:\/\/twitter.com\/symphonicworks\/status\/442277813333553152",
+                "posted_on": "2014-03-08T12:37:02+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "\u30b8\u30e3\u30ba\u306e\u5373\u8208\u6f14\u594f\u3067\u306f\u8133\u306e\u50cd\u304d\u3082\u5373\u8208 \u6d77\u5916\u30cb\u30e5\u30fc\u30b9\u3010\u5065\u5eb7\u7f8e\u5bb9EXPO\u3011 http:\/\/t.co\/2RR7JTOgUZ \u5143\u8ad6\u6587 http:\/\/t.co\/aOg4hTcHvE",
+                "author": {
+                    "name": "Takuro Maruyama, PhD",
+                    "url": "http:\/\/d.hatena.ne.jp\/symphonicworks\/",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/824731095\/____normal.jpg",
+                    "description": "\u795e\u7d4c\u79d1\u5b66\u8005\u3084\u3063\u3066\u307e\uff5e\u3059\uff0f\u30c4\u30a4\u30ed\u30b0\u59cb\u3081\u307e\u3057\u305f http:\/\/twilog.org\/symphonicworks  \uff0f\u64ae\u308a\u305f\u3081\u305f\u5199\u771f\u3092Flickr\u306b\u7f6e\u3044\u3066\u307e\uff5e\u3059 http:\/\/www.flickr.com\/photos\/67960453@N05\/",
+                    "id_on_source": "symphonicworks",
+                    "geo": {
+                        "lt": null,
+                        "ln": null
+                    },
+                    "followers": 1367
+                },
+                "tweet_id": "442277813333553152"
+            },
+            {
+                "url": "http:\/\/twitter.com\/JGHJazz\/statuses\/730875030234628096",
+                "posted_on": "2016-05-12T21:39:20+00:00",
+                "license": "gnip",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural substrates of spontaneous musical performance: an FMRI study of jazz improvisation. https:\/\/t.co\/n2lC5IUnYG",
+                "author": {
+                    "name": "JGHJazz",
+                    "url": "http:\/\/jgh.ca\/jazz",
+                    "image": "https:\/\/pbs.twimg.com\/profile_images\/607608025038364673\/9W1JNhAP_normal.jpg",
+                    "description": "Jewish General Hospital jazzfest (jghjazz). annually since 1999. \nnow in partnership with Suoni per il Popolo",
+                    "id_on_source": "JGHJazz",
+                    "geo": {
+                        "lt": 45.50884,
+                        "ln": -73.58781,
+                        "country": "CA"
+                    },
+                    "followers": 22
+                },
+                "tweet_id": "730875030234628096"
+            }
+        ],
+        "googleplus": [
+            {
+                "title": "If you're feeling the need to peruse a scientific paper, here's one about what's happening in the brain...",
+                "url": "https:\/\/plus.google.com\/117133512880271706035\/posts\/aVxYmqZYCwU",
+                "posted_on": "2012-11-20T21:12:41+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "If you're feeling the need to peruse a scientific paper, here's one about what's happening in the brain... If you&#39;re feeling the need to peruse a scientific paper, here&#39;s one about what&#39;s happening in the brain while improvising. Neural Substra",
+                "author": {
+                    "name": "Blue Bop",
+                    "url": "https:\/\/plus.google.com\/117133512880271706035",
+                    "image": "https:\/\/lh5.googleusercontent.com\/-w-7rZcc99DI\/AAAAAAAAAAI\/AAAAAAAAACs\/xyR_FUxenoI\/photo.jpg?sz=50",
+                    "id_on_source": "117133512880271706035"
+                }
+            },
+            {
+                "title": "Interesting. More in depth links to the studies on rappers: http:\/\/www.nature.com\/srep\/2012\/121115\/srep00834...",
+                "url": "https:\/\/plus.google.com\/113789643587070961420\/posts\/eYnDPwfXW56",
+                "posted_on": "2012-11-16T22:21:22+00:00",
+                "citation_ids": [
+                    1068977,
+                    101320
+                ],
+                "summary": "Interesting. More in depth links to the studies on rappers: http:\/\/www.nature.com\/srep\/2012\/121115\/srep00834... Interesting.\u00a0More in depth links to the studies on rappers:http:\/\/www.nature.com\/srep\/2012\/121115\/srep00834\/full\/srep00834.htmlAnd Jazz musician",
+                "author": {
+                    "name": "Melissa Young",
+                    "url": "https:\/\/plus.google.com\/113789643587070961420",
+                    "image": "https:\/\/lh6.googleusercontent.com\/-QctecBeK8dg\/AAAAAAAAAAI\/AAAAAAAAMzo\/C9dV4nvF8EE\/photo.jpg?sz=50",
+                    "id_on_source": "113789643587070961420"
+                }
+            },
+            {
+                "title": "\"Neural Substrates of Spontaneous Musical Performance: An fMRI Study of #Jazz Improvisation\" http:\/\/...",
+                "url": "https:\/\/plus.google.com\/106230426377488921702\/posts\/DwTH2zFKvBS",
+                "posted_on": "2014-12-31T18:32:05+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "\"Neural Substrates of Spontaneous Musical Performance: An fMRI Study of #Jazz Improvisation\" http:\/\/... &quot;Neural Substrates of Spontaneous Musical Performance: An fMRI Study of #Jazz Improvisation&quot; http:\/\/buff.ly\/1rv9DaW #cogSci #neuroscience\ufeff Neu",
+                "author": {
+                    "name": "Nick Byrd",
+                    "url": "https:\/\/plus.google.com\/+Byrdnick",
+                    "image": "https:\/\/lh5.googleusercontent.com\/-wf0KqJyG2nA\/AAAAAAAAAAI\/AAAAAAAAABs\/t5HihtdPVa8\/photo.jpg?sz=50",
+                    "id_on_source": "106230426377488921702"
+                }
+            },
+            {
+                "url": "https:\/\/plus.google.com\/116036638762609495671\/posts\/ix2Ci8RdWAY",
+                "posted_on": "2013-10-04T18:05:38+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation http:\/\/www.plosone.org\/article\/info%3Adoi%2F10.1371%2Fjournal.pone.0001679",
+                "author": {
+                    "name": "Adam Croom",
+                    "url": "https:\/\/plus.google.com\/+AdamCroom",
+                    "image": "https:\/\/lh5.googleusercontent.com\/-_LkVHrvo7eU\/AAAAAAAAAAI\/AAAAAAAAOMM\/t38clrVpocQ\/photo.jpg?sz=50",
+                    "id_on_source": "116036638762609495671"
+                }
+            },
+            {
+                "title": "Charles Limb, the inspiration for our \"Out on a Limb\" workshop, College Music Society, Ocotober 29, ...",
+                "url": "https:\/\/plus.google.com\/108098480880120555292\/posts\/YR2UzvnEbHA",
+                "posted_on": "2014-04-24T14:28:50+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Charles Limb, the inspiration for our \"Out on a Limb\" workshop, College Music Society, Ocotober 29, ... Charles Limb, the inspiration for our &quot;Out on a Limb&quot; workshop, College Music Society, Ocotober 29, 2014, in St Louis.\ufeff Neural Substrates of S",
+                "author": {
+                    "name": "Bang Lang",
+                    "url": "https:\/\/plus.google.com\/108098480880120555292",
+                    "image": "https:\/\/lh5.googleusercontent.com\/-xMfvzf3KRT4\/AAAAAAAAAAI\/AAAAAAAAABY\/qPbGczCtUjA\/photo.jpg?sz=50",
+                    "id_on_source": "108098480880120555292"
+                }
+            },
+            {
+                "url": "https:\/\/plus.google.com\/114566964124219653550\/posts\/6sh7EfKqfnH",
+                "posted_on": "2016-01-28T17:17:09+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation To investigate the neural substrates that underlie spontaneous musical performance, we examined improvisation in professional jazz pianists using functional MRI. By e",
+                "author": {
+                    "name": "Tony Searl",
+                    "url": "https:\/\/plus.google.com\/114566964124219653550",
+                    "image": "https:\/\/lh3.googleusercontent.com\/-lYe8cVsyJrM\/AAAAAAAAAAI\/AAAAAAAAHqE\/RbCoDCoIZw0\/photo.jpg?sz=50",
+                    "id_on_source": "114566964124219653550"
+                }
+            }
+        ],
+        "blogs": [
+            {
+                "title": "This is Your Brain on Jazz",
+                "url": "http:\/\/musicalperceptions.blogspot.com\/2008\/03\/this-is-your-brain-on-jazz.html",
+                "posted_on": "2008-03-02T02:38:50+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Mind Hacks has written about a new study of the neuroscience of jazz improvisation.  Six pianists' brains were scanned while they performed a scale, a memorized jazz melody, or improvisations of either the scale or the melody.  \"For Scale's improvisation c",
+                "author": {
+                    "name": "Musical Perceptions",
+                    "url": "http:\/\/musicalperceptions.blogspot.com",
+                    "description": "Perceptions about music, perceptions that affect music, perceptions colored by music, perceptions expressed by music."
+                }
+            },
+            {
+                "title": "Your brain on improv",
+                "url": "http:\/\/noustuff.wordpress.com\/2011\/01\/08\/your-brain-on-improv\/",
+                "posted_on": "2011-01-08T22:52:00+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Charles Limb is a surgeon and musician who is investigating the neural correlates of musical creativity. You might remember his very cool fMRI study of jazz improvisation. You can read it here. He talks about this and other projects he&#8217;s working on i",
+                "author": {
+                    "name": "Nou Stuff",
+                    "url": "http:\/\/noustuff.wordpress.com\/",
+                    "description": "From Brains to Smaller Less Useful Things..."
+                }
+            },
+            {
+                "title": "What Improv Teaches Us About Creativity",
+                "url": "http:\/\/whywereason.wordpress.com\/2012\/05\/08\/what-improv-teaches-us-about-creativity\/",
+                "posted_on": "2012-05-08T17:19:00+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "My latest at my Big Think Blog. I explore improv and the idea of agreement.\nThe most important rule in improvisation comedy is the idea of agreement, the notion that a scene flourishes when all the players accept anything that happens to them. Improv isn\u2019t",
+                "author": {
+                    "name": "Why We Reason",
+                    "url": "http:\/\/whywereason.wordpress.com",
+                    "description": "Connecting Psychology To The World, And The World To Psychology"
+                }
+            },
+            {
+                "title": "What Improv Teaches Us About Creativity",
+                "url": "http:\/\/whywereason.com\/2012\/05\/08\/what-improv-teaches-us-about-creativity\/",
+                "posted_on": "2012-05-08T17:19:00+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "My latest at my Big Think Blog. I explore improv and the idea of agreement.\nThe most important rule in improvisation comedy is the idea of agreement, the notion that a scene flourishes when all the players accept anything that happens to them. Improv isn\u2019t",
+                "author": {
+                    "name": "Why We Reason",
+                    "url": "http:\/\/whywereason.wordpress.com",
+                    "description": "Connecting Psychology To The World, And The World To Psychology"
+                }
+            },
+            {
+                "title": "Smart Babies",
+                "url": "http:\/\/scienceblogs.com\/cortex\/2010\/07\/14\/smart-babies\/",
+                "posted_on": "2010-07-14T19:36:00+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Over at Sciam&#8217;s Mind Matters, Melody Dye has a great post on the surprising advantages of thinking like a baby. At first glance, this might seem like a ridiculous conjecture: A baby, after all, is missing most of the capabilities that define the huma",
+                "author": {
+                    "name": "The Frontal Cortex",
+                    "url": "http:\/\/scienceblogs.com\/cortex\/",
+                    "description": ""
+                }
+            },
+            {
+                "title": "99 problems but fMRI ain't one: Rappers help scientists study creativity",
+                "url": "http:\/\/arstechnica.com\/science\/2012\/11\/99-problems-but-fmri-aint-one-rappers-help-scientists-study-creativity\/",
+                "posted_on": "2012-11-15T18:30:00+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Rap's appeal extends to the US embassy in Algeria.\n\t\n\t\t\t\n\t\t\t\t\t\t\tUS State Department\n\t\t\t\t\n\t  \n  \n At Ars, we\u2019ve seen tears and faux tarantulas inside fMRI machines, but here\u2019s a new one: rappers. A group of researchers from NIH wanted to",
+                "author": {
+                    "name": "Nobel Intent",
+                    "url": "http:\/\/arstechnica.com\/science\/",
+                    "description": "The Art of Technology"
+                }
+            },
+            {
+                "title": "A Peek Inside Rappers' Brains Shows Roots Of Improvisation",
+                "url": "http:\/\/www.npr.org\/blogs\/health\/2012\/11\/14\/165145967\/a-peek-inside-rappers-brains-shows-roots-of-improvisation?ft=1&amp;f=103537970",
+                "posted_on": "2012-11-15T15:42:00+00:00",
+                "citation_ids": [
+                    101320,
+                    1068977
+                ],
+                "summary": "A Peek Inside Rappers' Brains Shows Roots Of Improvisation\n   \n   \n   \n\n\n\n\n      \n            \n                  by Sarah Zielinski\n      \n      \n\n   \n   \n\n   \n            November 15, 201210:42 AM\n   \n\n\n\n\n      Some rappers have an impressive abili",
+                "author": {
+                    "name": "Shots - Health News",
+                    "url": "http:\/\/www.npr.org\/blogs\/health\/",
+                    "description": "The NPR Health Blog"
+                }
+            },
+            {
+                "title": "Improvisation in Music is Independent of Central Brain Functions",
+                "url": "http:\/\/anthropology.net\/2008\/03\/03\/improvisation-in-music-is-independent-of-central-brain-functions\/",
+                "posted_on": "2008-03-04T04:02:23+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Charles Limb and Allen Braun at Johns Hopkins have recently published a study on the internal characteristics and functions of improvisation in music. The study, \u201cNeural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation,\u201d u",
+                "author": {
+                    "name": "Anthropology.net",
+                    "url": "http:\/\/anthropology.net\/",
+                    "description": "Beyond bones & stones"
+                }
+            },
+            {
+                "title": "Music Made Visible",
+                "url": "http:\/\/nottotallyrad.blogspot.com\/2008\/03\/music-made-visible.html",
+                "posted_on": "2008-03-04T08:27:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "How and why did humans evolve the ability to make and hear music?It's easy to understand how stronger muscles, sharper eyes and a smarter brain would be great survival traits.  The capacity to speak makes evolutionary sense as well - just the ability to ye",
+                "author": {
+                    "name": "Not Totally Rad",
+                    "url": "http:\/\/nottotallyrad.blogspot.com\/",
+                    "description": "Shedding invisible light on medical imaging"
+                }
+            },
+            {
+                "title": "The Brain and Musical Creativity: TED Talk of Charles Limb",
+                "url": "http:\/\/brainposts.blogspot.com\/2011\/01\/brain-and-musical-creativity-ted-talk.html",
+                "posted_on": "2011-01-19T02:43:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Here are my notes from an intriguing TED presentation looking at musical creativity and functional MRI.Charles Limb MD is a\u00a0 surgeon who also studies creativityA key research focus is to define the mechanisms of brain creativityWork related to this product",
+                "author": {
+                    "name": "Brain Posts",
+                    "url": "http:\/\/brainposts.blogspot.com\/",
+                    "description": ""
+                }
+            },
+            {
+                "title": "Play what you know and then play above that: The role of improvisation in mediation",
+                "url": "http:\/\/westallen.typepad.com\/brains_on_purpose\/2008\/07\/your-brain-on-jazz.html",
+                "posted_on": "2008-07-28T00:36:11+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320,
+                    1071155
+                ],
+                "summary": "",
+                "author": {
+                    "name": "Brains On Purpose\u2122",
+                    "url": "http:\/\/westallen.typepad.com\/brains_on_purpose\/",
+                    "description": "Neuroscience and conflict resolution\nStephanie West Allen, JD, in collaboration with Jeffrey M. Schwartz, MD"
+                }
+            },
+            {
+                "title": "How Jazz Players Get into the Zone",
+                "url": "http:\/\/feeds.feedburner.com\/~r\/SmoothPebbles\/~3\/242450323\/how-jazz-player.html",
+                "posted_on": "2008-02-28T02:21:34+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "",
+                "author": {
+                    "name": "Smooth Pebbles",
+                    "url": "http:\/\/dobbs.typepad.com\/smoothpebbles\/",
+                    "description": "David Dobbs, contributor to NY Times Magazine, Scientific American, and other publications, on science, medicine, nature, and culture"
+                }
+            },
+            {
+                "title": "Hip-Hop on the Brain",
+                "url": "http:\/\/feedproxy.google.com\/~r\/miller-mccune\/main_feed\/~3\/VlzQZ2ZXLL4\/",
+                "posted_on": "2012-11-16T15:49:57+00:00",
+                "license": "public",
+                "citation_ids": [
+                    1068977,
+                    101320
+                ],
+                "summary": "What freestyle rap can teach us about creativity and flow.",
+                "author": {
+                    "name": "Pacific Standard. Smart Journalism. Real Solutions.",
+                    "url": "http:\/\/www.psmag.com",
+                    "description": "Nationally Acclaimed Politics, Science and Culture Coverage."
+                }
+            },
+            {
+                "title": "The neuroscience of jazz improvisation",
+                "url": "http:\/\/neurophilosophy.wordpress.com\/2008\/02\/28\/the_neuroscience_of_jazz_impro",
+                "posted_on": "2008-02-28T07:40:42+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "",
+                "author": {
+                    "name": "The Neurophilosopher's weblog",
+                    "url": "http:\/\/neurophilosophy.wordpress.com",
+                    "description": ""
+                }
+            },
+            {
+                "title": "Smart Babies",
+                "url": "http:\/\/scienceblogs.com\/cortex\/2010\/07\/smart_babies.php?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+scienceblogs%2FwDAM+%28The+Frontal+Cortex%29",
+                "posted_on": "2010-07-15T00:36:00+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Over at Sciam's Mind Matters, Melody Dye has a great post on the surprising advantages of thinking like a baby. At first glance, this might seem like a ridiculous conjecture: A baby, after all, is missing most of the capabilities that define the human mind",
+                "author": {
+                    "name": "The Frontal Cortex",
+                    "url": "http:\/\/scienceblogs.com\/cortex\/",
+                    "description": ""
+                }
+            },
+            {
+                "title": "Quick Creativity: Music, Improvisation, and the Brain",
+                "url": "http:\/\/eideneurolearningblog.blogspot.com\/2008\/06\/quick-creativity-music-improvisation.html",
+                "posted_on": "2008-06-30T04:01:00+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "In this interesting paper from the NIH, researchers found that when jazz musicians improvised or made a spontaneously creative musical phrase using a MIDI keyboard, they deactivated large areas of their prefrontal (planning, attention) and limbic (emotions",
+                "author": {
+                    "name": "Eide Neurolearning Blog",
+                    "url": "http:\/\/eideneurolearningblog.blogspot.com\/",
+                    "description": "Weekly articles related to brain-based learning and learning styles, problem-solving and creativity, kids, families, and parenting, gifted and visual learners, dyslexia, attention deficit disorders, autism, and more."
+                }
+            },
+            {
+                "title": "The metaphysics of a Jazz Thing",
+                "url": "http:\/\/www.mindhacks.com\/blog\/2008\/02\/the_metaphysics_of_a.html",
+                "posted_on": "2008-02-28T03:33:33+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "A fantastic study has just been released by open-access science journal PLoS One that investigated the neuroscience of jazz improvisation.\n\nJazz musicians were put inside an fMRI brain scanner and were asked to do complete a number of different musical exe",
+                "author": {
+                    "name": "Mind Hacks",
+                    "url": "http:\/\/mindhacks.com\/",
+                    "description": "Neuroscience and psychology tricks to find out what's going on inside your brain."
+                }
+            },
+            {
+                "title": "PEBS News Roundup from the Johns Hopkins Berman Institute of Bioethics: Program in Ethics and Brain Sciences",
+                "url": "http:\/\/kolber.typepad.com\/ethics_law_blog\/2009\/01\/pebs-news-roundup-from-the-johns-hopkins-berman-institute-of-bioethics-program-in-ethics-and-brain-sciences.html",
+                "posted_on": "2009-01-06T21:31:37+00:00",
+                "citation_ids": [
+                    102832,
+                    126774,
+                    126775,
+                    101320,
+                    126777
+                ],
+                "summary": "The Program in Ethics\nand Brain Sciences (PEBS)\nis a collaborative neuroethics effort of theJohns\nHopkins Berman Institute of Bioethicsand theJohns Hopkins Brain Sciences\nInstitute. The primary goal of PEBS is to ensure that research in brain\nscience pro",
+                "author": {
+                    "name": "Neuroethics &amp; Law Blog",
+                    "url": "http:\/\/kolber.typepad.com\/ethics_law_blog\/",
+                    "description": "An interdisciplinary forum for legal and ethical issues related to the mind and brain."
+                }
+            },
+            {
+                "title": "The Neuroscience of Jazz",
+                "url": "http:\/\/www.shockmd.com\/2010\/01\/25\/the-neuroscience-of-jazz\/",
+                "posted_on": "2010-01-25T00:00:00+00:00",
+                "citation_ids": [
+                    101320,
+                    414635
+                ],
+                "summary": "Improvisation is the main feature of Jazz that\n    distinguishes it from other forms of music making.\n    Improvisation is the spontaneous musical performance within a\n    relevant musical context. I",
+                "author": {
+                    "name": "Dr Shock MD PhD",
+                    "url": "http:\/\/www.shockmd.com\/",
+                    "description": "A Neurostimulating Blog"
+                }
+            },
+            {
+                "title": "All that jazz",
+                "url": "http:\/\/charbonniers.org\/2011\/12\/08\/all-that-jazz\/",
+                "posted_on": "2011-12-08T09:27:00+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Do people have a different shade of consciousness when improvising jazz? I picture a jazz musician standing with his eyes closed, in a sort of trance, completely lost from the world, flowing zen-like with the spontaneous music, expressing his own sense of",
+                "author": {
+                    "name": "thoughts on thoughts",
+                    "url": "http:\/\/charbonniers.org\/",
+                    "description": "A blog on consciousness by Janet Kwasniak"
+                }
+            },
+            {
+                "title": "Criatividade infantil e o c\u00f3rtex frontal",
+                "url": "http:\/\/galluccineto.blogspot.com\/2010\/03\/criatividade-infantil-e-o-cortex.html",
+                "posted_on": "2010-03-28T17:05:00+00:00",
+                "citation_ids": [
+                    106042,
+                    101320
+                ],
+                "summary": "Voc&ecirc; est&aacute; no ensino m&eacute;dio (antigo colegial) e descobre que por algum motivo amanh&atilde; n&atilde;o haver&aacute; aula. O que vo&ccedil;&ecirc; faria neste dia livre? Agora imagine a mesma situa&ccedil;&atilde;o, mas suponha que voc&ec",
+                "author": {
+                    "name": "The Strange Loop",
+                    "url": "http:\/\/galluccineto.blogspot.com\/",
+                    "description": "Psiquiatria, comportamento   \n         e neuroci\u00eancia"
+                }
+            },
+            {
+                "title": "The Real Neuroscience of Creativity",
+                "url": "http:\/\/www.creativitypost.com\/science\/the_real_neuroscience_of_creativity",
+                "posted_on": "2013-08-28T14:57:00+00:00",
+                "citation_ids": [
+                    655995,
+                    1610170,
+                    101320,
+                    1068977,
+                    176366
+                ],
+                "summary": "\"The latest findings from the real neuroscience of creativity suggest that the right brain\/left brain distinction is not the right one when it comes to understanding how creativity is implemented in the brain. Creativity does not involve a single brain reg",
+                "author": {
+                    "name": "The Creativity Post",
+                    "url": "http:\/\/www.creativitypost.com\/",
+                    "description": ""
+                }
+            },
+            {
+                "title": "Scientists shed light on creativity by studying pianists' brain activity",
+                "url": "http:\/\/feeds.theguardian.com\/c\/34708\/f\/663867\/s\/33995908\/sc\/11\/l\/0L0Stheguardian0N0Cscience0C20A130Cnov0C120Cscientists0Ecreativity0Epianists0Ebrain0Eactivity\/story01.htm",
+                "posted_on": "2013-11-12T17:21:00+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Images of pianists' brains highlighted areas that seemed to underpin their musical creativityScientists claim to have shed light on the neural basis of creativity by scanning the brains of accomplished pianists while they improvised on a keyboard.Images of",
+                "author": {
+                    "name": "Science news, comment and analysis | theguardian.com",
+                    "url": "http:\/\/www.theguardian.com\/science",
+                    "description": "Latest news and features from theguardian.com, the world's leading liberal voice"
+                }
+            },
+            {
+                "title": "How To Improvise Like A Jazz Musician",
+                "url": "http:\/\/www.creativitypost.com\/psychology\/how_to_improvise_like_a_jazz_musician",
+                "posted_on": "2014-02-20T15:08:00+00:00",
+                "citation_ids": [
+                    1285270,
+                    101320,
+                    1572300
+                ],
+                "summary": "We don&rsquo;t have to be professional pianists to reap the benefits of improvisation.",
+                "author": {
+                    "name": "The Creativity Post",
+                    "url": "http:\/\/www.creativitypost.com\/",
+                    "description": ""
+                }
+            },
+            {
+                "title": "How Daydreaming Can Fix Your Brain",
+                "url": "http:\/\/www.motherjones.com\/environment\/2014\/10\/daniel-levitin-inquiring-minds",
+                "posted_on": "2014-10-13T10:00:00+00:00",
+                "citation_ids": [
+                    101320,
+                    2768660,
+                    110260,
+                    2484079,
+                    1073839
+                ],
+                "summary": "By the end of 2014, roughly 1 in 4 people worldwide will be using a smartphone&mdash;with the total number of users topping 1.75 billion. That's more smartphones, by the way, than PCs. Grandparents everywhere are mourning what surely marks a great decline",
+                "author": {
+                    "name": "Environment | Mother Jones",
+                    "url": "http:\/\/www.motherjones.com\/politics\/feed",
+                    "description": ""
+                }
+            },
+            {
+                "title": "The Creative Gifts of ADHD",
+                "url": "http:\/\/www.creativitypost.com\/psychology\/the_creative_gifts_of_adhd",
+                "posted_on": "2014-11-04T14:54:00+00:00",
+                "citation_ids": [
+                    2799410,
+                    2799411,
+                    2799412,
+                    2799413,
+                    595296,
+                    2799414,
+                    654252,
+                    377035,
+                    1730257,
+                    2799415,
+                    2799416,
+                    101320,
+                    1068977,
+                    2799417,
+                    2799418
+                ],
+                "summary": "Research supports the notion that people with ADHD characteristics are more likely to reach higher levels of creative thought and achievement than people without these characteristics.",
+                "author": {
+                    "name": "The Creativity Post",
+                    "url": "http:\/\/www.creativitypost.com\/",
+                    "description": ""
+                }
+            },
+            {
+                "title": "Why Improvisation Should Be Part of Every Young Musician\u2019s Training",
+                "url": "http:\/\/www.creativitypost.com\/arts\/why_improvisation_should_be_part_of_every_young_musicians_training",
+                "posted_on": "2015-07-15T16:29:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320,
+                    2500946
+                ],
+                "summary": "Improvisation is a key skill in the jazz world, but does it have a place in classical music training (and performance) as well?",
+                "author": {
+                    "name": "The Creativity Post",
+                    "url": "http:\/\/www.creativitypost.com\/",
+                    "description": ""
+                }
+            },
+            {
+                "title": "Even the Blues Feel Good in a Musician's Brain",
+                "url": "http:\/\/blogs.discovermagazine.com\/d-brief\/2016\/01\/05\/even-the-blues-feel-good-in-a-musician-brain\/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A%20DiscoverTopStories%20%28Discover%20Top%20Stories%29",
+                "posted_on": "2016-01-05T22:01:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    4949703,
+                    101320,
+                    2795359
+                ],
+                "summary": "Ever wondered why there are so many covers of &ldquo;Hallelujah&rdquo; out there? Sure, it&rsquo;s a good song, but recent research suggests that its popularity among artists may also have something to do with how sad it is.\n\nIn a study published&nbsp;Mond",
+                "author": {
+                    "name": "Discover Top Stories",
+                    "url": "http:\/\/pipes.yahoo.com\/pipes\/pipe.info?_id=d30c34c035f8073f5b4e3b69524cfd81",
+                    "description": "Pipes Output"
+                }
+            },
+            {
+                "title": "The Creative Gifts of ADHD",
+                "url": "http:\/\/rss.sciam.com\/~r\/beautiful-minds\/feed\/~3\/c-0yhkR58fA\/",
+                "posted_on": "2014-10-21T16:48:00+00:00",
+                "citation_ids": [
+                    2799410,
+                    2799411,
+                    2799412,
+                    2799413,
+                    595296,
+                    2799414,
+                    654252,
+                    377035,
+                    1730257,
+                    2799415,
+                    2799416,
+                    101320,
+                    1068977,
+                    2799417,
+                    2799418
+                ],
+                "summary": "&ldquo;Just because a diagnosis [of ADHD] can be made does not take away from the great traits we love about Calvin and his imaginary tiger friend, Hobbes. In fact, we actually love Calvin BECAUSE of...\n-- Read more on ScientificAmerican.com",
+                "author": {
+                    "name": "Scientific American Blog: Beautiful Minds",
+                    "url": "http:\/\/blogs.scientificamerican.com\/beautiful-minds",
+                    "description": "Insights into intelligence, creativity, and the mind"
+                }
+            },
+            {
+                "title": "The Creative Gifts of ADHD",
+                "url": "http:\/\/rss.sciam.com\/~r\/beautiful-minds\/feed\/~3\/fmeR2qTiO0I\/",
+                "posted_on": "2014-10-21T16:48:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    2799410,
+                    2799411,
+                    2799412,
+                    2799413,
+                    595296,
+                    2799414,
+                    654252,
+                    377035,
+                    1730257,
+                    2799415,
+                    2799416,
+                    101320,
+                    1068977,
+                    2799417,
+                    2799418
+                ],
+                "summary": "&ldquo;Just because a diagnosis [of ADHD] can be made does not take away from the great traits we love about Calvin and his imaginary tiger friend, Hobbes\n-- Read more on ScientificAmerican.com",
+                "author": {
+                    "name": "Scientific American Blog: Beautiful Minds",
+                    "url": "http:\/\/blogs.scientificamerican.com\/beautiful-minds",
+                    "description": "Insights into intelligence, creativity, and the mind"
+                }
+            }
+        ],
+        "facebook": [
+            {
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=299225163543014&id=295885067210357",
+                "posted_on": "2013-04-11T15:00:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Un solo de jazz con resonador magn\u00e9tico\r\n\r\n\u00bfEn qu\u00e9 piensa un jazzista cuando improvisa? \u00bfY un rapero cuando lanza sus rimas?\r\n\r\nEstas fueron algunas de las preguntas de Charles Limb y Allen Braun, neurobi\u00f3logos de la Universidad del Sur de California. Esta",
+                "author": {
+                    "name": "Historias Cienciacionales",
+                    "url": "https:\/\/www.facebook.com\/295885067210357",
+                    "facebook_wall_name": "Historias Cienciacionales",
+                    "image": "https:\/\/graph.facebook.com\/295885067210357\/picture",
+                    "id_on_source": "295885067210357"
+                }
+            },
+            {
+                "title": "PLOS ONE: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation",
+                "url": "https:\/\/www.facebook.com\/100004798956779\/posts\/157824301054201",
+                "posted_on": "2013-05-08T02:08:14+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Substratos neurais da performance musical espont\u00e2nea: Um estudo da improvisa\u00e7\u00e3o no JAZZ usando fMRI.",
+                "author": {
+                    "name": "Professor-Anibal de Macedo",
+                    "url": "https:\/\/www.facebook.com\/100004798956779",
+                    "facebook_wall_name": false,
+                    "image": "https:\/\/graph.facebook.com\/100004798956779\/picture",
+                    "id_on_source": "100004798956779"
+                }
+            },
+            {
+                "title": "PLoS ONE: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation",
+                "url": "https:\/\/www.facebook.com\/1010257580\/posts\/376087679112499",
+                "posted_on": "2012-06-22T10:25:01+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "http:\/\/www.plosone.org\/article\/info:doi%2F10.1371%2Fjournal.pone.0001679",
+                "author": {
+                    "name": "Al Agami",
+                    "url": "https:\/\/www.facebook.com\/1010257580",
+                    "facebook_wall_name": false,
+                    "image": "https:\/\/graph.facebook.com\/1010257580\/picture",
+                    "id_on_source": "1010257580"
+                }
+            },
+            {
+                "title": "PLoS ONE: Neural Substrates of Spontaneous Musical Performance: An fMRI Study of Jazz Improvisation",
+                "url": "https:\/\/www.facebook.com\/permalink.php?story_fbid=353906704675542&id=167833809994634",
+                "posted_on": "2012-06-02T19:52:36+00:00",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "\"Changes in prefrontal activity during improvisation were accompanied by widespread activation of neocortical sensorimotor areas (that mediate the organization and execution of musical performance) as well as deactivation of limbic structures (that regulat",
+                "author": {
+                    "name": "Muzykologia kognitywna",
+                    "url": "https:\/\/www.facebook.com\/167833809994634",
+                    "facebook_wall_name": "Muzykologia kognitywna",
+                    "image": "https:\/\/graph.facebook.com\/167833809994634\/picture",
+                    "id_on_source": "167833809994634"
+                }
+            }
+        ],
+        "news": [
+            {
+                "title": "Scientists shed light on creativity by studying pianists' brain activity",
+                "url": "http:\/\/www.theguardian.com\/science\/2013\/nov\/12\/scientists-creativity-pianists-brain-activity",
+                "posted_on": "2013-11-12T17:21:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320
+                ],
+                "summary": "Scientists claim to have shed light on the neural basis of creativity by scanning the brains of accomplished pianists while they improvised on a keyboard. Images of the pianists' brains highlighted areas that seemed to underpin their musical creativity, al",
+                "author": {
+                    "name": "The Guardian",
+                    "url": "http:\/\/www.guardian.co.uk\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/103\/normal\/the_guardian.png?1369846972"
+                }
+            },
+            {
+                "title": "The Creative Gifts of ADHD",
+                "url": "http:\/\/www.huffingtonpost.com\/scott-barry-kaufman\/the-creative-gifts-of-adh_b_6068400.html",
+                "posted_on": "2014-10-29T16:36:51+00:00",
+                "license": "public",
+                "citation_ids": [
+                    377035,
+                    654252,
+                    2799415,
+                    2799411,
+                    2799414,
+                    2799412,
+                    2799413,
+                    101320,
+                    1068977,
+                    1730257,
+                    2799418,
+                    2799417,
+                    595296,
+                    2799416,
+                    2799410
+                ],
+                "summary": "In his 2004 book \" Creativity is Forever \", Gary Davis reviewed the creativity literature from 1961 to 2003 and identified 22 reoccurring personality traits of creative people. This included 16 \"positive\" traits (e.g., independent, risk-taking, high energy",
+                "author": {
+                    "name": "Huffington Post",
+                    "url": "http:\/\/www.huffingtonpost.com\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/359\/normal\/image.png?1448021240"
+                }
+            },
+            {
+                "title": "If ADHD brains are the most creative, why do we treat it like a disability?",
+                "url": "http:\/\/www.rawstory.com\/rs\/2014\/11\/if-adhd-brains-are-the-most-creative-why-do-we-treat-it-like-a-disability\/",
+                "posted_on": "2014-11-08T11:08:34+00:00",
+                "license": "public",
+                "citation_ids": [
+                    1068977,
+                    377035,
+                    2799413,
+                    654252,
+                    2799415,
+                    2799411,
+                    2799414,
+                    2799412,
+                    101320,
+                    2799418,
+                    1730257,
+                    2799417,
+                    595296,
+                    2799416,
+                    2799410
+                ],
+                "summary": "In his 2004 book \u201cCreativity is Forever\u201c, Gary Davis reviewed the creativity literature from 1961 to 2003 and identified 22 reoccurring personality traits of creative people. This included 16 \u201cpositive\u201d traits (e.g., independent, risk-taking, high energy,",
+                "author": {
+                    "name": "The Raw Story",
+                    "url": "http:\/\/www.rawstory.com",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/195\/normal\/image.png?1370018737"
+                }
+            },
+            {
+                "title": "The Neuroscience Of Freestyle Rap: How Creativity Pathways Give Us The Gift Of Improv",
+                "url": "http:\/\/www.medicaldaily.com\/neuroscience-freestyle-rap-how-creativity-pathways-give-us-gift-improv-322732",
+                "posted_on": "2015-02-20T12:00:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320,
+                    1068977,
+                    2131991
+                ],
+                "summary": "How can the brain make such quick decisions and still make an unwritten rhyme sound so good?",
+                "author": {
+                    "name": "Medical Daily",
+                    "url": "http:\/\/www.medicaldaily.com\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/106\/normal\/image.png?1369927015"
+                }
+            },
+            {
+                "title": "Overworking Your Brain Can Spark Ideas",
+                "url": "http:\/\/www.scientificamerican.com\/article\/overworking-your-brain-can-spark-ideas\/",
+                "posted_on": "2015-06-09T11:15:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    108398,
+                    101320,
+                    2794330
+                ],
+                "summary": "Mental exhaustion can unleash creativity, research shows -- Read more on ScientificAmerican.com",
+                "author": {
+                    "name": "Scientific American",
+                    "url": "http:\/\/www.scientificamerican.com\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/101\/normal\/scientific_american.png?1369846970"
+                }
+            },
+            {
+                "title": "Brain Scans of Rappers Shed Light on Creativity",
+                "url": "http:\/\/www.scientificamerican.com\/article.cfm?id=brain-scans-of-rappers-shed-light-on-creativity",
+                "posted_on": "2012-11-15T23:00:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    1071155,
+                    1068977,
+                    101320,
+                    218900
+                ],
+                "summary": "",
+                "author": {
+                    "name": "Scientific American",
+                    "url": "http:\/\/www.scientificamerican.com\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/101\/normal\/scientific_american.png?1369846970"
+                }
+            },
+            {
+                "title": "Brain Scans of Rappers Shed Light on Creativity",
+                "url": "http:\/\/www.scientificamerican.com\/article.cfm?id=brain-scans-of-rappers-shed-light-on-creativity&print=true",
+                "posted_on": "2012-11-15T23:00:00+00:00",
+                "citation_ids": [
+                    1068977,
+                    101320,
+                    218900,
+                    1071155
+                ],
+                "summary": "Rappers making up rhymes on the fly while in a brain scanner have provided an insight into the creative process. [More]",
+                "author": {
+                    "name": "Scientific American",
+                    "url": "http:\/\/www.scientificamerican.com\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/101\/normal\/scientific_american.png?1369846970"
+                }
+            },
+            {
+                "title": "Mental exhaustion has its perks: The secret to unlocking your creativity",
+                "url": "http:\/\/www.salon.com\/2015\/06\/12\/mental_exhaustion_has_its_perks_the_secret_to_unlocking_your_creativity_partner_partner\/",
+                "posted_on": "2015-06-12T08:33:58+00:00",
+                "license": "public",
+                "citation_ids": [
+                    108398,
+                    2794330,
+                    101320
+                ],
+                "summary": "Counterintuitive new research suggests we're often our most dynamic selves when we're completely drained",
+                "author": {
+                    "name": "Salon",
+                    "url": "http:\/\/salon.com",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/290\/normal\/Screen_Shot_2016-01-06_at_15.18.42.png?1452093542"
+                }
+            },
+            {
+                "title": "4 Ways Technology Can Help Your Creativity.",
+                "url": "http:\/\/article.wn.com\/view\/2015\/07\/10\/4_Ways_Technology_Can_Help_Your_Creativity\/",
+                "posted_on": "2015-07-10T12:37:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    1610170,
+                    101320,
+                    377035
+                ],
+                "summary": "The last Quick Fix cartoon asked the question: How often do you have to have sex? For any cartoon you enjoy, you\u2019re invited to share it anyplace except Pinterest. And \u2026 ......",
+                "author": {
+                    "name": "World News Network",
+                    "url": "http:\/\/wn.com\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/822\/normal\/image.png?1398864186"
+                }
+            },
+            {
+                "title": "Why Music Always Gets Us So Emotional",
+                "url": "http:\/\/ct.moreover.com\/?a=23252559159&p=1pl&v=1&x=7pyMEqk-C2PAPJs_-JQaUg",
+                "posted_on": "2015-11-03T21:04:33+00:00",
+                "license": "public",
+                "citation_ids": [
+                    4714642,
+                    101320
+                ],
+                "summary": "According to Charles Darwin, the father of evolution, our ancient ancestors communicated with music far before they evolved the ability to use speech.",
+                "author": {
+                    "name": "Medical Daily",
+                    "url": "http:\/\/www.medicaldaily.com\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/106\/normal\/image.png?1369927015"
+                }
+            },
+            {
+                "title": "Making it up as you go along: how your brain freestyles",
+                "url": "http:\/\/ct.moreover.com\/?a=25530921068&p=1pl&v=1&x=s_fgk69cc9oe80xQEf6TNA",
+                "posted_on": "2016-02-20T09:00:44+00:00",
+                "license": "public",
+                "citation_ids": [
+                    4949703,
+                    101320,
+                    2131991
+                ],
+                "summary": "Have you ever been at a concert and seen a musician or rapper start to improvise? It can often seem effortless or even magical.",
+                "author": {
+                    "name": "The Guardian",
+                    "url": "http:\/\/www.guardian.co.uk\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/103\/normal\/the_guardian.png?1369846972"
+                }
+            },
+            {
+                "title": "The Myth of the Neurotic Creative",
+                "url": "http:\/\/ct.moreover.com\/?a=25646066298&p=1pl&v=1&x=UBbAT4_E8SFyhX-brTMkYQ",
+                "posted_on": "2016-02-29T12:48:39+00:00",
+                "license": "public",
+                "citation_ids": [
+                    1952633,
+                    2103787,
+                    1205483,
+                    4177495,
+                    1068977,
+                    101320,
+                    4061339,
+                    1120251,
+                    5011912,
+                    1130817,
+                    3868810
+                ],
+                "summary": "There are a lot of things I want to be true. I wish that binge watching New Girl on Netflix made me lose weight.",
+                "author": {
+                    "name": "The Atlantic",
+                    "url": "http:\/\/www.theatlantic.com\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/060\/normal\/the_atlantic.png?1369846946"
+                }
+            },
+            {
+                "title": "Is Solitude A Key Element Of Creativity?",
+                "url": "http:\/\/ct.moreover.com\/?a=25861177331&p=1pl&v=1&x=Nyo1AN1pfdmfGZqsULBFpw",
+                "posted_on": "2016-03-18T20:00:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    1121027,
+                    1610170,
+                    101320,
+                    1068977,
+                    6231543
+                ],
+                "summary": "Charles Dickens didn\u2019t just have a great mind, he had great calves as well. On any given day, Dickens averaged 19+ kilometres of walking through the lush Kent countryside or the bustling streets of Victorian London.",
+                "author": {
+                    "name": "Lifehacker",
+                    "url": "http:\/\/www.lifehacker.com",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/539\/normal\/Screen_Shot_2016-02-02_at_16.33.30.png?1454430826"
+                }
+            },
+            {
+                "title": "Mapping Creativity in the Brain",
+                "url": "http:\/\/ct.moreover.com\/?a=25898586465&p=1pl&v=1&x=jBJ4ELwS4_lHNn-68cmYbg",
+                "posted_on": "2016-03-21T12:30:00+00:00",
+                "license": "public",
+                "citation_ids": [
+                    101320,
+                    1068977,
+                    4949703
+                ],
+                "summary": "The writer Edith Wharton, a self-professed \u201cslow worker,\u201d dismissed the idea of easy creative triumph.",
+                "author": {
+                    "name": "The Atlantic",
+                    "url": "http:\/\/www.theatlantic.com\/",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/060\/normal\/the_atlantic.png?1369846946"
+                }
+            },
+            {
+                "title": "How ADHD is radically mistreated",
+                "url": "http:\/\/www.salon.com\/2014\/11\/07\/how_adhd_is_radically_mistreated_partner\/",
+                "posted_on": "2014-11-07T12:14:05+00:00",
+                "license": "public",
+                "citation_ids": [
+                    377035,
+                    2799413,
+                    654252,
+                    2799411,
+                    2799414,
+                    2799412,
+                    2799415,
+                    101320,
+                    1068977,
+                    1730257,
+                    2799418,
+                    2799417,
+                    595296,
+                    2799416,
+                    2799410
+                ],
+                "summary": "Research shows that children with ADHD are often extremely creative. Our institutions are failing them",
+                "author": {
+                    "name": "Salon",
+                    "url": "http:\/\/salon.com",
+                    "image": "https:\/\/s3.amazonaws.com\/weyland.altmetric.com\/news_sources\/logos\/000\/000\/290\/normal\/Screen_Shot_2016-01-06_at_15.18.42.png?1452093542"
+                }
+            }
+        ]
+    }
+}

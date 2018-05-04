@@ -4,9 +4,11 @@ from pprint import pprint
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from langdetect import detect
 from langdetect.lang_detect_exception import LangDetectException
-import matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import rc
+from matplotlib.ticker import PercentFormatter
+import pandas as pd
 
 """ Need to store JSON files into a list or dicts that can be used to build a chart
 
@@ -15,12 +17,12 @@ import matplotlib.pyplot as plt
     iterate through a root directory
         for each json file found
             load json
-            skip if altmetric score < 100
+            skip if altmetric score < 10
             try to get twitter data
                 for each twitter post
                     skip tweets already processed (retweets)
                     skip tweets not in english
-                    remove title from post summary and apply sentiment analysis
+                    remove title from tweet text and apply sentiment analysis
                     append result to lists
                 find average sentiment score for current JSON file and store it
                 store posts count for JSON
@@ -33,50 +35,55 @@ import matplotlib.pyplot as plt
             try to get blog data
                 (repeat process)
                 ...
+            find overall average sentiment score and store it
     build charts: sentiment score histogram
-    build charts: scatter plot sentiment vs. post count
+    build charts: sentiment vs. altmetric score scatter plot
     build chart: platform comparison
+    Find correlation between sentiment score and altmetric score
 """
 total_sent_scores = []
-total_avg_sent_scores = []
-total_post_counts = []
+total_paper_avg_sent_scores = []
+total_paper_altmetric_scores = []
 
 all_twitter_sent_scores = []
 all_twitter_avg_scores =[]
-all_tweet_counts = []
+# all_tweet_counts = []
+all_twitter_altmetric_scores = []
 tCount = 0
 
 all_facebook_sent_scores = []
 all_facebook_avg_scores = []
-all_facebook_counts = []
+# all_facebook_counts = []
+all_facebook_altmetric_scores = []
 fCount = 0
 
 all_blogs_sent_scores = []
 all_blogs_avg_scores = []
-all_blogs_counts = []
+# all_blogs_counts = []
+all_blogs_altmetric_scores = []
 bCount = 0
 
 all_googleplus_sent_scores = []
 all_googleplus_avg_scores = []
-all_googleplus_counts = []
+# all_googleplus_counts = []
+all_googleplus_altmetric_scores = []
 gCount = 0
 
 pCount = 0
 sa = SentimentIntensityAnalyzer()
-rootdir = "some/folder/path"
+rootdir = "D:/altmetrics/data/10/"
 
 for rootpath, subdirectories, files in os.walk(rootdir):
     for filename in files:
         filepath = os.path.join(rootpath, filename)
         jsonfile = json.load(open(filepath))
 
-        if (jsonfile["altmetric_score"]["score"] < 100):  # filter out papers with score < 100
+        if (jsonfile["altmetric_score"]["score"] < 10):  # filter out papers with score < 10
             continue
-        pCount += 1
+        paper_total_sent_scores = []
         
         # get Twitter data
         try:
-            # tw = []
             paper_twitter_sent_scores = []
             retweets = []
             tAnalyzed = 0
@@ -94,16 +101,15 @@ for rootpath, subdirectories, files in os.walk(rootdir):
                 tCount += 1  # running count of ALL tweets
                 tAnalyzed += 1  # running count of tweets analyzed for the current json
                 saScores = sa.polarity_scores(t["summary"].replace(jsonfile["citation"]["title"], ""))  # exclude title and analyze
-                paper_twitter_sent_scores.append(saScores["compound"])  # add to list of sentiment scores for the current JSON
-                all_twitter_sent_scores.append(saScores["compound"])  # add to the list of all twitter sentiment scores
+                paper_twitter_sent_scores.append(saScores["compound"])  # add to list of twitter sentiment scores for the current JSON
+                all_twitter_sent_scores.append(saScores["compound"])  # add to the list of twitter sentiment scores
                 total_sent_scores.append(saScores["compound"])  # add to the list of all sentiment scores
 
             if (tAnalyzed > 0):
                 avgscore = sum(paper_twitter_sent_scores) / len(paper_twitter_sent_scores)  # find average sentiment score in for the current JSON
-                total_avg_sent_scores.append(avgscore)
-                all_twitter_avg_scores.append(avgscore)
-                total_post_counts.append(jsonfile["counts"]["twitter"]["posts_count"])
-                all_tweet_counts.append(jsonfile["counts"]["twitter"]["posts_count"])
+                all_twitter_avg_scores.append(avgscore)  # add to list of average twitter sentiments
+                all_twitter_altmetric_scores.append(jsonfile["altmetric_score"]["score"])
+                paper_total_sent_scores.extend(paper_twitter_sent_scores)
         except KeyError as ke:
             pass
 
@@ -136,9 +142,8 @@ for rootpath, subdirectories, files in os.walk(rootdir):
             if (fAnalyzed > 0):
                 avgScore = sum(paper_facebook_sent_scores) / len(paper_facebook_sent_scores)
                 all_facebook_avg_scores.append(avgScore)
-                total_avg_sent_scores.append(avgScore)
-                all_facebook_counts.append(jsonfile["counts"]["facebook"]["posts_count"])
-                total_post_counts.append(jsonfile["counts"]["facebook"]["posts_count"])
+                all_facebook_altmetric_scores.append(jsonfile["altmetric_score"]["score"])
+                paper_total_sent_scores.extend(paper_facebook_sent_scores)
         except KeyError as ke:
             pass
         
@@ -171,9 +176,8 @@ for rootpath, subdirectories, files in os.walk(rootdir):
             if (bAnalyzed > 0):
                 avgScore = sum(paper_blogs_sent_scores) / len(paper_blogs_sent_scores)
                 all_blogs_avg_scores.append(avgScore)
-                total_avg_sent_scores.append(avgScore)
-                all_blogs_counts.append(jsonfile["counts"]["blogs"]["posts_count"])
-                total_post_counts.append(jsonfile["counts"]["blogs"]["posts_count"])
+                all_blogs_altmetric_scores.append(jsonfile["altmetric_score"]["score"])
+                paper_total_sent_scores.extend(paper_blogs_sent_scores)
         except KeyError as ke:
             pass
         
@@ -206,95 +210,199 @@ for rootpath, subdirectories, files in os.walk(rootdir):
             if (gAnalyzed > 0):
                 avgScore = sum(paper_googleplus_sent_scores) / len(paper_googleplus_sent_scores)
                 all_googleplus_avg_scores.append(avgScore)
-                total_avg_sent_scores.append(avgScore)
-                all_googleplus_counts.append(jsonfile["counts"]["googleplus"]["posts_count"])
-                total_post_counts.append(jsonfile["counts"]["googleplus"]["posts_count"])
+                all_googleplus_altmetric_scores.append(jsonfile["altmetric_score"]["score"])
+                paper_total_sent_scores.extend(paper_googleplus_sent_scores)
         except KeyError as ke:
             pass
+        if (tAnalyzed + fAnalyzed + bAnalyzed + gAnalyzed > 0):  # if posts were processed
+            pCount += 1
+            paperAvgSentiment = sum(paper_total_sent_scores) / len(paper_total_sent_scores)
+            total_paper_avg_sent_scores.append(paperAvgSentiment)
+            total_paper_altmetric_scores.append(jsonfile["altmetric_score"]["score"])
 
 print("papers:", pCount)
-print("sources: ", len(total_avg_sent_scores), len(total_post_counts))
 print("twitter posts:", tCount)
 print("facebook posts: ", fCount)
 print("blog posts: ", bCount)
 print("googleplus posts: ", gCount)
+print("total posts: ", tCount + fCount + bCount + gCount)
 
-## PLOTS
+## HISTOGRAM PLOTS
 
-num_bins = 50
-range_bins = [-1, -0.3, 0.3, 1]  # preset ranges for bins
+num_bins = np.linspace(-1, 1, 50)
+range_bins = [-1, -0.4, 0.4, 1]  # sentiment ranges for bins
 
-n, bins, patches = plt.hist(all_twitter_sent_scores, num_bins, facecolor='darkturquoise', alpha=0.5)
+n, bins, patches = plt.hist(all_twitter_sent_scores, num_bins, facecolor='darkturquoise', alpha=0.5)  # twitter
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
 plt.ylabel("Frequency")
 plt.title("Histogram of Twitter Sentiment Scores")
 plt.show()
-# print(n)  # number of frequency in each categorynum_bins = 50
 
-n, bins, patches = plt.hist(all_facebook_sent_scores, num_bins, facecolor='blue', alpha=0.5)
+n, bins, patches = plt.hist(all_facebook_sent_scores, num_bins, facecolor='blue', alpha=0.5)  # facebook
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
 plt.ylabel("Frequency")
 plt.title("Histogram of Facebook Sentiment Scores")
 plt.show()
-# print(n)  # number of frequency in each category
 
-n, bins, patches = plt.hist(all_blogs_sent_scores, num_bins, facecolor='purple', alpha=0.5)
+n, bins, patches = plt.hist(all_blogs_sent_scores, num_bins, facecolor='purple', alpha=0.5)  # blogs
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
 plt.ylabel("Frequency")
 plt.title("Histogram of Blog Sentiment Scores")
 plt.show()
-# print(n)  # number of frequency in each category
 
-n, bins, patches = plt.hist(all_googleplus_sent_scores, num_bins, facecolor='orange', alpha=0.5)
+n, bins, patches = plt.hist(all_googleplus_sent_scores, num_bins, facecolor='orange', alpha=0.5)  # google+
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
 plt.ylabel("Frequency")
 plt.title("Histogram of Google+ Sentiment Scores")
 plt.show()
-# print(n)  # number of frequency in each category
 
-n, bins, patches = plt.hist(total_sent_scores, num_bins, facecolor='red', alpha=0.5)
+n, bins, patches = plt.hist(total_sent_scores, num_bins, facecolor='red', alpha=0.5)  # all
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
 plt.ylabel("Frequency")
 plt.title("Histogram of ALL Sentiment Scores")
 plt.show()
-# print(n)  # number of frequency in each category
 
-plt.scatter(all_twitter_avg_scores, all_tweet_counts, facecolor='darkturquoise', alpha=0.5)
+## SCATTER PLOTS
+
+plt.scatter(all_twitter_avg_scores, all_twitter_altmetric_scores, facecolor='darkturquoise', alpha=0.5)  # twitter
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
-plt.ylabel("Number of Posts")
-plt.title("Twitter: Sentiment Scores vs. Tweet Count")
+plt.ylabel("Altmetric Score")
+plt.title("Twitter: Sentiment Score (Average) vs. Altmetric Score")
 plt.show()
 
-plt.scatter(all_facebook_avg_scores, all_facebook_counts, facecolor='blue', alpha=0.5)
+plt.scatter(all_facebook_avg_scores, all_facebook_altmetric_scores, facecolor='blue', alpha=0.5)  # facebook
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
-plt.ylabel("Number of Posts")
-plt.title("Facebook: Sentiment Scores vs. Post Count")
+plt.ylabel("Altmetric Score")
+plt.title("Facebook: Sentiment Score (Average) vs. Altmetric Score")
 plt.show()
 
-plt.scatter(all_blogs_avg_scores, all_blogs_counts, facecolor='purple', alpha=0.5)
+plt.scatter(all_blogs_avg_scores, all_blogs_altmetric_scores, facecolor='purple', alpha=0.5)  # blogs
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
-plt.ylabel("Number of Posts")
-plt.title("Blogs: Sentiment Scores vs. Post Count")
+plt.ylabel("Altmetric Score")
+plt.title("Blogs: Sentiment Score (Average) vs. Altmetric Score")
 plt.show()
 
-plt.scatter(all_googleplus_avg_scores, all_googleplus_counts, facecolor='orange', alpha=0.5)
+plt.scatter(all_googleplus_avg_scores, all_googleplus_altmetric_scores, facecolor='orange', alpha=0.5)  # google+
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
-plt.ylabel("Number of Posts")
-plt.title("Google+: Sentiment Scores vs. Post Count")
+plt.ylabel("Altmetric Score")
+plt.title("Google+: Sentiment Score (Average) vs. Altmetric Score")
 plt.show()
 
-plt.scatter(total_avg_sent_scores, total_post_counts, facecolor='red', alpha=0.5)
+plt.scatter(total_paper_avg_sent_scores, total_paper_altmetric_scores, facecolor='red', alpha=0.5)  # all
 plt.xlim(-1, 1)
 plt.xlabel("Sentiment Score")
-plt.ylabel("Number of Posts")
-plt.title("Total: Sentiment Scores vs. Post Count")
+plt.ylabel("Altmetric Score")
+plt.title("Paper Sentiment Score (Average) vs. Altmetric Score")
 plt.show()
+
+## COMPARISON CHART
+
+positive = [0, 0, 0, 0]
+neutral = [0, 0, 0, 0]
+negative = [0, 0, 0, 0]
+
+for t in all_twitter_sent_scores:
+    if (t <= -0.4):
+        negative[0] += 1
+    elif (t <= 0.4):
+        neutral[0] += 1
+    elif (t <= 1):
+        positive[0] += 1
+for f in all_facebook_sent_scores:
+    if (f <= -0.4):
+        negative[1] += 1
+    elif (f <= 0.4):
+        neutral[1] += 1
+    elif (f <= 1):
+        positive[1] += 1
+for g in all_googleplus_sent_scores:
+    if (g <= -0.4):
+        negative[2] += 1
+    elif (g <= 0.4):
+        neutral[2] += 1
+    elif (g <= 1):
+        positive[2] += 1
+for b in all_blogs_sent_scores:
+    if (b <= -0.4):
+        negative[3] += 1
+    elif (b <= 0.4):
+        neutral[3] += 1
+    elif (b <= 1):
+        positive[3] += 1
+print("tw: ", positive[0], neutral[0], negative[0], positive[0] + neutral[0] + negative[0])
+print("fb: ", positive[1], neutral[1], negative[1], positive[1] + neutral[1] + negative[1])
+print("g+: ", positive[2], neutral[2], negative[2], positive[2] + neutral[2] + negative[2])
+print("bl: ", positive[3], neutral[3], negative[3], positive[3] + neutral[3] + negative[3])
+
+positive[0] /= tCount / 100
+neutral[0] /= tCount / 100
+negative[0] /= tCount / 100
+positive[1] /= fCount / 100
+neutral[1] /= fCount / 100
+negative[1] /= fCount / 100
+positive[2] /= gCount / 100
+neutral[2] /= gCount / 100
+negative[2] /= gCount / 100
+positive[3] /= bCount / 100
+neutral[3] /= bCount / 100
+negative[3] /= bCount / 100
+print("tw: ", positive[0], neutral[0], negative[0], positive[0] + neutral[0] + negative[0])
+print("fb: ", positive[1], neutral[1], negative[1], positive[1] + neutral[1] + negative[1])
+print("g+: ", positive[2], neutral[2], negative[2], positive[2] + neutral[2] + negative[2])
+print("bl: ", positive[3], neutral[3], negative[3], positive[3] + neutral[3] + negative[3])
+
+labels = ('Twitter', 'Facebook', 'Google+', 'Blogs')
+index = np.arange(4)
+
+barWidth = 0.25
+index1 = np.arange(4)
+index2 = [x + barWidth for x in index1]
+index3 = [x + barWidth for x in index2]
+plt.bar(index1, neutral, width=barWidth, facecolor='silver', edgecolor='white', alpha=0.5, label='neutral')
+plt.bar(index2, positive, width=barWidth, facecolor='green', edgecolor='white', alpha=0.5, label='positive')
+plt.bar(index3, negative, width=barWidth, facecolor='red', edgecolor='white', alpha=0.5, label='negative')
+plt.xlabel("Platform")
+plt.ylabel("% of Posts")
+plt.title("Comparison of Platform Sentiments")
+plt.xticks(index2, labels)
+plt.gca().yaxis.set_major_formatter(PercentFormatter())
+plt.legend()
+plt.show()
+
+## CORRELATION
+
+tf = pd.DataFrame({
+    "all_twitter_avg_scores": all_twitter_avg_scores,
+    "all_twitter_altmetric_scores": all_twitter_altmetric_scores
+    })
+ff = pd.DataFrame({
+    "all_facebook_avg_scores": all_facebook_avg_scores,
+    "all_facebook_altmetric_scores": all_facebook_altmetric_scores
+    })
+bf = pd.DataFrame({
+    "all_blogs_avg_scores": all_blogs_avg_scores,
+    "all_blogs_altmetric_scores": all_blogs_altmetric_scores
+    })
+gf = pd.DataFrame({
+    "all_googleplus_avg_scores": all_googleplus_avg_scores,
+    "all_googleplus_altmetric_scores": all_googleplus_altmetric_scores
+    })
+af = pd.DataFrame({
+    "total_paper_avg_sent_scores": total_paper_avg_sent_scores,
+    "total_paper_altmetric_scores": total_paper_altmetric_scores
+})
+
+print("CORR: Twitter sent vs altmetric score - ", tf["all_twitter_avg_scores"].corr(tf["all_twitter_altmetric_scores"]))
+print("CORR: Facebook sent vs altmetric score - ", ff["all_facebook_avg_scores"].corr(ff["all_facebook_altmetric_scores"]))
+print("CORR: Google+ sent vs altmetric score - ", gf["all_googleplus_avg_scores"].corr(gf["all_googleplus_altmetric_scores"]))
+print("CORR: Blogs sent vs altmetric score - ", bf["all_blogs_avg_scores"].corr(bf["all_blogs_altmetric_scores"]))
+print("CORR: Paper sent vs altmetric score - ", af["total_paper_avg_sent_scores"].corr(af["total_paper_altmetric_scores"]))
